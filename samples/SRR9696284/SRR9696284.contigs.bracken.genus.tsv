@@ -1,0 +1,3 @@
+sample	name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+SRR9696284	Homo	9605	G	95	0	95	1.00000
+SRR9696284	Corynebacterium	1716	G	1	-1	0	0.00000

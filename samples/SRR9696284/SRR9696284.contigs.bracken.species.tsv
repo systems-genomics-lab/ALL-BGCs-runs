@@ -1,0 +1,2 @@
+sample	name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+SRR9696284	Homo sapiens	9606	S	95	0	95	1.00000
