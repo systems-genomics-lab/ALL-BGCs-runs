@@ -1,0 +1,27 @@
++ set -o pipefail
+++ date +%s%N
++ ts=1624389982912364350
++ sample=SRR6145058
++ echo '--START-- SRR6145058'
+--START-- SRR6145058
++ date
+Tue Jun 22 19:26:22 UTC 2021
++ export KRAKEN=/data/kraken2
++ KRAKEN=/data/kraken2
++ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ncbi/sra-tools/bin/:/usr/local/ncbi/ngs-tools/bin/:/usr/local/ncbi/ncbi-vdb/bin:/usr/local/miniconda3/bin:/data/kraken2/bin
++ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ncbi/sra-tools/bin/:/usr/local/ncbi/ngs-tools/bin/:/usr/local/ncbi/ncbi-vdb/bin:/usr/local/miniconda3/bin:/data/kraken2/bin
++ export KRAKENDB=/data/kraken2/db
++ KRAKENDB=/data/kraken2/db
++ PROJECT=/projects/metaBGC/
+++ grep -c '^processor' /proc/cpuinfo
++ cpus=192
++ echo 'CPUs: 192'
+CPUs: 192
++ original1=SRR6145058_1.fastq.gz
++ original2=SRR6145058_2.fastq.gz
++ filtered1=SRR6145058_1.filtered.fastq.gz
++ filtered2=SRR6145058_2.filtered.fastq.gz
++ reads1=SRR6145058_1.final.fastq.gz
++ reads2=SRR6145058_1.final.fastq.gz
++ cd /projects/metaBGC//samples/SRR6145058
+/projects/metaBGC//scripts/run.sh: line 31: cd: /projects/metaBGC//samples/SRR6145058: No such file or directory
