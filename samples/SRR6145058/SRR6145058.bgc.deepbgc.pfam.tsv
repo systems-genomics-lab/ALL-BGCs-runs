@@ -1,0 +1,968 @@
+sample	contig	bgc_candidate_id	product_activity	protein_id	gene_start	gene_end	pfam_id	protein_id_1	clan	pfam	family	description	taxid	taxonomy
+SRR6145058	k99_10206	k99_10206_1-1815.1	antibacterial	k99_10206_k99_10206_1	1	754	PF05690	0.69192	CL0036	TIM_barrel	ThiG	Thiazole biosynthesis protein ThiG	1747	Cutibacterium acnes
+SRR6145058	k99_10206	k99_10206_1-1815.1	antibacterial	k99_10206_k99_10206_2	750	1020	PF02597	0.6023	CL0072	Ubiquitin	ThiS	ThiS family	1747	Cutibacterium acnes
+SRR6145058	k99_10206	k99_10206_1-1815.1	antibacterial	k99_10206_k99_10206_3	1026	1815	PF01266	0.69305	CL0063	NADP_Rossmann	DAO	FAD dependent oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_3276	k99_3276_732-1782.1	inhibitor	k99_3276_k99_3276_3	732	1782	PF16912	0.53114	CL0063	NADP_Rossmann	Glu_dehyd_C	Glucose dehydrogenase C-terminus	1234380	Cutibacterium acnes C1
+SRR6145058	k99_3276	k99_3276_732-1782.1	inhibitor	k99_3276_k99_3276_3	732	1782	PF13602	0.55435	CL0063	NADP_Rossmann	ADH_zinc_N_2	Zinc-binding dehydrogenase	1234380	Cutibacterium acnes C1
+SRR6145058	k99_3276	k99_3276_732-1782.1	inhibitor	k99_3276_k99_3276_3	732	1782	PF00107	0.56486	CL0063	NADP_Rossmann	ADH_zinc_N	Zinc-binding dehydrogenase	1234380	Cutibacterium acnes C1
+SRR6145058	k99_3276	k99_3276_732-1782.1	inhibitor	k99_3276_k99_3276_3	732	1782	PF01266	0.55692	CL0063	NADP_Rossmann	DAO	FAD dependent oxidoreductase	1234380	Cutibacterium acnes C1
+SRR6145058	k99_3276	k99_3276_732-1782.1	inhibitor	k99_3276_k99_3276_3	732	1782	PF08240	0.5397	CL0296	GroES	ADH_N	Alcohol dehydrogenase GroES-like domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10774	k99_10774_2-1054.1	antibacterial	k99_10774_k99_10774_1	2	419	PF01613	0.7958	CL0336	FMN-binding	Flavin_Reduct	Flavin reductase like domain	1747	Cutibacterium acnes
+SRR6145058	k99_10774	k99_10774_2-1054.1	antibacterial	k99_10774_k99_10774_2	484	1054	PF00274	0.77433	CL0035	Peptidase_MH	Glycolytic	Fructose-bisphosphate aldolase class-I	1747	Cutibacterium acnes
+SRR6145058	k99_5041	k99_5041_146-2325.1	antibacterial	k99_5041_k99_5041_1	146	1076	PF00326	0.64304	CL0028	AB_hydrolase	Peptidase_S9	Prolyl oligopeptidase family	1747	Cutibacterium acnes
+SRR6145058	k99_5041	k99_5041_146-2325.1	antibacterial	k99_5041_k99_5041_1	146	1076	PF07859	0.64353	CL0028	AB_hydrolase	Abhydrolase_3	alpha/beta hydrolase fold	1747	Cutibacterium acnes
+SRR6145058	k99_5041	k99_5041_146-2325.1	antibacterial	k99_5041_k99_5041_1	146	1076	PF00135	0.64404	CL0028	AB_hydrolase	COesterase	Carboxylesterase family	1747	Cutibacterium acnes
+SRR6145058	k99_5041	k99_5041_146-2325.1	antibacterial	k99_5041_k99_5041_1	146	1076	PF10340	0.60811	CL0028	AB_hydrolase	Say1_Mug180	Steryl acetyl hydrolase	1747	Cutibacterium acnes
+SRR6145058	k99_5041	k99_5041_146-2325.1	antibacterial	k99_5041_k99_5041_2	1077	2325	PF07690	0.60316	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_5041	k99_5041_146-2325.1	antibacterial	k99_5041_k99_5041_2	1077	2325	PF13347	0.59817	CL0015	MFS	MFS_2	MFS/sugar transport protein	1747	Cutibacterium acnes
+SRR6145058	k99_5041	k99_5041_146-2325.1	antibacterial	k99_5041_k99_5041_2	1077	2325	PF11700	0.56006	CL0015	MFS	ATG22	Vacuole effluxer Atg22 like	1747	Cutibacterium acnes
+SRR6145058	k99_8005	k99_8005_1-1285.1	antibacterial	k99_8005_k99_8005_1	1	1285	PF07690	0.61863	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_5796	k99_5796_638-1148.1	antibacterial	k99_5796_k99_5796_2	638	1148	PF00106	0.54217	CL0063	NADP_Rossmann	adh_short	short chain dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_5796	k99_5796_638-1148.1	antibacterial	k99_5796_k99_5796_2	638	1148	PF08659	0.54795	CL0063	NADP_Rossmann	KR	KR domain	1747	Cutibacterium acnes
+SRR6145058	k99_5796	k99_5796_638-1148.1	antibacterial	k99_5796_k99_5796_2	638	1148	PF01370	0.54448	CL0063	NADP_Rossmann	Epimerase	NAD dependent epimerase/dehydratase family	1747	Cutibacterium acnes
+SRR6145058	k99_5796	k99_5796_638-1148.1	antibacterial	k99_5796_k99_5796_2	638	1148	PF13561	0.51721	CL0063	NADP_Rossmann	adh_short_C2	Enoyl-(Acyl carrier protein) reductase	1747	Cutibacterium acnes
+SRR6145058	k99_5796	k99_5796_638-1148.1	antibacterial	k99_5796_k99_5796_2	638	1148	PF13460	0.52629	CL0063	NADP_Rossmann	NAD_binding_10	NAD(P)H-binding	1747	Cutibacterium acnes
+SRR6145058	k99_1386	k99_1386_0-621.1	antibacterial	k99_1386_k99_1386_1	0	621	PF01212	0.52589	CL0061	PLP_aminotran	Beta_elim_lyase	Beta-eliminating lyase	1747	Cutibacterium acnes
+SRR6145058	k99_7371	k99_7371_1-1290.1	antibacterial	k99_7371_k99_7371_1	1	385	PF00115	0.64636	NA	NA	COX1	Cytochrome C and Quinol oxidase polypeptide I	1747	Cutibacterium acnes
+SRR6145058	k99_7371	k99_7371_1-1290.1	antibacterial	k99_7371_k99_7371_2	381	1290	PF00116	0.61008	CL0026	CU_oxidase	COX2	Cytochrome C oxidase subunit II, periplasmic domain	1747	Cutibacterium acnes
+SRR6145058	k99_6742	k99_6742_842-2056.1	antibacterial	k99_6742_k99_6742_2	842	1787	PF02517	0.50323	CL0472	Peptidase_U	CPBP	CPBP intramembrane metalloprotease	1747	Cutibacterium acnes
+SRR6145058	k99_6742	k99_6742_842-2056.1	antibacterial	k99_6742_k99_6742_3	1786	2056	PF01557	0.55891	CL0377	FAH	FAA_hydrolase	Fumarylacetoacetate (FAA) hydrolase family	1747	Cutibacterium acnes
+SRR6145058	k99_6745	k99_6745_2-2428.1	antibacterial	k99_6745_k99_6745_1	2	437	PF02518	0.70953	CL0025	His_Kinase_A	HATPase_c	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	1747	Cutibacterium acnes
+SRR6145058	k99_6745	k99_6745_2-2428.1	antibacterial	k99_6745_k99_6745_2	441	1062	PF00072	0.68526	CL0304	CheY	Response_reg	Response regulator receiver domain	1747	Cutibacterium acnes
+SRR6145058	k99_6745	k99_6745_2-2428.1	antibacterial	k99_6745_k99_6745_2	441	1062	PF08281	0.72326	CL0123	HTH	Sigma70_r4_2	Sigma-70, region 4	1747	Cutibacterium acnes
+SRR6145058	k99_6745	k99_6745_2-2428.1	antibacterial	k99_6745_k99_6745_2	441	1062	PF00196	0.74647	CL0123	HTH	GerE	Bacterial regulatory proteins, luxR family	1747	Cutibacterium acnes
+SRR6145058	k99_6745	k99_6745_2-2428.1	antibacterial	k99_6745_k99_6745_2	441	1062	PF04545	0.71002	CL0123	HTH	Sigma70_r4	Sigma-70, region 4	1747	Cutibacterium acnes
+SRR6145058	k99_6745	k99_6745_2-2428.1	antibacterial	k99_6745_k99_6745_2	441	1062	PF14493	0.76601	CL0123	HTH	HTH_40	Helix-turn-helix domain	1747	Cutibacterium acnes
+SRR6145058	k99_6745	k99_6745_2-2428.1	antibacterial	k99_6745_k99_6745_3	1357	1873	PF00300	0.67119	CL0071	His_phosphatase	His_Phos_1	Histidine phosphatase superfamily (branch 1)	1747	Cutibacterium acnes
+SRR6145058	k99_6745	k99_6745_2-2428.1	antibacterial	k99_6745_k99_6745_4	1999	2428	PF03186	0.69333	CL0685	AmpE_CobD-like	CobD_Cbib	CobD/Cbib protein	1747	Cutibacterium acnes
+SRR6145058	k99_1834	k99_1834_455-2483.1	antibacterial	k99_1834_k99_1834_2	455	1364	PF01694	0.50468	CL0207	Rhomboid-like	Rhomboid	Rhomboid family	1747	Cutibacterium acnes
+SRR6145058	k99_1834	k99_1834_455-2483.1	antibacterial	k99_1834_k99_1834_3	1360	2260	PF08338	0.57986	NA	NA	DUF1731	Domain of unknown function (DUF1731)	1747	Cutibacterium acnes
+SRR6145058	k99_1834	k99_1834_455-2483.1	antibacterial	k99_1834_k99_1834_3	1360	2260	PF01370	0.59878	CL0063	NADP_Rossmann	Epimerase	NAD dependent epimerase/dehydratase family	1747	Cutibacterium acnes
+SRR6145058	k99_1834	k99_1834_455-2483.1	antibacterial	k99_1834_k99_1834_3	1360	2260	PF04321	0.55401	CL0063	NADP_Rossmann	RmlD_sub_bind	RmlD substrate binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_1834	k99_1834_455-2483.1	antibacterial	k99_1834_k99_1834_4	2327	2483	PF06532	0.52238	NA	NA	NrsF	Negative regulator of sigma F	1747	Cutibacterium acnes
+SRR6145058	k99_4731	k99_4731_2-2539.1	antibacterial	k99_4731_k99_4731_1	2	1757	PF02687	0.54335	CL0404	BPD_transp_1	FtsX	FtsX-like permease family	1747	Cutibacterium acnes
+SRR6145058	k99_4731	k99_4731_2-2539.1	antibacterial	k99_4731_k99_4731_2	1756	2539	PF00005	0.50414	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_4731	k99_4731_2-2539.1	antibacterial	k99_4731_k99_4731_2	1756	2539	PF13555	0.49856	CL0023	P-loop_NTPase	AAA_29	P-loop containing region of AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_1513	k99_1513_74-2271.1	antibacterial	k99_1513_k99_1513_1	74	944	PF02626	0.6998	CL0475	Cyclophil-like	CT_A_B	Carboxyltransferase domain, subdomain A and B	1747	Cutibacterium acnes
+SRR6145058	k99_1513	k99_1513_74-2271.1	antibacterial	k99_1513_k99_1513_2	940	1561	PF02682	0.69663	CL0475	Cyclophil-like	CT_C_D	Carboxyltransferase domain, subdomain C and D	1747	Cutibacterium acnes
+SRR6145058	k99_1513	k99_1513_74-2271.1	antibacterial	k99_1513_k99_1513_3	1557	2271	PF03746	0.67073	CL0158	GH_CE	LamB_YcsF	LamB/YcsF family	1747	Cutibacterium acnes
+SRR6145058	k99_9897	k99_9897_700-1429.1	antibacterial	k99_9897_k99_9897_2	700	850	PF07223	0.54378	CL0214	UBA	DUF1421	UBA-like domain (DUF1421)	1747	Cutibacterium acnes
+SRR6145058	k99_9897	k99_9897_700-1429.1	antibacterial	k99_9897_k99_9897_3	997	1429	PF00072	0.52571	CL0304	CheY	Response_reg	Response regulator receiver domain	1747	Cutibacterium acnes
+SRR6145058	k99_11027	k99_11027_2-734.1	antibacterial	k99_11027_k99_11027_1	2	734	PF00962	0.50736	CL0034	Amidohydrolase	A_deaminase	Adenosine/AMP deaminase	1747	Cutibacterium acnes
+SRR6145058	k99_5422	k99_5422_843-1005.1	antibacterial	k99_5422_k99_5422_1	843	1005	PF02615	0.52528	NA	NA	Ldh_2	Malate/L-lactate dehydrogenase	NA	NA
+SRR6145058	k99_4032	k99_4032_102-2014.1	antibacterial	k99_4032_k99_4032_1	102	852	PF00300	0.54356	CL0071	His_phosphatase	His_Phos_1	Histidine phosphatase superfamily (branch 1)	1747	Cutibacterium acnes
+SRR6145058	k99_4032	k99_4032_102-2014.1	antibacterial	k99_4032_k99_4032_2	943	2014	PF01522	0.52466	CL0158	GH_CE	Polysacc_deac_1	Polysaccharide deacetylase	1747	Cutibacterium acnes
+SRR6145058	k99_4032	k99_4032_3003-3198.1	antibacterial	k99_4032_k99_4032_4	3003	3198	PF11021	0.57125	NA	NA	DUF2613	Protein of unknown function (DUF2613)	1747	Cutibacterium acnes
+SRR6145058	k99_5424	k99_5424_0-2147.1	antibacterial	k99_5424_k99_5424_1	0	627	PF08545	0.9726	CL0046	Thiolase	ACP_syn_III	3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III	1747	Cutibacterium acnes
+SRR6145058	k99_5424	k99_5424_0-2147.1	antibacterial	k99_5424_k99_5424_1	0	627	PF02797	0.9692	CL0046	Thiolase	Chal_sti_synt_C	Chalcone and stilbene synthases, C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_5424	k99_5424_0-2147.1	antibacterial	k99_5424_k99_5424_1	0	627	PF08541	0.96656	CL0046	Thiolase	ACP_syn_III_C	3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III C terminal	1747	Cutibacterium acnes
+SRR6145058	k99_5424	k99_5424_0-2147.1	antibacterial	k99_5424_k99_5424_2	709	955	PF00550	0.96764	CL0314	PP-binding	PP-binding	Phosphopantetheine attachment site	1747	Cutibacterium acnes
+SRR6145058	k99_5424	k99_5424_0-2147.1	antibacterial	k99_5424_k99_5424_2	709	955	PF10501	0.92234	CL0314	PP-binding	Ribosomal_L50	Ribosomal subunit 39S	1747	Cutibacterium acnes
+SRR6145058	k99_5424	k99_5424_0-2147.1	antibacterial	k99_5424_k99_5424_3	1028	2147	PF00109	0.92705	CL0046	Thiolase	ketoacyl-synt	Beta-ketoacyl synthase, N-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_5424	k99_5424_0-2147.1	antibacterial	k99_5424_k99_5424_3	1028	2147	PF00108	0.93245	CL0046	Thiolase	Thiolase_N	Thiolase, N-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_5424	k99_5424_0-2147.1	antibacterial	k99_5424_k99_5424_3	1028	2147	PF02801	0.94057	CL0046	Thiolase	Ketoacyl-synt_C	Beta-ketoacyl synthase, C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_10586	k99_10586_0-3301.1	antibacterial	k99_10586_k99_10586_1	0	825	PF01041	0.67482	CL0061	PLP_aminotran	DegT_DnrJ_EryC1	DegT/DnrJ/EryC1/StrS aminotransferase family	1747	Cutibacterium acnes
+SRR6145058	k99_10586	k99_10586_0-3301.1	antibacterial	k99_10586_k99_10586_2	824	1817	PF01408	0.57694	CL0063	NADP_Rossmann	GFO_IDH_MocA	Oxidoreductase family, NAD-binding Rossmann fold	1747	Cutibacterium acnes
+SRR6145058	k99_10586	k99_10586_0-3301.1	antibacterial	k99_10586_k99_10586_2	824	1817	PF02629	0.50715	CL0063	NADP_Rossmann	CoA_binding	CoA binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_10586	k99_10586_0-3301.1	antibacterial	k99_10586_k99_10586_2	824	1817	PF02894	0.58351	CL0139	GADPH_aa-bio_dh	GFO_IDH_MocA_C	Oxidoreductase family, C-terminal alpha/beta domain	1747	Cutibacterium acnes
+SRR6145058	k99_10586	k99_10586_0-3301.1	antibacterial	k99_10586_k99_10586_3	1918	3301	PF04932	0.59185	CL0499	O-anti_assembly	Wzy_C	O-Antigen ligase	1747	Cutibacterium acnes
+SRR6145058	k99_10144	k99_10144_2-649.1	antibacterial	k99_10144_k99_10144_1	2	293	PF03596	0.69255	CL0292	LysE	Cad	Cadmium resistance transporter	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10144	k99_10144_2-649.1	antibacterial	k99_10144_k99_10144_2	289	649	PF13545	0.71752	CL0123	HTH	HTH_Crp_2	Crp-like helix-turn-helix domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10144	k99_10144_2-649.1	antibacterial	k99_10144_k99_10144_2	289	649	PF01978	0.70678	CL0123	HTH	TrmB	Sugar-specific transcriptional regulator TrmB	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10144	k99_10144_2-649.1	antibacterial	k99_10144_k99_10144_2	289	649	PF12802	0.71143	CL0123	HTH	MarR_2	MarR family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10144	k99_10144_2-649.1	antibacterial	k99_10144_k99_10144_2	289	649	PF12840	0.70558	CL0123	HTH	HTH_20	Helix-turn-helix domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10144	k99_10144_2-649.1	antibacterial	k99_10144_k99_10144_2	289	649	PF09339	0.71737	CL0123	HTH	HTH_IclR	IclR helix-turn-helix domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10144	k99_10144_2-649.1	antibacterial	k99_10144_k99_10144_2	289	649	PF01022	0.67786	CL0123	HTH	HTH_5	Bacterial regulatory protein, arsR family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10780	k99_10780_219-1431.1	antibacterial	k99_10780_k99_10780_2	219	1431	PF02894	0.5239	CL0139	GADPH_aa-bio_dh	GFO_IDH_MocA_C	Oxidoreductase family, C-terminal alpha/beta domain	1747	Cutibacterium acnes
+SRR6145058	k99_10780	k99_10780_219-1431.1	antibacterial	k99_10780_k99_10780_2	219	1431	PF01408	0.4935	CL0063	NADP_Rossmann	GFO_IDH_MocA	Oxidoreductase family, NAD-binding Rossmann fold	1747	Cutibacterium acnes
+SRR6145058	k99_8637	k99_8637_2-5308.1	antibacterial	k99_8637_k99_8637_1	2	1214	PF14698	0.7767	NA	NA	ASL_C2	Argininosuccinate lyase C-terminal	1747	Cutibacterium acnes
+SRR6145058	k99_8637	k99_8637_2-5308.1	antibacterial	k99_8637_k99_8637_1	2	1214	PF00206	0.66575	NA	NA	Lyase_1	Lyase	1747	Cutibacterium acnes
+SRR6145058	k99_8637	k99_8637_2-5308.1	antibacterial	k99_8637_k99_8637_2	1301	2498	PF00202	0.71743	CL0061	PLP_aminotran	Aminotran_3	Aminotransferase class-III	1747	Cutibacterium acnes
+SRR6145058	k99_8637	k99_8637_2-5308.1	antibacterial	k99_8637_k99_8637_3	2508	3441	PF00696	0.52607	NA	NA	AA_kinase	Amino acid kinase family	1747	Cutibacterium acnes
+SRR6145058	k99_8637	k99_8637_2-5308.1	antibacterial	k99_8637_k99_8637_4	3437	4247	PF01960	0.59224	CL0635	DmpA_ArgJ	ArgJ	ArgJ family	1747	Cutibacterium acnes
+SRR6145058	k99_8637	k99_8637_2-5308.1	antibacterial	k99_8637_k99_8637_5	4258	5308	PF02774	0.509	CL0139	GADPH_aa-bio_dh	Semialdhyde_dhC	Semialdehyde dehydrogenase, dimerisation domain	1747	Cutibacterium acnes
+SRR6145058	k99_8637	k99_8637_2-5308.1	antibacterial	k99_8637_k99_8637_5	4258	5308	PF01118	0.54294	CL0063	NADP_Rossmann	Semialdhyde_dh	Semialdehyde dehydrogenase, NAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_1516	k99_1516_2-4366.1	antibacterial	k99_1516_k99_1516_1	2	440	PF00291	0.64436	CL0063	NADP_Rossmann	PALP	Pyridoxal-phosphate dependent enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_1516	k99_1516_2-4366.1	antibacterial	k99_1516_k99_1516_2	985	1972	PF02358	0.57156	CL0137	HAD	Trehalose_PPase	Trehalose-phosphatase	1747	Cutibacterium acnes
+SRR6145058	k99_1516	k99_1516_2-4366.1	antibacterial	k99_1516_k99_1516_3	2003	3407	PF00982	0.63477	CL0113	GT-B	Glyco_transf_20	Glycosyltransferase family 20	1747	Cutibacterium acnes
+SRR6145058	k99_1516	k99_1516_2-4366.1	antibacterial	k99_1516_k99_1516_4	3463	4366	PF00296	0.75633	NA	NA	Bac_luciferase	Luciferase-like monooxygenase	1747	Cutibacterium acnes
+SRR6145058	k99_3530	k99_3530_2-518.1	antibacterial	k99_3530_k99_3530_1	2	518	PF11457	0.61469	NA	NA	DUF3021	Protein of unknown function (DUF3021)	1747	Cutibacterium acnes
+SRR6145058	k99_3530	k99_3530_6403-7225.1	antibacterial	k99_3530_k99_3530_7	6403	7225	PF00005	0.50152	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_3530	k99_3530_6403-7225.1	antibacterial	k99_3530_k99_3530_7	6403	7225	PF01078	0.47288	CL0023	P-loop_NTPase	Mg_chelatase	Magnesium chelatase, subunit ChlI	1747	Cutibacterium acnes
+SRR6145058	k99_3530	k99_3530_6403-7225.1	antibacterial	k99_3530_k99_3530_7	6403	7225	PF13555	0.50758	CL0023	P-loop_NTPase	AAA_29	P-loop containing region of AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_3530	k99_3530_6403-7225.1	antibacterial	k99_3530_k99_3530_7	6403	7225	PF13401	0.54404	CL0023	P-loop_NTPase	AAA_22	AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_3530	k99_3530_6403-7225.1	antibacterial	k99_3530_k99_3530_7	6403	7225	PF13304	0.53517	CL0023	P-loop_NTPase	AAA_21	AAA domain, putative AbiEii toxin, Type IV TA system	1747	Cutibacterium acnes
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_1	2	1208	PF00120	0.78366	CL0286	GCS	Gln-synt_C	Glutamine synthetase, catalytic domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_1	2	1208	PF03951	0.74451	NA	NA	Gln-synt_N	Glutamine synthetase, beta-Grasp domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_2	1278	2148	PF10708	0.75039	NA	NA	DUF2510	Protein of unknown function (DUF2510)	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_3	2551	3406	PF00557	0.71635	NA	NA	Peptidase_M24	Metallopeptidase family M24	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_5	3788	4304	PF02554	0.76302	CL0062	APC	CstA	Carbon starvation protein CstA	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_6	4300	6073	PF02554	0.7483	CL0062	APC	CstA	Carbon starvation protein CstA	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_6	4300	6073	PF13722	0.72733	NA	NA	CstA_5TM	5TM C-terminal transporter carbon starvation CstA	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_7	6069	6285	PF04328	0.74319	NA	NA	Sel_put	Selenoprotein, putative	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_8	6319	6940	PF01257	0.66986	CL0172	Thioredoxin	2Fe-2S_thioredx	Thioredoxin-like [2Fe-2S] ferredoxin	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_9	6936	7734	PF00005	0.73148	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_9	6936	7734	PF00448	0.68467	CL0023	P-loop_NTPase	SRP54	SRP54-type protein, GTPase domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_9	6936	7734	PF13304	0.68602	CL0023	P-loop_NTPase	AAA_21	AAA domain, putative AbiEii toxin, Type IV TA system	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_9	6936	7734	PF13476	0.60615	CL0023	P-loop_NTPase	AAA_23	AAA domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_2-7734.1	antibacterial	k99_12019_k99_12019_9	6936	7734	PF13555	0.53814	CL0023	P-loop_NTPase	AAA_29	P-loop containing region of AAA domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_8761-10466.1	antibacterial	k99_12019_k99_12019_11	8761	9976	PF01497	0.53716	CL0043	Chelatase	Peripla_BP_2	Periplasmic binding protein	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12019	k99_12019_8761-10466.1	antibacterial	k99_12019_k99_12019_13	10268	10466	PF13384	0.6006	CL0123	HTH	HTH_23	Homeodomain-like domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_11459	k99_11459_929-2980.1	antibacterial	k99_11459_k99_11459_2	929	2105	PF00498	0.54438	CL0357	SMAD-FHA	FHA	FHA domain	1747	Cutibacterium acnes
+SRR6145058	k99_11459	k99_11459_929-2980.1	antibacterial	k99_11459_k99_11459_3	2251	2980	PF06283	0.56945	CL0014	Glutaminase_I	ThuA	Trehalose utilisation	1747	Cutibacterium acnes
+SRR6145058	k99_7821	k99_7821_696-1164.1	antibacterial	k99_7821_k99_7821_2	696	1164	PF11575	0.67666	NA	NA	FhuF_C	FhuF 2Fe-2S C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_12020	k99_12020_1423-2452.1	antibacterial	k99_12020_k99_12020_2	1423	2452	PF03186	0.56925	CL0685	AmpE_CobD-like	CobD_Cbib	CobD/Cbib protein	1747	Cutibacterium acnes
+SRR6145058	k99_4860	k99_4860_1-2301.1	antibacterial	k99_4860_k99_4860_1	1	1207	PF04932	0.64816	CL0499	O-anti_assembly	Wzy_C	O-Antigen ligase	1747	Cutibacterium acnes
+SRR6145058	k99_4860	k99_4860_1-2301.1	antibacterial	k99_4860_k99_4860_2	1203	2301	PF13524	0.6305	CL0113	GT-B	Glyco_trans_1_2	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_4860	k99_4860_1-2301.1	antibacterial	k99_4860_k99_4860_2	1203	2301	PF00534	0.61604	CL0113	GT-B	Glycos_transf_1	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_4860	k99_4860_1-2301.1	antibacterial	k99_4860_k99_4860_2	1203	2301	PF13692	0.64247	CL0113	GT-B	Glyco_trans_1_4	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_10651	k99_10651_0-2524.1	antibacterial	k99_10651_k99_10651_1	0	231	PF01613	0.73888	CL0336	FMN-binding	Flavin_Reduct	Flavin reductase like domain	1747	Cutibacterium acnes
+SRR6145058	k99_10651	k99_10651_0-2524.1	antibacterial	k99_10651_k99_10651_2	227	1415	PF01566	0.63318	CL0062	APC	Nramp	Natural resistance-associated macrophage protein	1747	Cutibacterium acnes
+SRR6145058	k99_10651	k99_10651_0-2524.1	antibacterial	k99_10651_k99_10651_3	1516	2524	PF14248	0.65424	NA	NA	DUF4345	Domain of unknown function (DUF4345)	1747	Cutibacterium acnes
+SRR6145058	k99_10651	k99_10651_0-2524.1	antibacterial	k99_10651_k99_10651_3	1516	2524	PF07730	0.71066	CL0025	His_Kinase_A	HisKA_3	Histidine kinase	1747	Cutibacterium acnes
+SRR6145058	k99_6443	k99_6443_548-953.1	antibacterial	k99_6443_k99_6443_2	548	953	PF11253	0.67588	NA	NA	DUF3052	Protein of unknown function (DUF3052)	1747	Cutibacterium acnes
+SRR6145058	k99_4609	k99_4609_0-132.1	antibacterial	k99_4609_k99_4609_1	0	132	PF04545	0.50723	CL0123	HTH	Sigma70_r4	Sigma-70, region 4	1747	Cutibacterium acnes
+SRR6145058	k99_4609	k99_4609_0-132.1	antibacterial	k99_4609_k99_4609_1	0	132	PF09339	0.53886	CL0123	HTH	HTH_IclR	IclR helix-turn-helix domain	1747	Cutibacterium acnes
+SRR6145058	k99_4609	k99_4609_0-132.1	antibacterial	k99_4609_k99_4609_1	0	132	PF13542	0.48451	CL0123	HTH	HTH_Tnp_ISL3	Helix-turn-helix domain of transposase family ISL3	1747	Cutibacterium acnes
+SRR6145058	k99_7881	k99_7881_2-1058.1	antibacterial	k99_7881_k99_7881_1	2	1058	PF00664	0.71394	CL0241	ABC_membrane	ABC_membrane	ABC transporter transmembrane region	1747	Cutibacterium acnes
+SRR6145058	k99_6559	k99_6559_2-1295.1	antibacterial	k99_6559_k99_6559_1	2	1295	PF01425	0.61394	NA	NA	Amidase	Amidase	1747	Cutibacterium acnes
+SRR6145058	k99_6559	k99_6559_1756-2368.1	antibacterial	k99_6559_k99_6559_3	1756	2368	PF01842	0.51236	CL0070	ACT	ACT	ACT domain	1747	Cutibacterium acnes
+SRR6145058	k99_4044	k99_4044_239-1265.1	inhibitor	k99_4044_k99_4044_1	239	1265	PF00107	0.52678	CL0063	NADP_Rossmann	ADH_zinc_N	Zinc-binding dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_4044	k99_4044_239-1265.1	inhibitor	k99_4044_k99_4044_1	239	1265	PF16912	0.52172	CL0063	NADP_Rossmann	Glu_dehyd_C	Glucose dehydrogenase C-terminus	1747	Cutibacterium acnes
+SRR6145058	k99_4044	k99_4044_239-1265.1	inhibitor	k99_4044_k99_4044_1	239	1265	PF01262	0.52011	CL0063	NADP_Rossmann	AlaDh_PNT_C	Alanine dehydrogenase/PNT, C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_4044	k99_4044_239-1265.1	inhibitor	k99_4044_k99_4044_1	239	1265	PF08240	0.53744	CL0296	GroES	ADH_N	Alcohol dehydrogenase GroES-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_12023	k99_12023_1-1614.1	antibacterial	k99_12023_k99_12023_1	1	865	PF02775	0.6047	CL0254	THDP-binding	TPP_enzyme_C	Thiamine pyrophosphate enzyme, C-terminal TPP binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_12023	k99_12023_1-1614.1	antibacterial	k99_12023_k99_12023_2	888	1614	PF01180	0.50776	CL0036	TIM_barrel	DHO_dh	Dihydroorotate dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_8889	k99_8889_1-1408.1	antibacterial	k99_8889_k99_8889_1	1	1408	PF13193	0.77673	CL0531	AMP-binding_C	AMP-binding_C	AMP-binding enzyme C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_8889	k99_8889_1-1408.1	antibacterial	k99_8889_k99_8889_1	1	1408	PF00501	0.74406	CL0378	ANL	AMP-binding	AMP-binding enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_11893	k99_11893_2-842.1	antibacterial	k99_11893_k99_11893_1	2	842	PF01032	0.56319	CL0142	Membrane_trans	FecCD	FecCD transport family	1747	Cutibacterium acnes
+SRR6145058	k99_11893	k99_11893_2-842.1	antibacterial	k99_11893_k99_11893_1	2	842	PF00950	0.46743	CL0142	Membrane_trans	ABC-3	ABC 3 transport family	1747	Cutibacterium acnes
+SRR6145058	k99_11893	k99_11893_2-842.1	antibacterial	k99_11893_k99_11893_1	2	842	PF02653	0.46999	CL0142	Membrane_trans	BPD_transp_2	Branched-chain amino acid transport system / permease component	1747	Cutibacterium acnes
+SRR6145058	k99_11031	k99_11031_988-1444.1	antibacterial	k99_11031_k99_11031_3	988	1444	PF13561	0.5673	CL0063	NADP_Rossmann	adh_short_C2	Enoyl-(Acyl carrier protein) reductase	1747	Cutibacterium acnes
+SRR6145058	k99_11031	k99_11031_988-1444.1	antibacterial	k99_11031_k99_11031_3	988	1444	PF00106	0.56503	CL0063	NADP_Rossmann	adh_short	short chain dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_9836	k99_9836_2-2135.1	antibacterial	k99_9836_k99_9836_1	2	140	PF02302	0.56623	CL0031	Phosphatase	PTS_IIB	PTS system, Lactose/Cellobiose specific IIB subunit	1747	Cutibacterium acnes
+SRR6145058	k99_9836	k99_9836_2-2135.1	antibacterial	k99_9836_k99_9836_2	521	2135	PF00501	0.73476	CL0378	ANL	AMP-binding	AMP-binding enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_9901	k99_9901_1700-2324.1	NA	k99_9901_k99_9901_2	1700	2324	PF00069	0.57802	CL0016	PKinase	Pkinase	Protein kinase domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9901	k99_9901_1700-2324.1	NA	k99_9901_k99_9901_2	1700	2324	PF07714	0.53932	CL0016	PKinase	Pkinase_Tyr	Protein tyrosine kinase	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9901	k99_9901_1700-2324.1	NA	k99_9901_k99_9901_2	1700	2324	PF06293	0.52749	CL0016	PKinase	Kdo	Lipopolysaccharide kinase (Kdo/WaaP) family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_2720	k99_2720_114-1802.1	antibacterial	k99_2720_k99_2720_1	114	534	PF07681	0.66801	CL0131	DoxD-like	DoxX	DoxX	1747	Cutibacterium acnes
+SRR6145058	k99_2720	k99_2720_114-1802.1	antibacterial	k99_2720_k99_2720_2	626	1802	PF13439	0.61146	CL0113	GT-B	Glyco_transf_4	Glycosyltransferase Family 4	1747	Cutibacterium acnes
+SRR6145058	k99_2720	k99_2720_114-1802.1	antibacterial	k99_2720_k99_2720_2	626	1802	PF13579	0.58214	CL0113	GT-B	Glyco_trans_4_4	Glycosyl transferase 4-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_2720	k99_2720_114-1802.1	antibacterial	k99_2720_k99_2720_2	626	1802	PF00534	0.57409	CL0113	GT-B	Glycos_transf_1	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_2720	k99_2720_114-1802.1	antibacterial	k99_2720_k99_2720_2	626	1802	PF13692	0.59578	CL0113	GT-B	Glyco_trans_1_4	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_2720	k99_2720_114-1802.1	antibacterial	k99_2720_k99_2720_2	626	1802	PF13524	0.62224	CL0113	GT-B	Glyco_trans_1_2	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_9458	k99_9458_2-488.1	antibacterial	k99_9458_k99_9458_1	2	488	PF05076	0.53678	NA	NA	SUFU	Suppressor of fused protein (SUFU)	1747	Cutibacterium acnes
+SRR6145058	k99_2271	k99_2271_0-786.1	antibacterial	k99_2271_k99_2271_1	0	786	PF00144	0.51354	CL0013	Beta-lactamase	Beta-lactamase	Beta-lactamase	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8707	k99_8707_23-2808.1	antibacterial	k99_8707_k99_8707_1	23	890	PF01261	0.72901	CL0036	TIM_barrel	AP_endonuc_2	Xylose isomerase-like TIM barrel	1747	Cutibacterium acnes
+SRR6145058	k99_8707	k99_8707_23-2808.1	antibacterial	k99_8707_k99_8707_2	961	1960	PF01261	0.68822	CL0036	TIM_barrel	AP_endonuc_2	Xylose isomerase-like TIM barrel	1747	Cutibacterium acnes
+SRR6145058	k99_8707	k99_8707_23-2808.1	antibacterial	k99_8707_k99_8707_3	2004	2808	PF02894	0.71253	CL0139	GADPH_aa-bio_dh	GFO_IDH_MocA_C	Oxidoreductase family, C-terminal alpha/beta domain	1747	Cutibacterium acnes
+SRR6145058	k99_6250	k99_6250_273-885.1	antibacterial	k99_6250_k99_6250_1	273	885	PF15420	0.50053	NA	NA	Abhydrolase_9_N	Alpha/beta-hydrolase family N-terminus	1747	Cutibacterium acnes
+SRR6145058	k99_10023	k99_10023_287-1697.1	antibacterial	k99_10023_k99_10023_2	287	1697	PF00115	0.54762	NA	NA	COX1	Cytochrome C and Quinol oxidase polypeptide I	1747	Cutibacterium acnes
+SRR6145058	k99_11587	k99_11587_2-1205.1	antibacterial	k99_11587_k99_11587_1	2	1205	PF05088	0.50922	CL0063	NADP_Rossmann	Bac_GDH	Bacterial NAD-glutamate dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_11523	k99_11523_2-770.1	antibacterial	k99_11523_k99_11523_1	2	770	PF13561	0.5839	CL0063	NADP_Rossmann	adh_short_C2	Enoyl-(Acyl carrier protein) reductase	1747	Cutibacterium acnes
+SRR6145058	k99_11523	k99_11523_2-770.1	antibacterial	k99_11523_k99_11523_1	2	770	PF00106	0.59876	CL0063	NADP_Rossmann	adh_short	short chain dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_11523	k99_11523_2-770.1	antibacterial	k99_11523_k99_11523_1	2	770	PF08659	0.61977	CL0063	NADP_Rossmann	KR	KR domain	1747	Cutibacterium acnes
+SRR6145058	k99_11523	k99_11523_2-770.1	antibacterial	k99_11523_k99_11523_1	2	770	PF01370	0.62744	CL0063	NADP_Rossmann	Epimerase	NAD dependent epimerase/dehydratase family	1747	Cutibacterium acnes
+SRR6145058	k99_11523	k99_11523_2-770.1	antibacterial	k99_11523_k99_11523_1	2	770	PF16363	0.6343	CL0063	NADP_Rossmann	GDP_Man_Dehyd	GDP-mannose 4,6 dehydratase	1747	Cutibacterium acnes
+SRR6145058	k99_1333	k99_1333_2-3218.1	antibacterial	k99_1333_k99_1333_1	2	308	PF13561	0.89518	CL0063	NADP_Rossmann	adh_short_C2	Enoyl-(Acyl carrier protein) reductase	1747	Cutibacterium acnes
+SRR6145058	k99_1333	k99_1333_2-3218.1	antibacterial	k99_1333_k99_1333_1	2	308	PF08659	0.88736	CL0063	NADP_Rossmann	KR	KR domain	1747	Cutibacterium acnes
+SRR6145058	k99_1333	k99_1333_2-3218.1	antibacterial	k99_1333_k99_1333_2	348	1068	PF13561	0.87245	CL0063	NADP_Rossmann	adh_short_C2	Enoyl-(Acyl carrier protein) reductase	1747	Cutibacterium acnes
+SRR6145058	k99_1333	k99_1333_2-3218.1	antibacterial	k99_1333_k99_1333_2	348	1068	PF00106	0.87305	CL0063	NADP_Rossmann	adh_short	short chain dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_1333	k99_1333_2-3218.1	antibacterial	k99_1333_k99_1333_2	348	1068	PF13460	0.87067	CL0063	NADP_Rossmann	NAD_binding_10	NAD(P)H-binding	1747	Cutibacterium acnes
+SRR6145058	k99_1333	k99_1333_2-3218.1	antibacterial	k99_1333_k99_1333_2	348	1068	PF01370	0.8655	CL0063	NADP_Rossmann	Epimerase	NAD dependent epimerase/dehydratase family	1747	Cutibacterium acnes
+SRR6145058	k99_1333	k99_1333_2-3218.1	antibacterial	k99_1333_k99_1333_2	348	1068	PF08659	0.84022	CL0063	NADP_Rossmann	KR	KR domain	1747	Cutibacterium acnes
+SRR6145058	k99_1333	k99_1333_2-3218.1	antibacterial	k99_1333_k99_1333_4	1569	2400	PF02104	0.81925	NA	NA	SURF1	SURF1 family	1747	Cutibacterium acnes
+SRR6145058	k99_1333	k99_1333_2-3218.1	antibacterial	k99_1333_k99_1333_5	2396	3218	PF13489	0.87386	CL0063	NADP_Rossmann	Methyltransf_23	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_1333	k99_1333_2-3218.1	antibacterial	k99_1333_k99_1333_5	2396	3218	PF13649	0.85924	CL0063	NADP_Rossmann	Methyltransf_25	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_1333	k99_1333_2-3218.1	antibacterial	k99_1333_k99_1333_5	2396	3218	PF08242	0.84878	CL0063	NADP_Rossmann	Methyltransf_12	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_1333	k99_1333_2-3218.1	antibacterial	k99_1333_k99_1333_5	2396	3218	PF08241	0.79849	CL0063	NADP_Rossmann	Methyltransf_11	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_9905	k99_9905_1-1252.1	antibacterial	k99_9905_k99_9905_1	1	1252	PF00890	0.5492	CL0063	NADP_Rossmann	FAD_binding_2	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_9905	k99_9905_1-1252.1	antibacterial	k99_9905_k99_9905_1	1	1252	PF01266	0.55721	CL0063	NADP_Rossmann	DAO	FAD dependent oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_2088	k99_2088_2-2202.1	antibacterial	k99_2088_k99_2088_1	2	680	PF02894	0.61291	CL0139	GADPH_aa-bio_dh	GFO_IDH_MocA_C	Oxidoreductase family, C-terminal alpha/beta domain	1747	Cutibacterium acnes
+SRR6145058	k99_2088	k99_2088_2-2202.1	antibacterial	k99_2088_k99_2088_3	942	2202	PF13520	0.53932	CL0062	APC	AA_permease_2	Amino acid permease	1747	Cutibacterium acnes
+SRR6145058	k99_1967	k99_1967_2-1766.1	antibacterial	k99_1967_k99_1967_1	2	1766	PF12697	0.59831	CL0028	AB_hydrolase	Abhydrolase_6	Alpha/beta hydrolase family	1747	Cutibacterium acnes
+SRR6145058	k99_1967	k99_1967_2-1766.1	antibacterial	k99_1967_k99_1967_1	2	1766	PF00561	0.5701	CL0028	AB_hydrolase	Abhydrolase_1	alpha/beta hydrolase fold	1747	Cutibacterium acnes
+SRR6145058	k99_4114	k99_4114_268-985.1	antibacterial	k99_4114_k99_4114_2	268	985	PF02104	0.62842	NA	NA	SURF1	SURF1 family	1747	Cutibacterium acnes
+SRR6145058	k99_1206	k99_1206_2-3215.1	antibacterial	k99_1206_k99_1206_1	2	1049	PF01032	0.69954	CL0142	Membrane_trans	FecCD	FecCD transport family	1747	Cutibacterium acnes
+SRR6145058	k99_1206	k99_1206_2-3215.1	antibacterial	k99_1206_k99_1206_1	2	1049	PF00950	0.59544	CL0142	Membrane_trans	ABC-3	ABC 3 transport family	1747	Cutibacterium acnes
+SRR6145058	k99_1206	k99_1206_2-3215.1	antibacterial	k99_1206_k99_1206_2	1045	2149	PF01497	0.67468	CL0043	Chelatase	Peripla_BP_2	Periplasmic binding protein	1747	Cutibacterium acnes
+SRR6145058	k99_1206	k99_1206_2-3215.1	antibacterial	k99_1206_k99_1206_3	2270	3215	PF04213	0.67193	NA	NA	HtaA	Htaa	1747	Cutibacterium acnes
+SRR6145058	k99_9654	k99_9654_636-2130.1	antibacterial	k99_9654_k99_9654_2	636	2130	PF00171	0.55594	CL0099	ALDH-like	Aldedh	Aldehyde dehydrogenase family	1747	Cutibacterium acnes
+SRR6145058	k99_10024	k99_10024_12-336.1	antibacterial	k99_10024_k99_10024_1	12	336	PF13806	0.56447	CL0516	ISP-domain	Rieske_2	Rieske-like [2Fe-2S] domain	1747	Cutibacterium acnes
+SRR6145058	k99_10024	k99_10024_12-336.1	antibacterial	k99_10024_k99_10024_1	12	336	PF00355	0.52063	CL0516	ISP-domain	Rieske	Rieske [2Fe-2S] domain	1747	Cutibacterium acnes
+SRR6145058	k99_2089	k99_2089_2-854.1	antibacterial	k99_2089_k99_2089_1	2	854	PF00534	0.58001	CL0113	GT-B	Glycos_transf_1	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_2089	k99_2089_2-854.1	antibacterial	k99_2089_k99_2089_1	2	854	PF13692	0.54208	CL0113	GT-B	Glyco_trans_1_4	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_2089	k99_2089_2-854.1	antibacterial	k99_2089_k99_2089_1	2	854	PF13439	0.5086	CL0113	GT-B	Glyco_transf_4	Glycosyltransferase Family 4	1747	Cutibacterium acnes
+SRR6145058	k99_2089	k99_2089_2-854.1	antibacterial	k99_2089_k99_2089_1	2	854	PF13579	0.51306	CL0113	GT-B	Glyco_trans_4_4	Glycosyl transferase 4-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_2526	k99_2526_232-846.1	antibacterial	k99_2526_k99_2526_2	232	622	PF01850	0.58213	CL0280	PIN	PIN	PIN domain	1747	Cutibacterium acnes
+SRR6145058	k99_2526	k99_2526_232-846.1	antibacterial	k99_2526_k99_2526_3	618	846	PF09386	0.55426	CL0057	Met_repress	ParD	Antitoxin ParD	1747	Cutibacterium acnes
+SRR6145058	k99_9203	k99_9203_1-2444.1	antibacterial	k99_9203_k99_9203_1	1	571	PF12802	0.78146	CL0123	HTH	MarR_2	MarR family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9203	k99_9203_1-2444.1	antibacterial	k99_9203_k99_9203_1	1	571	PF01047	0.78427	CL0123	HTH	MarR	MarR family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9203	k99_9203_1-2444.1	antibacterial	k99_9203_k99_9203_1	1	571	PF12840	0.79493	CL0123	HTH	HTH_20	Helix-turn-helix domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9203	k99_9203_1-2444.1	antibacterial	k99_9203_k99_9203_1	1	571	PF01978	0.76572	CL0123	HTH	TrmB	Sugar-specific transcriptional regulator TrmB	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9203	k99_9203_1-2444.1	antibacterial	k99_9203_k99_9203_1	1	571	PF09339	0.77413	CL0123	HTH	HTH_IclR	IclR helix-turn-helix domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9203	k99_9203_1-2444.1	antibacterial	k99_9203_k99_9203_2	572	1286	PF02665	0.75048	NA	NA	Nitrate_red_gam	Nitrate reductase gamma subunit	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9203	k99_9203_1-2444.1	antibacterial	k99_9203_k99_9203_3	1282	1954	PF02613	0.68544	NA	NA	Nitrate_red_del	Nitrate reductase delta subunit	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9203	k99_9203_1-2444.1	antibacterial	k99_9203_k99_9203_4	1955	2444	PF14711	0.7395	NA	NA	Nitr_red_bet_C	Respiratory nitrate reductase beta C-terminal	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5993	k99_5993_0-1672.1	antibacterial	k99_5993_k99_5993_1	0	330	PF00106	0.71066	CL0063	NADP_Rossmann	adh_short	short chain dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_5993	k99_5993_0-1672.1	antibacterial	k99_5993_k99_5993_1	0	330	PF13561	0.67944	CL0063	NADP_Rossmann	adh_short_C2	Enoyl-(Acyl carrier protein) reductase	1747	Cutibacterium acnes
+SRR6145058	k99_5993	k99_5993_0-1672.1	antibacterial	k99_5993_k99_5993_2	352	1672	PF02397	0.61432	NA	NA	Bac_transf	Bacterial sugar transferase	1747	Cutibacterium acnes
+SRR6145058	k99_5993	k99_5993_0-1672.1	antibacterial	k99_5993_k99_5993_2	352	1672	PF13727	0.56281	CL0063	NADP_Rossmann	CoA_binding_3	CoA-binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_7886	k99_7886_0-2065.1	antibacterial	k99_7886_k99_7886_1	0	93	PF13344	0.61273	CL0137	HAD	Hydrolase_6	Haloacid dehalogenase-like hydrolase	1747	Cutibacterium acnes
+SRR6145058	k99_7886	k99_7886_0-2065.1	antibacterial	k99_7886_k99_7886_2	208	2065	PF13229	0.74862	CL0268	Pec_lyase-like	Beta_helix	Right handed beta helix region	1747	Cutibacterium acnes
+SRR6145058	k99_5994	k99_5994_585-2334.1	antibacterial	k99_5994_k99_5994_1	585	2334	PF15870	0.52866	NA	NA	EloA-BP1	ElonginA binding-protein 1	9606	Homo sapiens
+SRR6145058	k99_1532	k99_1532_317-1361.1	antibacterial	k99_1532_k99_1532_2	317	1361	PF01458	0.53898	NA	NA	UPF0051	Uncharacterized protein family (UPF0051)	1747	Cutibacterium acnes
+SRR6145058	k99_5802	k99_5802_1-982.1	antibacterial	k99_5802_k99_5802_1	1	982	PF16363	0.5024	CL0063	NADP_Rossmann	GDP_Man_Dehyd	GDP-mannose 4,6 dehydratase	1747	Cutibacterium acnes
+SRR6145058	k99_5802	k99_5802_1-982.1	antibacterial	k99_5802_k99_5802_1	1	982	PF01370	0.46428	CL0063	NADP_Rossmann	Epimerase	NAD dependent epimerase/dehydratase family	1747	Cutibacterium acnes
+SRR6145058	k99_5802	k99_5802_1-982.1	antibacterial	k99_5802_k99_5802_1	1	982	PF02719	0.45372	CL0063	NADP_Rossmann	Polysacc_synt_2	Polysaccharide biosynthesis protein	1747	Cutibacterium acnes
+SRR6145058	k99_5802	k99_5802_1-982.1	antibacterial	k99_5802_k99_5802_1	1	982	PF07993	0.48054	CL0063	NADP_Rossmann	NAD_binding_4	Male sterility protein	1747	Cutibacterium acnes
+SRR6145058	k99_5802	k99_5802_1-982.1	antibacterial	k99_5802_k99_5802_1	1	982	PF04321	0.49894	CL0063	NADP_Rossmann	RmlD_sub_bind	RmlD substrate binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_5802	k99_5802_1-982.1	antibacterial	k99_5802_k99_5802_1	1	982	PF13460	0.5229	CL0063	NADP_Rossmann	NAD_binding_10	NAD(P)H-binding	1747	Cutibacterium acnes
+SRR6145058	k99_5802	k99_5802_1-982.1	antibacterial	k99_5802_k99_5802_1	1	982	PF01073	0.58263	CL0063	NADP_Rossmann	3Beta_HSD	3-beta hydroxysteroid dehydrogenase/isomerase family	1747	Cutibacterium acnes
+SRR6145058	k99_5802	k99_5802_1-982.1	antibacterial	k99_5802_k99_5802_1	1	982	PF05368	0.61509	CL0063	NADP_Rossmann	NmrA	NmrA-like family	1747	Cutibacterium acnes
+SRR6145058	k99_765	k99_765_897-1041.1	antibacterial	k99_765_k99_765_3	897	1041	PF16870	0.52174	CL0591	TKC_like	OxoGdeHyase_C	2-oxoglutarate dehydrogenase C-terminal	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5867	k99_5867_0-1182.1	antibacterial	k99_5867_k99_5867_1	0	1182	PF00676	0.56482	CL0254	THDP-binding	E1_dh	Dehydrogenase E1 component	1747	Cutibacterium acnes
+SRR6145058	k99_8845	k99_8845_81-2561.1	antibacterial	k99_8845_k99_8845_1	81	858	PF00590	0.59393	NA	NA	TP_methylase	Tetrapyrrole (Corrin/Porphyrin) Methylases	1747	Cutibacterium acnes
+SRR6145058	k99_8845	k99_8845_81-2561.1	antibacterial	k99_8845_k99_8845_2	877	1855	PF02571	0.59452	CL0063	NADP_Rossmann	CbiJ	Precorrin-6x reductase CbiJ/CobK	1747	Cutibacterium acnes
+SRR6145058	k99_8845	k99_8845_81-2561.1	antibacterial	k99_8845_k99_8845_3	1856	2561	PF02277	0.62432	NA	NA	DBI_PRT	Phosphoribosyltransferase	1747	Cutibacterium acnes
+SRR6145058	k99_9462	k99_9462_356-1601.1	antibacterial	k99_9462_k99_9462_2	356	1601	PF01654	0.57132	NA	NA	Cyt_bd_oxida_I	Cytochrome bd terminal oxidase subunit I	1747	Cutibacterium acnes
+SRR6145058	k99_7828	k99_7828_0-2753.1	antibacterial	k99_7828_k99_7828_1	0	1254	PF00425	0.71215	NA	NA	Chorismate_bind	chorismate binding enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_7828	k99_7828_0-2753.1	antibacterial	k99_7828_k99_7828_2	1226	2753	PF02775	0.63054	CL0254	THDP-binding	TPP_enzyme_C	Thiamine pyrophosphate enzyme, C-terminal TPP binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_7828	k99_7828_0-2753.1	antibacterial	k99_7828_k99_7828_2	1226	2753	PF02776	0.64358	CL0254	THDP-binding	TPP_enzyme_N	Thiamine pyrophosphate enzyme, N-terminal TPP binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_2663	k99_2663_64-5687.1	antibacterial	k99_2663_k99_2663_1	64	1549	PF01510	0.60894	NA	NA	Amidase_2	N-acetylmuramoyl-L-alanine amidase	1747	Cutibacterium acnes
+SRR6145058	k99_2663	k99_2663_64-5687.1	antibacterial	k99_2663_k99_2663_10	4121	4655	PF00005	0.55046	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_2663	k99_2663_64-5687.1	antibacterial	k99_2663_k99_2663_10	4121	4655	PF13191	0.5778	CL0023	P-loop_NTPase	AAA_16	AAA ATPase domain	1747	Cutibacterium acnes
+SRR6145058	k99_2663	k99_2663_64-5687.1	antibacterial	k99_2663_k99_2663_10	4121	4655	PF03308	0.54414	CL0023	P-loop_NTPase	MeaB	Methylmalonyl Co-A mutase-associated GTPase MeaB	1747	Cutibacterium acnes
+SRR6145058	k99_2663	k99_2663_64-5687.1	antibacterial	k99_2663_k99_2663_10	4121	4655	PF13304	0.55117	CL0023	P-loop_NTPase	AAA_21	AAA domain, putative AbiEii toxin, Type IV TA system	1747	Cutibacterium acnes
+SRR6145058	k99_2663	k99_2663_64-5687.1	antibacterial	k99_2663_k99_2663_10	4121	4655	PF13555	0.53633	CL0023	P-loop_NTPase	AAA_29	P-loop containing region of AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_2663	k99_2663_64-5687.1	antibacterial	k99_2663_k99_2663_12	5129	5687	PF01613	0.56636	CL0336	FMN-binding	Flavin_Reduct	Flavin reductase like domain	1747	Cutibacterium acnes
+SRR6145058	k99_10342	k99_10342_248-1130.1	antibacterial	k99_10342_k99_10342_2	248	1130	PF13367	0.50327	CL0472	Peptidase_U	PrsW-protease	PrsW family intramembrane metalloprotease	1747	Cutibacterium acnes
+SRR6145058	k99_10234	k99_10234_151-1284.1	antibacterial	k99_10234_k99_10234_1	151	1033	PF02628	0.58726	CL0328	2heme_cytochrom	COX15-CtaA	Cytochrome oxidase assembly protein	1747	Cutibacterium acnes
+SRR6145058	k99_10234	k99_10234_151-1284.1	antibacterial	k99_10234_k99_10234_2	1029	1284	PF12698	0.61785	CL0181	ABC-2	ABC2_membrane_3	ABC-2 family transporter protein	1747	Cutibacterium acnes
+SRR6145058	k99_8519	k99_8519_55-1159.1	NA	k99_8519_k99_8519_1	55	1159	PF07714	0.58173	CL0016	PKinase	Pkinase_Tyr	Protein tyrosine kinase	1170318	Cutibacterium avidum 44067
+SRR6145058	k99_8519	k99_8519_55-1159.1	NA	k99_8519_k99_8519_1	55	1159	PF00069	0.57792	CL0016	PKinase	Pkinase	Protein kinase domain	1170318	Cutibacterium avidum 44067
+SRR6145058	k99_2593	k99_2593_0-1113.1	antibacterial	k99_2593_k99_2593_1	0	372	PF02572	0.67871	CL0023	P-loop_NTPase	CobA_CobO_BtuR	ATP:corrinoid adenosyltransferase BtuR/CobO/CobP	1747	Cutibacterium acnes
+SRR6145058	k99_2593	k99_2593_0-1113.1	antibacterial	k99_2593_k99_2593_2	600	1113	PF08704	0.69626999999999994	CL0063	NADP_Rossmann	GCD14	tRNA methyltransferase complex GCD14 subunit	1747	Cutibacterium acnes
+SRR6145058	k99_2593	k99_2593_0-1113.1	antibacterial	k99_2593_k99_2593_2	600	1113	PF00891	0.83652	CL0063	NADP_Rossmann	Methyltransf_2	O-methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_2593	k99_2593_0-1113.1	antibacterial	k99_2593_k99_2593_2	600	1113	PF13847	0.85424	CL0063	NADP_Rossmann	Methyltransf_31	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_2593	k99_2593_0-1113.1	antibacterial	k99_2593_k99_2593_2	600	1113	PF13649	0.85416	CL0063	NADP_Rossmann	Methyltransf_25	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_4999	k99_4999_0-192.1	antibacterial	k99_4999_k99_4999_1	0	192	PF00903	0.60031	CL0104	Glyoxalase	Glyoxalase	Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_959	k99_959_1153-1570.1	antibacterial	k99_959_k99_959_2	1153	1570	PF00293	0.506	CL0261	NUDIX	NUDIX	NUDIX domain	1747	Cutibacterium acnes
+SRR6145058	k99_11527	k99_11527_618-3782.1	antibacterial	k99_11527_k99_11527_1	618	1533	PF00294	0.58628	CL0118	Ribokinase	PfkB	pfkB family carbohydrate kinase	1747	Cutibacterium acnes
+SRR6145058	k99_11527	k99_11527_618-3782.1	antibacterial	k99_11527_k99_11527_1	618	1533	PF08543	0.5663	CL0118	Ribokinase	Phos_pyr_kin	Phosphomethylpyrimidine kinase	1747	Cutibacterium acnes
+SRR6145058	k99_11527	k99_11527_618-3782.1	antibacterial	k99_11527_k99_11527_2	1534	2608	PF14486	0.64377	CL0103	Gal_mutarotase	DUF4432	Domain of unknown function (DUF4432)	1747	Cutibacterium acnes
+SRR6145058	k99_11527	k99_11527_618-3782.1	antibacterial	k99_11527_k99_11527_3	2594	3782	PF07690	0.60866	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_11527	k99_11527_618-3782.1	antibacterial	k99_11527_k99_11527_3	2594	3782	PF13347	0.61024	CL0015	MFS	MFS_2	MFS/sugar transport protein	1747	Cutibacterium acnes
+SRR6145058	k99_9408	k99_9408_1-1447.1	antibacterial	k99_9408_k99_9408_1	1	1447	PF01645	0.55538	CL0036	TIM_barrel	Glu_synthase	Conserved region in glutamate synthase	1747	Cutibacterium acnes
+SRR6145058	k99_9408	k99_9408_1-1447.1	antibacterial	k99_9408_k99_9408_1	1	1447	PF04898	0.53877	CL0036	TIM_barrel	Glu_syn_central	Glutamate synthase central domain	1747	Cutibacterium acnes
+SRR6145058	k99_2216	k99_2216_0-1575.1	antibacterial	k99_2216_k99_2216_1	0	1575	PF04055	0.57081	CL0036	TIM_barrel	Radical_SAM	Radical SAM superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_1848	k99_1848_0-968.1	antibacterial	k99_1848_k99_1848_1	0	318	PF02698	0.60093	NA	NA	DUF218	DUF218 domain	1747	Cutibacterium acnes
+SRR6145058	k99_1848	k99_1848_0-968.1	antibacterial	k99_1848_k99_1848_1	0	318	PF11823	0.50133	NA	NA	DUF3343	Protein of unknown function (DUF3343)	1747	Cutibacterium acnes
+SRR6145058	k99_1848	k99_1848_0-968.1	antibacterial	k99_1848_k99_1848_2	314	968	PF14016	0.72225	NA	NA	DUF4232	Protein of unknown function (DUF4232)	1747	Cutibacterium acnes
+SRR6145058	k99_11836	k99_11836_2-1013.1	antibacterial	k99_11836_k99_11836_1	2	1013	PF06728	0.6146	CL0111	GT-C	PIG-U	GPI transamidase subunit PIG-U	1747	Cutibacterium acnes
+SRR6145058	k99_11836	k99_11836_2-1013.1	antibacterial	k99_11836_k99_11836_1	2	1013	PF09594	0.57231	CL0111	GT-C	GT87	Glycosyltransferase family 87	1747	Cutibacterium acnes
+SRR6145058	k99_6123	k99_6123_0-1032.1	antibacterial	k99_6123_k99_6123_1	0	270	PF00355	0.64243	CL0516	ISP-domain	Rieske	Rieske [2Fe-2S] domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6123	k99_6123_0-1032.1	antibacterial	k99_6123_k99_6123_2	285	1032	PF00300	0.55068	CL0071	His_phosphatase	His_Phos_1	Histidine phosphatase superfamily (branch 1)	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6317	k99_6317_2-4679.1	antibacterial	k99_6317_k99_6317_1	2	4679	PF05593	0.60642	NA	NA	RHS_repeat	RHS Repeat	1747	Cutibacterium acnes
+SRR6145058	k99_8958	k99_8958_2-344.1	antibacterial	k99_8958_k99_8958_1	2	344	PF00266	0.60431	CL0061	PLP_aminotran	Aminotran_5	Aminotransferase class-V	1747	Cutibacterium acnes
+SRR6145058	k99_8958	k99_8958_1517-2504.1	antibacterial	k99_8958_k99_8958_3	1517	2504	PF01717	0.54423	CL0160	Methionine_synt	Meth_synt_2	Cobalamin-independent synthase, Catalytic domain	1747	Cutibacterium acnes
+SRR6145058	k99_1985	k99_1985_1155-1701.1	antibacterial	k99_1985_k99_1985_2	1155	1701	PF07690	0.61863	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_5996	k99_5996_2-1004.1	antibacterial	k99_5996_k99_5996_1	2	1004	PF03632	0.59435	CL0059	6_Hairpin	Glyco_hydro_65m	Glycosyl hydrolase family 65 central catalytic domain	1747	Cutibacterium acnes
+SRR6145058	k99_5629	k99_5629_1-2472.1	antibacterial	k99_5629_k99_5629_1	1	562	PF01497	0.78206	CL0043	Chelatase	Peripla_BP_2	Periplasmic binding protein	1747	Cutibacterium acnes
+SRR6145058	k99_5629	k99_5629_1-2472.1	antibacterial	k99_5629_k99_5629_2	542	1712	PF01032	0.69448	CL0142	Membrane_trans	FecCD	FecCD transport family	1747	Cutibacterium acnes
+SRR6145058	k99_5629	k99_5629_1-2472.1	antibacterial	k99_5629_k99_5629_3	1704	2472	PF00005	0.69605	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_5629	k99_5629_1-2472.1	antibacterial	k99_5629_k99_5629_3	1704	2472	PF13555	0.71392	CL0023	P-loop_NTPase	AAA_29	P-loop containing region of AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_5629	k99_5629_1-2472.1	antibacterial	k99_5629_k99_5629_3	1704	2472	PF00931	0.79322	CL0023	P-loop_NTPase	NB-ARC	NB-ARC domain	1747	Cutibacterium acnes
+SRR6145058	k99_5629	k99_5629_1-2472.1	antibacterial	k99_5629_k99_5629_3	1704	2472	PF13191	0.79375	CL0023	P-loop_NTPase	AAA_16	AAA ATPase domain	1747	Cutibacterium acnes
+SRR6145058	k99_5629	k99_5629_1-2472.1	antibacterial	k99_5629_k99_5629_3	1704	2472	PF13476	0.80037	CL0023	P-loop_NTPase	AAA_23	AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_5629	k99_5629_1-2472.1	antibacterial	k99_5629_k99_5629_3	1704	2472	PF02463	0.82207	CL0023	P-loop_NTPase	SMC_N	RecF/RecN/SMC N terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_5629	k99_5629_1-2472.1	antibacterial	k99_5629_k99_5629_3	1704	2472	PF13304	0.83377	CL0023	P-loop_NTPase	AAA_21	AAA domain, putative AbiEii toxin, Type IV TA system	1747	Cutibacterium acnes
+SRR6145058	k99_5316	k99_5316_2-1090.1	antibacterial	k99_5316_k99_5316_1	2	131	PF05448	0.70223	CL0028	AB_hydrolase	AXE1	Acetyl xylan esterase (AXE1)	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5316	k99_5316_2-1090.1	antibacterial	k99_5316_k99_5316_2	341	557	PF05448	0.6735	CL0028	AB_hydrolase	AXE1	Acetyl xylan esterase (AXE1)	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5316	k99_5316_2-1090.1	antibacterial	k99_5316_k99_5316_3	604	1090	PF00300	0.61209	CL0071	His_phosphatase	His_Phos_1	Histidine phosphatase superfamily (branch 1)	1234380	Cutibacterium acnes C1
+SRR6145058	k99_2217	k99_2217_1-3487.1	antibacterial	k99_2217_k99_2217_1	1	463	PF00481	0.58971	CL0238	PP2C	PP2C	Protein phosphatase 2C	1747	Cutibacterium acnes
+SRR6145058	k99_2217	k99_2217_1-3487.1	antibacterial	k99_2217_k99_2217_1	1	463	PF13672	0.59382	CL0238	PP2C	PP2C_2	Protein phosphatase 2C	1747	Cutibacterium acnes
+SRR6145058	k99_2217	k99_2217_1-3487.1	antibacterial	k99_2217_k99_2217_2	466	955	PF16697	0.5555	CL0357	SMAD-FHA	Yop-YscD_cpl	Inner membrane component of T3SS, cytoplasmic domain	1747	Cutibacterium acnes
+SRR6145058	k99_2217	k99_2217_1-3487.1	antibacterial	k99_2217_k99_2217_2	466	955	PF00498	0.56518	CL0357	SMAD-FHA	FHA	FHA domain	1747	Cutibacterium acnes
+SRR6145058	k99_2217	k99_2217_1-3487.1	antibacterial	k99_2217_k99_2217_3	957	1647	PF16697	0.59462	CL0357	SMAD-FHA	Yop-YscD_cpl	Inner membrane component of T3SS, cytoplasmic domain	1747	Cutibacterium acnes
+SRR6145058	k99_2217	k99_2217_1-3487.1	antibacterial	k99_2217_k99_2217_3	957	1647	PF00498	0.61666	CL0357	SMAD-FHA	FHA	FHA domain	1747	Cutibacterium acnes
+SRR6145058	k99_2217	k99_2217_1-3487.1	antibacterial	k99_2217_k99_2217_3	957	1647	PF12401	0.68823	NA	NA	DUF3662	Protein of unknown function (DUF2662)	1747	Cutibacterium acnes
+SRR6145058	k99_2217	k99_2217_1-3487.1	antibacterial	k99_2217_k99_2217_5	2935	3487	PF01636	0.63257	CL0016	PKinase	APH	Phosphotransferase enzyme family	1747	Cutibacterium acnes
+SRR6145058	k99_520	k99_520_0-396.1	antibacterial	k99_520_k99_520_1	0	396	PF00486	0.53969	CL0123	HTH	Trans_reg_C	Transcriptional regulatory protein, C terminal	1747	Cutibacterium acnes
+SRR6145058	k99_522	k99_522_2-1013.1	antibacterial	k99_522_k99_522_1	2	1013	PF00155	0.57945	CL0061	PLP_aminotran	Aminotran_1_2	Aminotransferase class I and II	1747	Cutibacterium acnes
+SRR6145058	k99_10920	k99_10920_0-3515.1	antibacterial	k99_10920_k99_10920_1	0	642	PF02867	0.59323	CL0339	PFL-like	Ribonuc_red_lgC	Ribonucleotide reductase, barrel domain	1747	Cutibacterium acnes
+SRR6145058	k99_10920	k99_10920_0-3515.1	antibacterial	k99_10920_k99_10920_2	676	1663	PF00268	0.60781	CL0044	Ferritin	Ribonuc_red_sm	Ribonucleotide reductase, small chain	1747	Cutibacterium acnes
+SRR6145058	k99_10920	k99_10920_0-3515.1	antibacterial	k99_10920_k99_10920_3	2585	3515	PF00480	0.59494	CL0108	Actin_ATPase	ROK	ROK family	1747	Cutibacterium acnes
+SRR6145058	k99_10920	k99_10920_4350-4473.1	antibacterial	k99_10920_k99_10920_5	4350	4473	PF00444	0.54029	NA	NA	Ribosomal_L36	Ribosomal protein L36	1747	Cutibacterium acnes
+SRR6145058	k99_11594	k99_11594_2-1892.1	antibacterial	k99_11594_k99_11594_1	2	1892	PF04898	0.54237	CL0036	TIM_barrel	Glu_syn_central	Glutamate synthase central domain	1747	Cutibacterium acnes
+SRR6145058	k99_11594	k99_11594_2-1892.1	antibacterial	k99_11594_k99_11594_1	2	1892	PF00310	0.47776	CL0052	NTN	GATase_2	Glutamine amidotransferases class-II	1747	Cutibacterium acnes
+SRR6145058	k99_11594	k99_11594_3343-7859.1	antibacterial	k99_11594_k99_11594_4	3343	4600	PF00291	0.51429	CL0063	NADP_Rossmann	PALP	Pyridoxal-phosphate dependent enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_11594	k99_11594_3343-7859.1	antibacterial	k99_11594_k99_11594_5	4627	5428	PF00218	0.46737	CL0036	TIM_barrel	IGPS	Indole-3-glycerol phosphate synthase	1747	Cutibacterium acnes
+SRR6145058	k99_11594	k99_11594_3343-7859.1	antibacterial	k99_11594_k99_11594_5	4627	5428	PF04131	0.56304	CL0036	TIM_barrel	NanE	Putative N-acetylmannosamine-6-phosphate epimerase	1747	Cutibacterium acnes
+SRR6145058	k99_11594	k99_11594_3343-7859.1	antibacterial	k99_11594_k99_11594_7	5757	6447	PF09534	0.55692	NA	NA	Trp_oprn_chp	Tryptophan-associated transmembrane protein (Trp_oprn_chp)	1747	Cutibacterium acnes
+SRR6145058	k99_11594	k99_11594_3343-7859.1	antibacterial	k99_11594_k99_11594_9	6757	7150	PF01502	0.64133	NA	NA	PRA-CH	Phosphoribosyl-AMP cyclohydrolase	1747	Cutibacterium acnes
+SRR6145058	k99_11594	k99_11594_3343-7859.1	antibacterial	k99_11594_k99_11594_10	7223	7859	PF11716	0.73504	CL0310	DinB	MDMPI_N	Mycothiol maleylpyruvate isomerase N-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_11594	k99_11594_3343-7859.1	antibacterial	k99_11594_k99_11594_10	7223	7859	PF07398	0.69191	CL0311	SCP2	MDMPI_C	MDMPI C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_8209	k99_8209_2-659.1	antibacterial	k99_8209_k99_8209_1	2	659	PF13439	0.54402	CL0113	GT-B	Glyco_transf_4	Glycosyltransferase Family 4	1747	Cutibacterium acnes
+SRR6145058	k99_8209	k99_8209_2-659.1	antibacterial	k99_8209_k99_8209_1	2	659	PF13579	0.52416	CL0113	GT-B	Glyco_trans_4_4	Glycosyl transferase 4-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_6458	k99_6458_1-955.1	antibacterial	k99_6458_k99_6458_1	1	955	PF01326	0.55886	CL0179	ATP-grasp	PPDK_N	Pyruvate phosphate dikinase, PEP/pyruvate binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_9587	k99_9587_2-1334.1	antibacterial	k99_9587_k99_9587_1	2	521	PF00348	0.61842	CL0613	Terp_synthase	polyprenyl_synt	Polyprenyl synthetase	1747	Cutibacterium acnes
+SRR6145058	k99_9587	k99_9587_2-1334.1	antibacterial	k99_9587_k99_9587_2	551	1334	PF00590	0.51606	NA	NA	TP_methylase	Tetrapyrrole (Corrin/Porphyrin) Methylases	1747	Cutibacterium acnes
+SRR6145058	k99_1345	k99_1345_477-1155.1	antibacterial	k99_1345_k99_1345_1	477	1155	PF02613	0.55204	NA	NA	Nitrate_red_del	Nitrate reductase delta subunit	1747	Cutibacterium acnes
+SRR6145058	k99_1345	k99_1345_1602-1971.1	antibacterial	k99_1345_k99_1345_3	1602	1971	PF03454	0.50915	NA	NA	MoeA_C	MoeA C-terminal region (domain IV)	1747	Cutibacterium acnes
+SRR6145058	k99_8211	k99_8211_189-717.1	antibacterial	k99_8211_k99_8211_2	189	717	PF11349	0.57517	NA	NA	DUF3151	Protein of unknown function (DUF3151)	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_2	133	817	PF01891	0.74445	CL0315	Gx_transp	CbiM	Cobalt uptake substrate-specific transmembrane region	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_3	809	1244	PF02553	0.65684	NA	NA	CbiN	Cobalt transport protein component CbiN	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_4	1240	2086	PF02361	0.60455	NA	NA	CbiQ	Cobalt transport protein	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_5	2082	2376	PF00005	0.57071	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_5	2082	2376	PF13476	0.61835	CL0023	P-loop_NTPase	AAA_23	AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_5	2082	2376	PF05783	0.64899	CL0023	P-loop_NTPase	DLIC	Dynein light intermediate chain (DLIC)	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_5	2082	2376	PF13555	0.71355	CL0023	P-loop_NTPase	AAA_29	P-loop containing region of AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_5	2082	2376	PF13521	0.71354	CL0023	P-loop_NTPase	AAA_28	AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_5	2082	2376	PF13191	0.762	CL0023	P-loop_NTPase	AAA_16	AAA ATPase domain	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_5	2082	2376	PF01935	0.72895	CL0023	P-loop_NTPase	DUF87	Helicase HerA, central domain	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_5	2082	2376	PF12128	0.64954	CL0023	P-loop_NTPase	DUF3584	Protein of unknown function (DUF3584)	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_5	2082	2376	PF02463	0.72385	CL0023	P-loop_NTPase	SMC_N	RecF/RecN/SMC N terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_5	2082	2376	PF05729	0.74276	CL0023	P-loop_NTPase	NACHT	NACHT domain	1747	Cutibacterium acnes
+SRR6145058	k99_8899	k99_8899_133-2376.1	antibacterial	k99_8899_k99_8899_5	2082	2376	PF13304	0.72001	CL0023	P-loop_NTPase	AAA_21	AAA domain, putative AbiEii toxin, Type IV TA system	1747	Cutibacterium acnes
+SRR6145058	k99_6826	k99_6826_0-3641.1	antibacterial	k99_6826_k99_6826_1	0	552	PF01026	0.5468	CL0034	Amidohydrolase	TatD_DNase	TatD related DNase	1747	Cutibacterium acnes
+SRR6145058	k99_6826	k99_6826_0-3641.1	antibacterial	k99_6826_k99_6826_2	548	1445	PF00398	0.61679	CL0063	NADP_Rossmann	RrnaAD	Ribosomal RNA adenine dimethylase	1747	Cutibacterium acnes
+SRR6145058	k99_6826	k99_6826_0-3641.1	antibacterial	k99_6826_k99_6826_3	1468	2440	PF00288	0.61986	CL0329	S5	GHMP_kinases_N	GHMP kinases N terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_6826	k99_6826_0-3641.1	antibacterial	k99_6826_k99_6826_3	1468	2440	PF08544	0.57805	CL0677	GHMP_C	GHMP_kinases_C	GHMP kinases C terminal	1747	Cutibacterium acnes
+SRR6145058	k99_6826	k99_6826_0-3641.1	antibacterial	k99_6826_k99_6826_4	2436	2976	PF12802	0.58603	CL0123	HTH	MarR_2	MarR family	1747	Cutibacterium acnes
+SRR6145058	k99_6826	k99_6826_0-3641.1	antibacterial	k99_6826_k99_6826_4	2436	2976	PF01047	0.55631	CL0123	HTH	MarR	MarR family	1747	Cutibacterium acnes
+SRR6145058	k99_6826	k99_6826_0-3641.1	antibacterial	k99_6826_k99_6826_4	2436	2976	PF13463	0.53774	CL0123	HTH	HTH_27	Winged helix DNA-binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_6826	k99_6826_0-3641.1	antibacterial	k99_6826_k99_6826_5	2957	3641	PF00440	0.61012	CL0123	HTH	TetR_N	Bacterial regulatory proteins, tetR family	1747	Cutibacterium acnes
+SRR6145058	k99_7577	k99_7577_202-331.1	antibacterial	k99_7577_k99_7577_1	202	331	PF14110	0.54766	NA	NA	DUF4282	Domain of unknown function (DUF4282)	1747	Cutibacterium acnes
+SRR6145058	k99_7577	k99_7577_2178-2514.1	antibacterial	k99_7577_k99_7577_3	2178	2514	PF13602	0.62064	CL0063	NADP_Rossmann	ADH_zinc_N_2	Zinc-binding dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_1656	k99_1656_2-233.1	antibacterial	k99_1656_k99_1656_1	2	233	PF01262	0.5792	CL0063	NADP_Rossmann	AlaDh_PNT_C	Alanine dehydrogenase/PNT, C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_8587	k99_8587_247-2911.1	antibacterial	k99_8587_k99_8587_2	247	1939	PF13088	0.55946	CL0434	Sialidase	BNR_2	BNR repeat-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_8587	k99_8587_247-2911.1	antibacterial	k99_8587_k99_8587_3	2140	2911	PF13829	0.52573	NA	NA	DUF4191	Domain of unknown function (DUF4191)	1747	Cutibacterium acnes
+SRR6145058	k99_6772	k99_6772_1-664.1	antibacterial	k99_6772_k99_6772_1	1	664	PF00925	0.56978	NA	NA	GTP_cyclohydro2	GTP cyclohydrolase II	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9084	k99_9084_431-1998.1	antibacterial	k99_9084_k99_9084_2	431	1088	PF06283	0.60782	CL0014	Glutaminase_I	ThuA	Trehalose utilisation	1747	Cutibacterium acnes
+SRR6145058	k99_9084	k99_9084_431-1998.1	antibacterial	k99_9084_k99_9084_3	1290	1998	PF01261	0.60423	CL0036	TIM_barrel	AP_endonuc_2	Xylose isomerase-like TIM barrel	1747	Cutibacterium acnes
+SRR6145058	k99_9660	k99_9660_1-274.1	antibacterial	k99_9660_k99_9660_1	1	274	PF06758	0.52866	NA	NA	Olduvai	Olduvai domain	9606	Homo sapiens
+SRR6145058	k99_10284	k99_10284_119-509.1	antibacterial	k99_10284_k99_10284_1	119	509	PF13340	0.66942	NA	NA	DUF4096	Putative transposase of IS4/5 family (DUF4096)	1747	Cutibacterium acnes
+SRR6145058	k99_9086	k99_9086_2-440.1	antibacterial	k99_9086_k99_9086_1	2	440	PF02687	0.5222	CL0404	BPD_transp_1	FtsX	FtsX-like permease family	1747	Cutibacterium acnes
+SRR6145058	k99_9216	k99_9216_0-1093.1	antibacterial	k99_9216_k99_9216_1	0	600	PF00196	0.78682	CL0123	HTH	GerE	Bacterial regulatory proteins, luxR family	1747	Cutibacterium acnes
+SRR6145058	k99_9216	k99_9216_0-1093.1	antibacterial	k99_9216_k99_9216_1	0	600	PF04545	0.70187	CL0123	HTH	Sigma70_r4	Sigma-70, region 4	1747	Cutibacterium acnes
+SRR6145058	k99_9216	k99_9216_0-1093.1	antibacterial	k99_9216_k99_9216_1	0	600	PF14493	0.70965	CL0123	HTH	HTH_40	Helix-turn-helix domain	1747	Cutibacterium acnes
+SRR6145058	k99_9216	k99_9216_0-1093.1	antibacterial	k99_9216_k99_9216_1	0	600	PF08281	0.70763	CL0123	HTH	Sigma70_r4_2	Sigma-70, region 4	1747	Cutibacterium acnes
+SRR6145058	k99_9216	k99_9216_0-1093.1	antibacterial	k99_9216_k99_9216_1	0	600	PF13936	0.6869	CL0123	HTH	HTH_38	Helix-turn-helix domain	1747	Cutibacterium acnes
+SRR6145058	k99_9216	k99_9216_0-1093.1	antibacterial	k99_9216_k99_9216_1	0	600	PF00072	0.66131	CL0304	CheY	Response_reg	Response regulator receiver domain	1747	Cutibacterium acnes
+SRR6145058	k99_9216	k99_9216_0-1093.1	antibacterial	k99_9216_k99_9216_2	604	1093	PF02518	0.66659	CL0025	His_Kinase_A	HATPase_c	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	1747	Cutibacterium acnes
+SRR6145058	k99_9216	k99_9216_0-1093.1	antibacterial	k99_9216_k99_9216_2	604	1093	PF07730	0.78917	CL0025	His_Kinase_A	HisKA_3	Histidine kinase	1747	Cutibacterium acnes
+SRR6145058	k99_9087	k99_9087_161-1016.1	antibacterial	k99_9087_k99_9087_2	161	1016	PF03976	0.50258	CL0023	P-loop_NTPase	PPK2	Polyphosphate kinase 2 (PPK2)	1747	Cutibacterium acnes
+SRR6145058	k99_5447	k99_5447_0-2309.1	inhibitor	k99_5447_k99_5447_1	0	843	PF06609	0.66095	CL0015	MFS	TRI12	Fungal trichothecene efflux pump (TRI12)	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5447	k99_5447_0-2309.1	inhibitor	k99_5447_k99_5447_1	0	843	PF07690	0.69297	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5447	k99_5447_0-2309.1	inhibitor	k99_5447_k99_5447_1	0	843	PF00083	0.69218	CL0015	MFS	Sugar_tr	Sugar (and other) transporter	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5447	k99_5447_0-2309.1	inhibitor	k99_5447_k99_5447_1	0	843	PF06779	0.69159	CL0015	MFS	MFS_4	Uncharacterised MFS-type transporter YbfB	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5447	k99_5447_0-2309.1	inhibitor	k99_5447_k99_5447_1	0	843	PF13347	0.71739	CL0015	MFS	MFS_2	MFS/sugar transport protein	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5447	k99_5447_0-2309.1	inhibitor	k99_5447_k99_5447_2	937	1546	PF00440	0.70611	CL0123	HTH	TetR_N	Bacterial regulatory proteins, tetR family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5447	k99_5447_0-2309.1	inhibitor	k99_5447_k99_5447_2	937	1546	PF13022	0.6674	CL0123	HTH	HTH_Tnp_1_2	Helix-turn-helix of insertion element transposase	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5447	k99_5447_0-2309.1	inhibitor	k99_5447_k99_5447_2	937	1546	PF08279	0.58637	CL0123	HTH	HTH_11	HTH domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5447	k99_5447_0-2309.1	inhibitor	k99_5447_k99_5447_2	937	1546	PF13384	0.61958	CL0123	HTH	HTH_23	Homeodomain-like domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5447	k99_5447_0-2309.1	inhibitor	k99_5447_k99_5447_2	937	1546	PF00356	0.58917	CL0123	HTH	LacI	Bacterial regulatory proteins, lacI family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5447	k99_5447_0-2309.1	inhibitor	k99_5447_k99_5447_3	1628	2309	PF04893	0.56557	CL0112	Yip1	Yip1	Yip1 domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_11720	k99_11720_259-1201.1	antibacterial	k99_11720_k99_11720_1	259	1201	PF12697	0.56684	CL0028	AB_hydrolase	Abhydrolase_6	Alpha/beta hydrolase family	1747	Cutibacterium acnes
+SRR6145058	k99_11720	k99_11720_259-1201.1	antibacterial	k99_11720_k99_11720_1	259	1201	PF12146	0.52845	CL0028	AB_hydrolase	Hydrolase_4	Serine aminopeptidase, S33	1747	Cutibacterium acnes
+SRR6145058	k99_11720	k99_11720_259-1201.1	antibacterial	k99_11720_k99_11720_1	259	1201	PF00561	0.52767	CL0028	AB_hydrolase	Abhydrolase_1	alpha/beta hydrolase fold	1747	Cutibacterium acnes
+SRR6145058	k99_11720	k99_11720_259-1201.1	antibacterial	k99_11720_k99_11720_1	259	1201	PF06821	0.4934	CL0028	AB_hydrolase	Ser_hydrolase	Serine hydrolase	1747	Cutibacterium acnes
+SRR6145058	k99_5004	k99_5004_202-1027.1	antibacterial	k99_5004_k99_5004_1	202	1027	PF02698	0.57241	NA	NA	DUF218	DUF218 domain	1747	Cutibacterium acnes
+SRR6145058	k99_10468	k99_10468_33-2710.1	antibacterial	k99_10468_k99_10468_1	33	510	PF07883	0.73133	CL0029	Cupin	Cupin_2	Cupin domain	1747	Cutibacterium acnes
+SRR6145058	k99_10468	k99_10468_33-2710.1	antibacterial	k99_10468_k99_10468_3	876	1293	PF15795	0.63109	NA	NA	Spec3	Ectodermal ciliogenesis protein	1747	Cutibacterium acnes
+SRR6145058	k99_10468	k99_10468_33-2710.1	antibacterial	k99_10468_k99_10468_4	1414	2710	PF01156	0.58451	NA	NA	IU_nuc_hydro	Inosine-uridine preferring nucleoside hydrolase	1747	Cutibacterium acnes
+SRR6145058	k99_1657	k99_1657_167-1541.1	antibacterial	k99_1657_k99_1657_2	167	1541	PF02775	0.52657	CL0254	THDP-binding	TPP_enzyme_C	Thiamine pyrophosphate enzyme, C-terminal TPP binding domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_1657	k99_1657_167-1541.1	antibacterial	k99_1657_k99_1657_2	167	1541	PF00205	0.50774	CL0085	FAD_DHS	TPP_enzyme_M	Thiamine pyrophosphate enzyme, central domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_3548	k99_3548_1-2581.1	antibacterial	k99_3548_k99_3548_1	1	1549	PF09594	0.71173	CL0111	GT-C	GT87	Glycosyltransferase family 87	1747	Cutibacterium acnes
+SRR6145058	k99_3548	k99_3548_1-2581.1	antibacterial	k99_3548_k99_3548_2	1645	2581	PF16113	0.62628	CL0127	ClpP_crotonase	ECH_2	Enoyl-CoA hydratase/isomerase	1747	Cutibacterium acnes
+SRR6145058	k99_3548	k99_3548_1-2581.1	antibacterial	k99_3548_k99_3548_2	1645	2581	PF00378	0.59912	CL0127	ClpP_crotonase	ECH_1	Enoyl-CoA hydratase/isomerase	1747	Cutibacterium acnes
+SRR6145058	k99_6190	k99_6190_0-1227.1	antibacterial	k99_6190_k99_6190_1	0	1227	PF00501	0.64357	CL0378	ANL	AMP-binding	AMP-binding enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_7264	k99_7264_2-1298.1	antibacterial	k99_7264_k99_7264_1	2	1298	PF05088	0.50922	CL0063	NADP_Rossmann	Bac_GDH	Bacterial NAD-glutamate dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_4056	k99_4056_0-381.1	antibacterial	k99_4056_k99_4056_1	0	381	PF03379	0.49432	CL0181	ABC-2	CcmB	CcmB protein	1747	Cutibacterium acnes
+SRR6145058	k99_4056	k99_4056_0-381.1	antibacterial	k99_4056_k99_4056_1	0	381	PF01061	0.51631	CL0181	ABC-2	ABC2_membrane	ABC-2 type transporter	1747	Cutibacterium acnes
+SRR6145058	k99_4056	k99_4056_0-381.1	antibacterial	k99_4056_k99_4056_1	0	381	PF12679	0.54152	CL0181	ABC-2	ABC2_membrane_2	ABC-2 family transporter protein	1747	Cutibacterium acnes
+SRR6145058	k99_11172	k99_11172_0-2609.1	antibacterial	k99_11172_k99_11172_1	0	810	PF00664	0.8229	CL0241	ABC_membrane	ABC_membrane	ABC transporter transmembrane region	1747	Cutibacterium acnes
+SRR6145058	k99_11172	k99_11172_0-2609.1	antibacterial	k99_11172_k99_11172_2	806	2609	PF00005	0.70154	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_11172	k99_11172_0-2609.1	antibacterial	k99_11172_k99_11172_2	806	2609	PF00664	0.77039	CL0241	ABC_membrane	ABC_membrane	ABC transporter transmembrane region	1747	Cutibacterium acnes
+SRR6145058	k99_6323	k99_6323_687-3738.1	inhibitor	k99_6323_k99_6323_2	687	1827	PF13367	0.51849	CL0472	Peptidase_U	PrsW-protease	PrsW family intramembrane metalloprotease	1747	Cutibacterium acnes
+SRR6145058	k99_6323	k99_6323_687-3738.1	inhibitor	k99_6323_k99_6323_3	2201	3257	PF08240	0.53908	CL0296	GroES	ADH_N	Alcohol dehydrogenase GroES-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_6323	k99_6323_687-3738.1	inhibitor	k99_6323_k99_6323_3	2201	3257	PF01262	0.55387	CL0063	NADP_Rossmann	AlaDh_PNT_C	Alanine dehydrogenase/PNT, C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_6323	k99_6323_687-3738.1	inhibitor	k99_6323_k99_6323_3	2201	3257	PF00107	0.58885	CL0063	NADP_Rossmann	ADH_zinc_N	Zinc-binding dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_6323	k99_6323_687-3738.1	inhibitor	k99_6323_k99_6323_3	2201	3257	PF13602	0.58078	CL0063	NADP_Rossmann	ADH_zinc_N_2	Zinc-binding dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_6323	k99_6323_687-3738.1	inhibitor	k99_6323_k99_6323_4	3606	3738	PF02826	0.5056	CL0063	NADP_Rossmann	2-Hacid_dh_C	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_11291	k99_11291_2-2767.1	antibacterial	k99_11291_k99_11291_1	2	518	PF07690	0.80942	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_11291	k99_11291_2-2767.1	antibacterial	k99_11291_k99_11291_3	1107	2415	PF13535	0.72791	CL0179	ATP-grasp	ATP-grasp_4	ATP-grasp domain	1747	Cutibacterium acnes
+SRR6145058	k99_11291	k99_11291_2-2767.1	antibacterial	k99_11291_k99_11291_3	1107	2415	PF02655	0.68914	CL0179	ATP-grasp	ATP-grasp_3	ATP-grasp domain	1747	Cutibacterium acnes
+SRR6145058	k99_11291	k99_11291_2-2767.1	antibacterial	k99_11291_k99_11291_4	2401	2767	PF00561	0.71191	CL0028	AB_hydrolase	Abhydrolase_1	alpha/beta hydrolase fold	1747	Cutibacterium acnes
+SRR6145058	k99_8537	k99_8537_301-3342.1	antibacterial	k99_8537_k99_8537_1	301	925	PF07021	0.71127	CL0063	NADP_Rossmann	MetW	Methionine biosynthesis protein MetW	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8537	k99_8537_301-3342.1	antibacterial	k99_8537_k99_8537_2	921	1413	PF12802	0.69092	CL0123	HTH	MarR_2	MarR family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8537	k99_8537_301-3342.1	antibacterial	k99_8537_k99_8537_2	921	1413	PF13412	0.69603	CL0123	HTH	HTH_24	Winged helix-turn-helix DNA-binding	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8537	k99_8537_301-3342.1	antibacterial	k99_8537_k99_8537_2	921	1413	PF13404	0.71348	CL0123	HTH	HTH_AsnC-type	AsnC-type helix-turn-helix domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8537	k99_8537_301-3342.1	antibacterial	k99_8537_k99_8537_2	921	1413	PF01047	0.71904	CL0123	HTH	MarR	MarR family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8537	k99_8537_301-3342.1	antibacterial	k99_8537_k99_8537_2	921	1413	PF08279	0.69973	CL0123	HTH	HTH_11	HTH domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8537	k99_8537_301-3342.1	antibacterial	k99_8537_k99_8537_2	921	1413	PF09339	0.76126	CL0123	HTH	HTH_IclR	IclR helix-turn-helix domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8537	k99_8537_301-3342.1	antibacterial	k99_8537_k99_8537_2	921	1413	PF01037	0.72049	CL0032	Dim_A_B_barrel	AsnC_trans_reg	Lrp/AsnC ligand binding domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8537	k99_8537_301-3342.1	antibacterial	k99_8537_k99_8537_3	1409	2999	PF00795	0.6696	NA	NA	CN_hydrolase	Carbon-nitrogen hydrolase	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8537	k99_8537_301-3342.1	antibacterial	k99_8537_k99_8537_4	2979	3342	PF13641	0.60544	CL0110	GT-A	Glyco_tranf_2_3	Glycosyltransferase like family 2	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8537	k99_8537_301-3342.1	antibacterial	k99_8537_k99_8537_4	2979	3342	PF00535	0.55725	CL0110	GT-A	Glycos_transf_2	Glycosyl transferase family 2	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8537	k99_8537_301-3342.1	antibacterial	k99_8537_k99_8537_4	2979	3342	PF10111	0.55071	CL0110	GT-A	Glyco_tranf_2_2	Glycosyltransferase like family 2	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7525	k99_7525_2-638.1	antibacterial	k99_7525_k99_7525_1	2	638	PF02776	0.55333	CL0254	THDP-binding	TPP_enzyme_N	Thiamine pyrophosphate enzyme, N-terminal TPP binding domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5644	k99_5644_274-2695.1	antibacterial	k99_5644_k99_5644_1	274	2695	PF04185	0.56056	CL0088	Alk_phosphatase	Phosphoesterase	Phosphoesterase family	1747	Cutibacterium acnes
+SRR6145058	k99_3918	k99_3918_129-1122.1	antibacterial	k99_3918_k99_3918_1	129	1122	PF10081	0.60649	CL0028	AB_hydrolase	Abhydrolase_9	Alpha/beta-hydrolase family	1747	Cutibacterium acnes
+SRR6145058	k99_1102	k99_1102_0-1229.1	antibacterial	k99_1102_k99_1102_1	0	1077	PF00115	0.63773	NA	NA	COX1	Cytochrome C and Quinol oxidase polypeptide I	1747	Cutibacterium acnes
+SRR6145058	k99_1102	k99_1102_0-1229.1	antibacterial	k99_1102_k99_1102_2	1076	1229	PF12270	0.62967	NA	NA	Cyt_c_ox_IV	Cytochrome c oxidase subunit IV	1747	Cutibacterium acnes
+SRR6145058	k99_11535	k99_11535_2-1199.1	NA	k99_11535_k99_11535_1	2	1199	PF00069	0.61434	CL0016	PKinase	Pkinase	Protein kinase domain	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_11535	k99_11535_2-1199.1	NA	k99_11535_k99_11535_1	2	1199	PF07714	0.59466	CL0016	PKinase	Pkinase_Tyr	Protein tyrosine kinase	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_11535	k99_11535_2-1199.1	NA	k99_11535_k99_11535_1	2	1199	PF01636	0.5874	CL0016	PKinase	APH	Phosphotransferase enzyme family	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_11535	k99_11535_2-1199.1	NA	k99_11535_k99_11535_1	2	1199	PF06293	0.56033	CL0016	PKinase	Kdo	Lipopolysaccharide kinase (Kdo/WaaP) family	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_11658	k99_11658_312-591.1	antibacterial	k99_11658_k99_11658_1	312	591	PF07561	0.50251	NA	NA	DUF1540	Domain of Unknown Function (DUF1540)	1747	Cutibacterium acnes
+SRR6145058	k99_2853	k99_2853_2-4855.1	antibacterial	k99_2853_k99_2853_1	2	2072	PF00343	0.53091	CL0113	GT-B	Phosphorylase	Carbohydrate phosphorylase	1747	Cutibacterium acnes
+SRR6145058	k99_2853	k99_2853_2-4855.1	antibacterial	k99_2853_k99_2853_2	2126	3413	PF00654	0.53842	NA	NA	Voltage_CLC	Voltage gated chloride channel	1747	Cutibacterium acnes
+SRR6145058	k99_2853	k99_2853_2-4855.1	antibacterial	k99_2853_k99_2853_3	3457	4855	PF00171	0.6398	CL0099	ALDH-like	Aldedh	Aldehyde dehydrogenase family	1747	Cutibacterium acnes
+SRR6145058	k99_8349	k99_8349_40-1657.1	antibacterial-antifungal	k99_8349_k99_8349_1	40	1657	PF07690	0.57092	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8349	k99_8349_40-1657.1	antibacterial-antifungal	k99_8349_k99_8349_1	40	1657	PF00083	0.55886	CL0015	MFS	Sugar_tr	Sugar (and other) transporter	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8349	k99_8349_40-1657.1	antibacterial-antifungal	k99_8349_k99_8349_1	40	1657	PF13347	0.55413	CL0015	MFS	MFS_2	MFS/sugar transport protein	1234380	Cutibacterium acnes C1
+SRR6145058	k99_1475	k99_1475_0-633.1	antibacterial	k99_1475_k99_1475_1	0	633	PF00083	0.6482	CL0015	MFS	Sugar_tr	Sugar (and other) transporter	1747	Cutibacterium acnes
+SRR6145058	k99_1475	k99_1475_0-633.1	antibacterial	k99_1475_k99_1475_1	0	633	PF07690	0.66916	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_1475	k99_1475_0-633.1	antibacterial	k99_1475_k99_1475_1	0	633	PF13347	0.67207	CL0015	MFS	MFS_2	MFS/sugar transport protein	1747	Cutibacterium acnes
+SRR6145058	k99_1475	k99_1475_0-633.1	antibacterial	k99_1475_k99_1475_1	0	633	PF05977	0.65939	CL0015	MFS	MFS_3	Transmembrane secretion effector	1747	Cutibacterium acnes
+SRR6145058	k99_1475	k99_1475_0-633.1	antibacterial	k99_1475_k99_1475_1	0	633	PF06779	0.60712	CL0015	MFS	MFS_4	Uncharacterised MFS-type transporter YbfB	1747	Cutibacterium acnes
+SRR6145058	k99_2804	k99_2804_89-1885.1	NA	k99_2804_k99_2804_1	89	380	PF01337	0.7573	NA	NA	Barstar	Barstar (barnase inhibitor)	1747	Cutibacterium acnes
+SRR6145058	k99_2804	k99_2804_89-1885.1	NA	k99_2804_k99_2804_2	376	820	PF00545	0.69433	NA	NA	Ribonuclease	ribonuclease	1747	Cutibacterium acnes
+SRR6145058	k99_2804	k99_2804_89-1885.1	NA	k99_2804_k99_2804_3	946	1885	PF00069	0.71852	CL0016	PKinase	Pkinase	Protein kinase domain	1747	Cutibacterium acnes
+SRR6145058	k99_2804	k99_2804_89-1885.1	NA	k99_2804_k99_2804_3	946	1885	PF07714	0.71776	CL0016	PKinase	Pkinase_Tyr	Protein tyrosine kinase	1747	Cutibacterium acnes
+SRR6145058	k99_2804	k99_2804_89-1885.1	NA	k99_2804_k99_2804_3	946	1885	PF14531	0.7084	CL0016	PKinase	Kinase-like	Kinase-like	1747	Cutibacterium acnes
+SRR6145058	k99_1476	k99_1476_689-1592.1	antibacterial-antifungal	k99_1476_k99_1476_2	689	1592	PF07690	0.5871	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_1476	k99_1476_689-1592.1	antibacterial-antifungal	k99_1476_k99_1476_2	689	1592	PF06779	0.56985	CL0015	MFS	MFS_4	Uncharacterised MFS-type transporter YbfB	1747	Cutibacterium acnes
+SRR6145058	k99_1476	k99_1476_689-1592.1	antibacterial-antifungal	k99_1476_k99_1476_2	689	1592	PF00083	0.57173	CL0015	MFS	Sugar_tr	Sugar (and other) transporter	1747	Cutibacterium acnes
+SRR6145058	k99_7461	k99_7461_566-3227.1	antibacterial	k99_7461_k99_7461_2	566	3227	PF05593	0.60642	NA	NA	RHS_repeat	RHS Repeat	1747	Cutibacterium acnes
+SRR6145058	k99_10863	k99_10863_140-746.1	antibacterial	k99_10863_k99_10863_2	140	746	PF03703	0.52252	CL0266	PH	bPH_2	Bacterial PH domain	1747	Cutibacterium acnes
+SRR6145058	k99_11543	k99_11543_51-909.1	antibacterial	k99_11543_k99_11543_1	51	909	PF13672	0.51236	CL0238	PP2C	PP2C_2	Protein phosphatase 2C	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10105	k99_10105_2-1676.1	antibacterial	k99_10105_k99_10105_1	2	1676	PF05088	0.50922	CL0063	NADP_Rossmann	Bac_GDH	Bacterial NAD-glutamate dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_1927	k99_1927_1780-2281.1	antibacterial	k99_1927_k99_1927_4	1780	2281	PF08768	0.52302	CL0116	Calycin	DUF1794	Domain of unknown function (DUF1794)	1747	Cutibacterium acnes
+SRR6145058	k99_1107	k99_1107_586-2268.1	antibacterial	k99_1107_k99_1107_3	586	1087	PF00994	0.51071	NA	NA	MoCF_biosynth	Probable molybdopterin binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_1107	k99_1107_586-2268.1	antibacterial	k99_1107_k99_1107_4	1383	2268	PF12804	0.53126	CL0110	GT-A	NTP_transf_3	MobA-like NTP transferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_7843	k99_7843_99-924.1	antibacterial	k99_7843_k99_7843_1	99	924	PF01648	0.62192	CL0670	4PPT	ACPS	4'-phosphopantetheinyl transferase superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_9802	k99_9802_2-2163.1	antibacterial	k99_9802_k99_9802_1	2	518	PF04131	0.59461	CL0036	TIM_barrel	NanE	Putative N-acetylmannosamine-6-phosphate epimerase	1747	Cutibacterium acnes
+SRR6145058	k99_9802	k99_9802_2-2163.1	antibacterial	k99_9802_k99_9802_2	550	1522	PF00701	0.54767	CL0036	TIM_barrel	DHDPS	Dihydrodipicolinate synthetase family	1747	Cutibacterium acnes
+SRR6145058	k99_9802	k99_9802_2-2163.1	antibacterial	k99_9802_k99_9802_3	1518	2163	PF16154	0.5113	NA	NA	DUF4862	Domain of unknown function (DUF4862)	1747	Cutibacterium acnes
+SRR6145058	k99_9802	k99_9802_2-2163.1	antibacterial	k99_9802_k99_9802_3	1518	2163	PF01261	0.51929	CL0036	TIM_barrel	AP_endonuc_2	Xylose isomerase-like TIM barrel	1747	Cutibacterium acnes
+SRR6145058	k99_1108	k99_1108_356-2496.1	inhibitor	k99_1108_k99_1108_2	356	1802	PF06609	0.66389	CL0015	MFS	TRI12	Fungal trichothecene efflux pump (TRI12)	1747	Cutibacterium acnes
+SRR6145058	k99_1108	k99_1108_356-2496.1	inhibitor	k99_1108_k99_1108_2	356	1802	PF00083	0.66473	CL0015	MFS	Sugar_tr	Sugar (and other) transporter	1747	Cutibacterium acnes
+SRR6145058	k99_1108	k99_1108_356-2496.1	inhibitor	k99_1108_k99_1108_2	356	1802	PF07690	0.6507	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_1108	k99_1108_356-2496.1	inhibitor	k99_1108_k99_1108_3	1830	2496	PF13556	0.60731	CL0123	HTH	HTH_30	PucR C-terminal helix-turn-helix domain	1747	Cutibacterium acnes
+SRR6145058	k99_2932	k99_2932_0-225.1	antibacterial	k99_2932_k99_2932_1	0	225	PF00478	0.59468	CL0036	TIM_barrel	IMPDH	IMP dehydrogenase / GMP reductase domain	1747	Cutibacterium acnes
+SRR6145058	k99_7079	k99_7079_207-2760.1	antibacterial	k99_7079_k99_7079_1	207	1338	PF04055	0.58062	CL0036	TIM_barrel	Radical_SAM	Radical SAM superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_7079	k99_7079_207-2760.1	antibacterial	k99_7079_k99_7079_2	1422	2760	PF02812	0.50814	CL0603	AA_dh_N	ELFV_dehydrog_N	Glu/Leu/Phe/Val dehydrogenase, dimerisation domain	1747	Cutibacterium acnes
+SRR6145058	k99_7079	k99_7079_207-2760.1	antibacterial	k99_7079_k99_7079_2	1422	2760	PF00208	0.49698	CL0063	NADP_Rossmann	ELFV_dehydrog	Glutamate/Leucine/Phenylalanine/Valine dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_1728	k99_1728_346-1039.1	antibacterial	k99_1728_k99_1728_2	346	1039	PF01301	0.50677	CL0058	Glyco_hydro_tim	Glyco_hydro_35	Glycosyl hydrolases family 35	1747	Cutibacterium acnes
+SRR6145058	k99_3687	k99_3687_2088-2667.1	antibacterial	k99_3687_k99_3687_4	2088	2667	PF13578	0.50689	CL0063	NADP_Rossmann	Methyltransf_24	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_8785	k99_8785_2-1749.1	antibacterial	k99_8785_k99_8785_1	2	1112	PF13524	0.75105	CL0113	GT-B	Glyco_trans_1_2	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_8785	k99_8785_2-1749.1	antibacterial	k99_8785_k99_8785_1	2	1112	PF00534	0.69038	CL0113	GT-B	Glycos_transf_1	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_8785	k99_8785_2-1749.1	antibacterial	k99_8785_k99_8785_1	2	1112	PF13692	0.65219	CL0113	GT-B	Glyco_trans_1_4	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_8785	k99_8785_2-1749.1	antibacterial	k99_8785_k99_8785_1	2	1112	PF13439	0.61698	CL0113	GT-B	Glyco_transf_4	Glycosyltransferase Family 4	1747	Cutibacterium acnes
+SRR6145058	k99_8785	k99_8785_2-1749.1	antibacterial	k99_8785_k99_8785_1	2	1112	PF13579	0.60389	CL0113	GT-B	Glyco_trans_4_4	Glycosyl transferase 4-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_8785	k99_8785_2-1749.1	antibacterial	k99_8785_k99_8785_1	2	1112	PF13477	0.57397	CL0113	GT-B	Glyco_trans_4_2	Glycosyl transferase 4-like	1747	Cutibacterium acnes
+SRR6145058	k99_8785	k99_8785_2-1749.1	antibacterial	k99_8785_k99_8785_2	1230	1749	PF04932	0.64439	CL0499	O-anti_assembly	Wzy_C	O-Antigen ligase	1747	Cutibacterium acnes
+SRR6145058	k99_10993	k99_10993_0-2850.1	antibacterial	k99_10993_k99_10993_1	0	318	PF08240	0.54883	CL0296	GroES	ADH_N	Alcohol dehydrogenase GroES-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_10993	k99_10993_0-2850.1	antibacterial	k99_10993_k99_10993_1	0	318	PF16884	0.50396	CL0296	GroES	ADH_N_2	N-terminal domain of oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_10993	k99_10993_0-2850.1	antibacterial	k99_10993_k99_10993_4	2364	2850	PF06197	0.50549	CL0412	Frag1-like	DUF998	Protein of unknown function (DUF998)	1747	Cutibacterium acnes
+SRR6145058	k99_9094	k99_9094_2-872.1	antibacterial	k99_9094_k99_9094_1	2	872	PF00150	0.52987	CL0058	Glyco_hydro_tim	Cellulase	Cellulase (glycosyl hydrolase family 5)	1747	Cutibacterium acnes
+SRR6145058	k99_5195	k99_5195_2-1852.1	antibacterial	k99_5195_k99_5195_1	2	920	PF13320	0.52411	NA	NA	DUF4091	Domain of unknown function (DUF4091)	1747	Cutibacterium acnes
+SRR6145058	k99_5195	k99_5195_2-1852.1	antibacterial	k99_5195_k99_5195_2	916	1852	PF00528	0.51482000000000006	CL0404	BPD_transp_1	BPD_transp_1	Binding-protein-dependent transport system inner membrane component	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_1	48	1056	PF00561	0.85616	CL0028	AB_hydrolase	Abhydrolase_1	alpha/beta hydrolase fold	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_1	48	1056	PF12697	0.86155	CL0028	AB_hydrolase	Abhydrolase_6	Alpha/beta hydrolase family	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_1	48	1056	PF12146	0.85428	CL0028	AB_hydrolase	Hydrolase_4	Serine aminopeptidase, S33	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_2	1093	1846	PF02592	0.81357	NA	NA	Vut_1	Putative vitamin uptake transporter	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_3	2027	3239	PF12698	0.83831	CL0181	ABC-2	ABC2_membrane_3	ABC-2 family transporter protein	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_3	2027	3239	PF12679	0.85095	CL0181	ABC-2	ABC2_membrane_2	ABC-2 family transporter protein	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_4	3235	4168	PF13732	0.86316	NA	NA	DUF4162	Domain of unknown function (DUF4162)	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_4	3235	4168	PF13304	0.83695	CL0023	P-loop_NTPase	AAA_21	AAA domain, putative AbiEii toxin, Type IV TA system	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_4	3235	4168	PF00005	0.86089	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_5	4252	4909	PF00196	0.86821	CL0123	HTH	GerE	Bacterial regulatory proteins, luxR family	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_5	4252	4909	PF08281	0.85549	CL0123	HTH	Sigma70_r4_2	Sigma-70, region 4	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_5	4252	4909	PF01371	0.79714	CL0123	HTH	Trp_repressor	Trp repressor protein	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_5	4252	4909	PF13936	0.82284	CL0123	HTH	HTH_38	Helix-turn-helix domain	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_5	4252	4909	PF07638	0.78114	CL0123	HTH	Sigma70_ECF	ECF sigma factor	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_5	4252	4909	PF00072	0.77395	CL0304	CheY	Response_reg	Response regulator receiver domain	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_6	4908	6258	PF02518	0.74344	CL0025	His_Kinase_A	HATPase_c	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_6	4908	6258	PF07730	0.83258	CL0025	His_Kinase_A	HisKA_3	Histidine kinase	1747	Cutibacterium acnes
+SRR6145058	k99_11979	k99_11979_48-6860.1	antibacterial	k99_11979_k99_11979_7	6305	6860	PF01702	0.61748	NA	NA	TGT	Queuine tRNA-ribosyltransferase	1747	Cutibacterium acnes
+SRR6145058	k99_2299	k99_2299_241-1797.1	antibacterial	k99_2299_k99_2299_2	241	1168	PF02195	0.53951	CL0248	ParBc	ParBc	ParB-like nuclease domain	1747	Cutibacterium acnes
+SRR6145058	k99_2299	k99_2299_241-1797.1	antibacterial	k99_2299_k99_2299_3	1425	1797	PF12823	0.64926	NA	NA	DUF3817	Domain of unknown function (DUF3817)	1747	Cutibacterium acnes
+SRR6145058	k99_6477	k99_6477_2-3622.1	antibacterial	k99_6477_k99_6477_1	2	2300	PF00873	0.64896	CL0322	RND_permease	ACR_tran	AcrB/AcrD/AcrF family	1747	Cutibacterium acnes
+SRR6145058	k99_6477	k99_6477_2-3622.1	antibacterial	k99_6477_k99_6477_1	2	2300	PF03176	0.68482	CL0322	RND_permease	MMPL	MMPL family	1747	Cutibacterium acnes
+SRR6145058	k99_6477	k99_6477_2-3622.1	antibacterial	k99_6477_k99_6477_1	2	2300	PF12349	0.69105	CL0322	RND_permease	Sterol-sensing	Sterol-sensing domain of SREBP cleavage-activation	1747	Cutibacterium acnes
+SRR6145058	k99_6477	k99_6477_2-3622.1	antibacterial	k99_6477_k99_6477_1	2	2300	PF02460	0.63952	CL0322	RND_permease	Patched	Patched family	1747	Cutibacterium acnes
+SRR6145058	k99_6477	k99_6477_2-3622.1	antibacterial	k99_6477_k99_6477_2	2419	3052	PF00440	0.71794	CL0123	HTH	TetR_N	Bacterial regulatory proteins, tetR family	1747	Cutibacterium acnes
+SRR6145058	k99_6477	k99_6477_2-3622.1	antibacterial	k99_6477_k99_6477_2	2419	3052	PF13977	0.67412	CL0174	TetR_C	TetR_C_6	BetI-type transcriptional repressor, C-terminal	1747	Cutibacterium acnes
+SRR6145058	k99_6477	k99_6477_2-3622.1	antibacterial	k99_6477_k99_6477_2	2419	3052	PF16859	0.72045	CL0174	TetR_C	TetR_C_11	Tetracyclin repressor-like, C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_6477	k99_6477_2-3622.1	antibacterial	k99_6477_k99_6477_3	3124	3622	PF16363	0.62712	CL0063	NADP_Rossmann	GDP_Man_Dehyd	GDP-mannose 4,6 dehydratase	1747	Cutibacterium acnes
+SRR6145058	k99_6477	k99_6477_2-3622.1	antibacterial	k99_6477_k99_6477_3	3124	3622	PF01370	0.56402	CL0063	NADP_Rossmann	Epimerase	NAD dependent epimerase/dehydratase family	1747	Cutibacterium acnes
+SRR6145058	k99_4941	k99_4941_4704-7074.1	antibacterial	k99_4941_k99_4941_7	4704	5991	PF05977	0.59254	CL0015	MFS	MFS_3	Transmembrane secretion effector	1747	Cutibacterium acnes
+SRR6145058	k99_4941	k99_4941_4704-7074.1	antibacterial	k99_4941_k99_4941_7	4704	5991	PF13347	0.54096	CL0015	MFS	MFS_2	MFS/sugar transport protein	1747	Cutibacterium acnes
+SRR6145058	k99_4941	k99_4941_4704-7074.1	antibacterial	k99_4941_k99_4941_7	4704	5991	PF07690	0.49501	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_4941	k99_4941_4704-7074.1	antibacterial	k99_4941_k99_4941_8	6186	7074	PF01040	0.51281	CL0613	Terp_synthase	UbiA	UbiA prenyltransferase family	1747	Cutibacterium acnes
+SRR6145058	k99_8032	k99_8032_2-3392.1	antibacterial	k99_8032_k99_8032_1	2	224	PF13483	0.47641	CL0381	Metallo-HOrase	Lactamase_B_3	Beta-lactamase superfamily domain	1747	Cutibacterium acnes
+SRR6145058	k99_8032	k99_8032_2-3392.1	antibacterial	k99_8032_k99_8032_1	2	224	PF12706	0.51998	CL0381	Metallo-HOrase	Lactamase_B_2	Beta-lactamase superfamily domain	1747	Cutibacterium acnes
+SRR6145058	k99_8032	k99_8032_2-3392.1	antibacterial	k99_8032_k99_8032_1	2	224	PF00753	0.52113	CL0381	Metallo-HOrase	Lactamase_B	Metallo-beta-lactamase superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_8032	k99_8032_2-3392.1	antibacterial	k99_8032_k99_8032_2	327	1722	PF01474	0.59704	CL0036	TIM_barrel	DAHP_synth_2	Class-II DAHP synthetase family	1747	Cutibacterium acnes
+SRR6145058	k99_8032	k99_8032_2-3392.1	antibacterial	k99_8032_k99_8032_3	1819	2539	PF01553	0.61912	CL0228	Acyltransferase	Acyltransferase	Acyltransferase	1747	Cutibacterium acnes
+SRR6145058	k99_8032	k99_8032_2-3392.1	antibacterial	k99_8032_k99_8032_4	2543	3392	PF01553	0.63287	CL0228	Acyltransferase	Acyltransferase	Acyltransferase	1747	Cutibacterium acnes
+SRR6145058	k99_7718	k99_7718_0-3695.1	antibacterial	k99_7718_k99_7718_1	0	2259	PF09043	0.61956	CL0036	TIM_barrel	Lys-AminoMut_A	D-Lysine 5,6-aminomutase TIM-barrel domain of alpha subunit	1747	Cutibacterium acnes
+SRR6145058	k99_7718	k99_7718_0-3695.1	antibacterial	k99_7718_k99_7718_1	0	2259	PF16554	0.55295	NA	NA	OAM_dimer	Dimerisation domain of d-ornithine 4,5-aminomutase	1747	Cutibacterium acnes
+SRR6145058	k99_7718	k99_7718_0-3695.1	antibacterial	k99_7718_k99_7718_1	0	2259	PF02310	0.61652	CL0063	NADP_Rossmann	B12-binding	B12 binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_7718	k99_7718_0-3695.1	antibacterial	k99_7718_k99_7718_2	2264	3695	PF13941	0.5275	CL0108	Actin_ATPase	MutL	MutL protein	1747	Cutibacterium acnes
+SRR6145058	k99_3308	k99_3308_298-1315.1	antibacterial	k99_3308_k99_3308_2	298	1315	PF09754	0.56107	CL0408	PUP	PAC2	PAC2 family	1747	Cutibacterium acnes
+SRR6145058	k99_8035	k99_8035_2063-3005.1	antibacterial	k99_8035_k99_8035_4	2063	3005	PF00561	0.50265	CL0028	AB_hydrolase	Abhydrolase_1	alpha/beta hydrolase fold	1747	Cutibacterium acnes
+SRR6145058	k99_2858	k99_2858_211-1423.1	antibacterial	k99_2858_k99_2858_1	211	1423	PF12802	0.5378	CL0123	HTH	MarR_2	MarR family	1747	Cutibacterium acnes
+SRR6145058	k99_2858	k99_2858_211-1423.1	antibacterial	k99_2858_k99_2858_1	211	1423	PF09339	0.571	CL0123	HTH	HTH_IclR	IclR helix-turn-helix domain	1747	Cutibacterium acnes
+SRR6145058	k99_2858	k99_2858_211-1423.1	antibacterial	k99_2858_k99_2858_1	211	1423	PF00480	0.514	CL0108	Actin_ATPase	ROK	ROK family	1747	Cutibacterium acnes
+SRR6145058	k99_2858	k99_2858_211-1423.1	antibacterial	k99_2858_k99_2858_1	211	1423	PF15867	0.51078	NA	NA	Dynein_attach_N	Dynein attachment factor N-terminus	1747	Cutibacterium acnes
+SRR6145058	k99_4638	k99_4638_2-2401.1	antibacterial	k99_4638_k99_4638_1	2	1112	PF00557	0.59113	NA	NA	Peptidase_M24	Metallopeptidase family M24	1747	Cutibacterium acnes
+SRR6145058	k99_4638	k99_4638_2-2401.1	antibacterial	k99_4638_k99_4638_2	1142	2015	PF02628	0.56983	CL0328	2heme_cytochrom	COX15-CtaA	Cytochrome oxidase assembly protein	1747	Cutibacterium acnes
+SRR6145058	k99_4638	k99_4638_2-2401.1	antibacterial	k99_4638_k99_4638_3	2128	2401	PF13796	0.64683	NA	NA	Sensor	Putative sensor	1747	Cutibacterium acnes
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_1	2	896	PF13518	0.59376	CL0123	HTH	HTH_28	Helix-turn-helix domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_1	2	896	PF04545	0.54847	CL0123	HTH	Sigma70_r4	Sigma-70, region 4	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_1	2	896	PF13384	0.57997	CL0123	HTH	HTH_23	Homeodomain-like domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_1	2	896	PF13545	0.54573	CL0123	HTH	HTH_Crp_2	Crp-like helix-turn-helix domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_1	2	896	PF12802	0.59011	CL0123	HTH	MarR_2	MarR family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_1	2	896	PF13412	0.60246	CL0123	HTH	HTH_24	Winged helix-turn-helix DNA-binding	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_1	2	896	PF04198	0.54566	CL0246	ISOCOT_Fold	Sugar-bind	Putative sugar-binding domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_1	2	896	PF01913	0.64242	NA	NA	FTR	Formylmethanofuran-tetrahydromethanopterin formyltransferase	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_2	1322	1751	PF01978	0.65084	CL0123	HTH	TrmB	Sugar-specific transcriptional regulator TrmB	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_2	1322	1751	PF01047	0.64338	CL0123	HTH	MarR	MarR family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_2	1322	1751	PF12802	0.64568	CL0123	HTH	MarR_2	MarR family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_2	1322	1751	PF09339	0.66073	CL0123	HTH	HTH_IclR	IclR helix-turn-helix domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_2	1322	1751	PF13601	0.58692	CL0123	HTH	HTH_34	Winged helix DNA-binding domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_2-1751.1	antibacterial	k99_7398_k99_7398_2	1322	1751	PF13463	0.59589	CL0123	HTH	HTH_27	Winged helix DNA-binding domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_9	6299	6605	PF06792	0.57987	NA	NA	UPF0261	Uncharacterised protein family (UPF0261)	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_13	8565	9249	PF00196	0.67411	CL0123	HTH	GerE	Bacterial regulatory proteins, luxR family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_13	8565	9249	PF04545	0.56771	CL0123	HTH	Sigma70_r4	Sigma-70, region 4	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_13	8565	9249	PF08281	0.60895	CL0123	HTH	Sigma70_r4_2	Sigma-70, region 4	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_13	8565	9249	PF13412	0.52378	CL0123	HTH	HTH_24	Winged helix-turn-helix DNA-binding	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_13	8565	9249	PF00072	0.53724	CL0304	CheY	Response_reg	Response regulator receiver domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_14	9263	10388	PF02518	0.56037	CL0025	His_Kinase_A	HATPase_c	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_14	9263	10388	PF13581	0.57015	CL0025	His_Kinase_A	HATPase_c_2	Histidine kinase-like ATPase domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_14	9263	10388	PF07730	0.68044	CL0025	His_Kinase_A	HisKA_3	Histidine kinase	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_15	10576	11329	PF00005	0.64728	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_15	10576	11329	PF13476	0.58309	CL0023	P-loop_NTPase	AAA_23	AAA domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_15	10576	11329	PF13555	0.56931	CL0023	P-loop_NTPase	AAA_29	P-loop containing region of AAA domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_15	10576	11329	PF13191	0.61575	CL0023	P-loop_NTPase	AAA_16	AAA ATPase domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_15	10576	11329	PF03193	0.50691	CL0023	P-loop_NTPase	RsgA_GTPase	RsgA GTPase	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_15	10576	11329	PF02463	0.45129	CL0023	P-loop_NTPase	SMC_N	RecF/RecN/SMC N terminal domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_6299-11329.1	antibacterial	k99_7398_k99_7398_15	10576	11329	PF13304	0.40118	CL0023	P-loop_NTPase	AAA_21	AAA domain, putative AbiEii toxin, Type IV TA system	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_13866-14943.1	antibacterial	k99_7398_k99_7398_17	13866	14067	PF00872	0.56756	CL0219	RNase_H	Transposase_mut	Transposase, Mutator family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_13866-14943.1	antibacterial	k99_7398_k99_7398_18	14191	14350	PF00872	0.61364	CL0219	RNase_H	Transposase_mut	Transposase, Mutator family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7398	k99_7398_13866-14943.1	antibacterial	k99_7398_k99_7398_19	14475	14943	PF00440	0.70787	CL0123	HTH	TetR_N	Bacterial regulatory proteins, tetR family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9316	k99_9316_2-1313.1	antibacterial	k99_9316_k99_9316_1	2	1313	PF13347	0.55159	CL0015	MFS	MFS_2	MFS/sugar transport protein	1747	Cutibacterium acnes
+SRR6145058	k99_9316	k99_9316_2-1313.1	antibacterial	k99_9316_k99_9316_1	2	1313	PF07690	0.5535	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_9316	k99_9316_2-1313.1	antibacterial	k99_9316_k99_9316_1	2	1313	PF01595	0.46119	NA	NA	DUF21	Cyclin M transmembrane N-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_8164	k99_8164_779-1517.1	antibacterial	k99_8164_k99_8164_2	779	1517	PF13524	0.57859	CL0113	GT-B	Glyco_trans_1_2	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_8164	k99_8164_779-1517.1	antibacterial	k99_8164_k99_8164_2	779	1517	PF00534	0.5389	CL0113	GT-B	Glycos_transf_1	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_8164	k99_8164_779-1517.1	antibacterial	k99_8164_k99_8164_2	779	1517	PF13692	0.54626	CL0113	GT-B	Glyco_trans_1_4	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_8663	k99_8663_2-1111.1	antibacterial	k99_8663_k99_8663_1	2	410	PF01041	0.61315	CL0061	PLP_aminotran	DegT_DnrJ_EryC1	DegT/DnrJ/EryC1/StrS aminotransferase family	1747	Cutibacterium acnes
+SRR6145058	k99_8663	k99_8663_2-1111.1	antibacterial	k99_8663_k99_8663_1	2	410	PF01053	0.53494	CL0061	PLP_aminotran	Cys_Met_Meta_PP	Cys/Met metabolism PLP-dependent enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_8663	k99_8663_2-1111.1	antibacterial	k99_8663_k99_8663_1	2	410	PF00155	0.51775	CL0061	PLP_aminotran	Aminotran_1_2	Aminotransferase class I and II	1747	Cutibacterium acnes
+SRR6145058	k99_8663	k99_8663_2-1111.1	antibacterial	k99_8663_k99_8663_2	493	1111	PF00132	0.49375	CL0536	HEXAPEP	Hexapep	Bacterial transferase hexapeptide (six repeats)	1747	Cutibacterium acnes
+SRR6145058	k99_8663	k99_8663_2-1111.1	antibacterial	k99_8663_k99_8663_2	493	1111	PF14602	0.52775	CL0536	HEXAPEP	Hexapep_2	Hexapeptide repeat of succinyl-transferase	1747	Cutibacterium acnes
+SRR6145058	k99_5882	k99_5882_1-673.1	antibacterial	k99_5882_k99_5882_1	1	673	PF00854	0.53013	CL0015	MFS	PTR2	POT family	1747	Cutibacterium acnes
+SRR6145058	k99_5882	k99_5882_1-673.1	antibacterial	k99_5882_k99_5882_1	1	673	PF07690	0.56203	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_6381	k99_6381_64-472.1	antibacterial	k99_6381_k99_6381_1	64	472	PF12005	0.56385	NA	NA	DUF3499	Protein of unknown function (DUF3499)	1747	Cutibacterium acnes
+SRR6145058	k99_7532	k99_7532_2-3010.1	antibacterial	k99_7532_k99_7532_1	2	866	PF02133	0.67456	CL0062	APC	Transp_cyt_pur	Permease for cytosine/purines, uracil, thiamine, allantoin	1747	Cutibacterium acnes
+SRR6145058	k99_7532	k99_7532_2-3010.1	antibacterial	k99_7532_k99_7532_2	955	3010	PF01619	0.55287	CL0086	FAD_oxidored	Pro_dh	Proline dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_7532	k99_7532_2-3010.1	antibacterial	k99_7532_k99_7532_2	955	3010	PF00171	0.61336	CL0099	ALDH-like	Aldedh	Aldehyde dehydrogenase family	1747	Cutibacterium acnes
+SRR6145058	k99_6284	k99_6284_161-1139.1	inhibitor	k99_6284_k99_6284_1	161	1139	PF06779	0.64098	CL0015	MFS	MFS_4	Uncharacterised MFS-type transporter YbfB	1747	Cutibacterium acnes
+SRR6145058	k99_6284	k99_6284_161-1139.1	inhibitor	k99_6284_k99_6284_1	161	1139	PF07690	0.68283	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_6284	k99_6284_161-1139.1	inhibitor	k99_6284_k99_6284_1	161	1139	PF06609	0.67038	CL0015	MFS	TRI12	Fungal trichothecene efflux pump (TRI12)	1747	Cutibacterium acnes
+SRR6145058	k99_6284	k99_6284_161-1139.1	inhibitor	k99_6284_k99_6284_1	161	1139	PF03209	0.67713	CL0015	MFS	PUCC	PUCC protein	1747	Cutibacterium acnes
+SRR6145058	k99_6284	k99_6284_161-1139.1	inhibitor	k99_6284_k99_6284_1	161	1139	PF00083	0.66383	CL0015	MFS	Sugar_tr	Sugar (and other) transporter	1747	Cutibacterium acnes
+SRR6145058	k99_6284	k99_6284_161-1139.1	inhibitor	k99_6284_k99_6284_1	161	1139	PF05977	0.66517	CL0015	MFS	MFS_3	Transmembrane secretion effector	1747	Cutibacterium acnes
+SRR6145058	k99_9355	k99_9355_2-1088.1	NA	k99_9355_k99_9355_1	2	1088	PF07714	0.58173	CL0016	PKinase	Pkinase_Tyr	Protein tyrosine kinase	1747	Cutibacterium acnes
+SRR6145058	k99_9355	k99_9355_2-1088.1	NA	k99_9355_k99_9355_1	2	1088	PF00069	0.57792	CL0016	PKinase	Pkinase	Protein kinase domain	1747	Cutibacterium acnes
+SRR6145058	k99_8977	k99_8977_2-1298.1	antibacterial	k99_8977_k99_8977_1	2	830	PF02687	0.54539	CL0404	BPD_transp_1	FtsX	FtsX-like permease family	1747	Cutibacterium acnes
+SRR6145058	k99_8977	k99_8977_2-1298.1	antibacterial	k99_8977_k99_8977_2	863	1298	PF13304	0.49133	CL0023	P-loop_NTPase	AAA_21	AAA domain, putative AbiEii toxin, Type IV TA system	1747	Cutibacterium acnes
+SRR6145058	k99_8977	k99_8977_2-1298.1	antibacterial	k99_8977_k99_8977_2	863	1298	PF00005	0.53241	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_3383	k99_3383_0-1335.1	antibacterial	k99_3383_k99_3383_1	0	360	PF01120	0.54147	CL0058	Glyco_hydro_tim	Alpha_L_fucos	Alpha-L-fucosidase	1234380	Cutibacterium acnes C1
+SRR6145058	k99_3383	k99_3383_0-1335.1	antibacterial	k99_3383_k99_3383_2	444	1335	PF00528	0.51551	CL0404	BPD_transp_1	BPD_transp_1	Binding-protein-dependent transport system inner membrane component	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10618	k99_10618_55-1411.1	antibacterial	k99_10618_k99_10618_1	55	451	PF12270	0.6349	NA	NA	Cyt_c_ox_IV	Cytochrome c oxidase subunit IV	1747	Cutibacterium acnes
+SRR6145058	k99_10618	k99_10618_55-1411.1	antibacterial	k99_10618_k99_10618_2	502	1411	PF15420	0.55048	NA	NA	Abhydrolase_9_N	Alpha/beta-hydrolase family N-terminus	1747	Cutibacterium acnes
+SRR6145058	k99_7665	k99_7665_860-1541.1	antibacterial	k99_7665_k99_7665_2	860	1541	PF00483	0.55645	CL0110	GT-A	NTP_transferase	Nucleotidyl transferase	1747	Cutibacterium acnes
+SRR6145058	k99_10557	k99_10557_2-1788.1	antibacterial	k99_10557_k99_10557_1	2	476	PF00072	0.65283	CL0304	CheY	Response_reg	Response regulator receiver domain	1747	Cutibacterium acnes
+SRR6145058	k99_10557	k99_10557_2-1788.1	antibacterial	k99_10557_k99_10557_2	555	1788	PF07730	0.73694	CL0025	His_Kinase_A	HisKA_3	Histidine kinase	1747	Cutibacterium acnes
+SRR6145058	k99_6287	k99_6287_698-1247.1	antibacterial	k99_6287_k99_6287_2	698	1247	PF16157	0.5448	NA	NA	DUF4865	Domain of unknown function (DUF4865)	1747	Cutibacterium acnes
+SRR6145058	k99_12039	k99_12039_1-5483.1	antibacterial	k99_12039_k99_12039_1	1	850	PF04687	0.8327	NA	NA	Microvir_H	Microvirus H protein (pilot protein)	2	Bacteria
+SRR6145058	k99_12039	k99_12039_1-5483.1	antibacterial	k99_12039_k99_12039_2	858	1386	PF02306	0.80826	CL0605	ssDNA_NP_VP	Phage_G	Major spike protein (G protein)	2	Bacteria
+SRR6145058	k99_12039	k99_12039_1-5483.1	antibacterial	k99_12039_k99_12039_3	1496	2780	PF02305	0.8162	CL0605	ssDNA_NP_VP	Phage_F	Capsid protein (F protein)	2	Bacteria
+SRR6145058	k99_12039	k99_12039_1-5483.1	antibacterial	k99_12039_k99_12039_4	2816	2933	PF04726	0.79823	NA	NA	Microvir_J	Microvirus J protein	2	Bacteria
+SRR6145058	k99_12039	k99_12039_1-5483.1	antibacterial	k99_12039_k99_12039_5	2932	3391	PF02925	0.7788	NA	NA	gpD	Bacteriophage scaffolding protein D	2	Bacteria
+SRR6145058	k99_12039	k99_12039_1-5483.1	antibacterial	k99_12039_k99_12039_6	3387	3648	PF12025	0.75786	NA	NA	Phage_C	Phage protein C	2	Bacteria
+SRR6145058	k99_12039	k99_12039_1-5483.1	antibacterial	k99_12039_k99_12039_7	3644	5186	PF05840	0.68382	CL0169	Rep	Phage_GPA	Bacteriophage replication gene A protein (GPA)	2	Bacteria
+SRR6145058	k99_12039	k99_12039_1-5483.1	antibacterial	k99_12039_k99_12039_8	5249	5483	PF04687	0.72424	NA	NA	Microvir_H	Microvirus H protein (pilot protein)	2	Bacteria
+SRR6145058	k99_9103	k99_9103_306-1458.1	antibacterial-antifungal	k99_9103_k99_9103_2	306	1458	PF00083	0.5813	CL0015	MFS	Sugar_tr	Sugar (and other) transporter	1747	Cutibacterium acnes
+SRR6145058	k99_9103	k99_9103_306-1458.1	antibacterial-antifungal	k99_9103_k99_9103_2	306	1458	PF07690	0.5778	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_3438	k99_3438_2-821.1	inhibitor	k99_3438_k99_3438_1	2	821	PF07690	0.56294	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_3438	k99_3438_2-821.1	inhibitor	k99_3438_k99_3438_1	2	821	PF00083	0.5577	CL0015	MFS	Sugar_tr	Sugar (and other) transporter	1747	Cutibacterium acnes
+SRR6145058	k99_3438	k99_3438_2-821.1	inhibitor	k99_3438_k99_3438_1	2	821	PF06779	0.54292	CL0015	MFS	MFS_4	Uncharacterised MFS-type transporter YbfB	1747	Cutibacterium acnes
+SRR6145058	k99_3438	k99_3438_2-821.1	inhibitor	k99_3438_k99_3438_1	2	821	PF06609	0.55033	CL0015	MFS	TRI12	Fungal trichothecene efflux pump (TRI12)	1747	Cutibacterium acnes
+SRR6145058	k99_3438	k99_3438_2-821.1	inhibitor	k99_3438_k99_3438_1	2	821	PF05631	0.50644	CL0015	MFS	MFS_5	Sugar-tranasporters, 12 TM	1747	Cutibacterium acnes
+SRR6145058	k99_10691	k99_10691_2-4073.1	antibacterial	k99_10691_k99_10691_1	2	560	PF07681	0.62667	CL0131	DoxD-like	DoxX	DoxX	1747	Cutibacterium acnes
+SRR6145058	k99_10691	k99_10691_2-4073.1	antibacterial	k99_10691_k99_10691_2	549	1839	PF00275	0.50036	CL0290	EPT_RTPC	EPSP_synthase	EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)	1747	Cutibacterium acnes
+SRR6145058	k99_10691	k99_10691_2-4073.1	antibacterial	k99_10691_k99_10691_3	1840	2842	PF03193	0.48815	CL0023	P-loop_NTPase	RsgA_GTPase	RsgA GTPase	1747	Cutibacterium acnes
+SRR6145058	k99_10691	k99_10691_2-4073.1	antibacterial	k99_10691_k99_10691_3	1840	2842	PF13191	0.58039	CL0023	P-loop_NTPase	AAA_16	AAA ATPase domain	1747	Cutibacterium acnes
+SRR6145058	k99_10691	k99_10691_2-4073.1	antibacterial	k99_10691_k99_10691_3	1840	2842	PF00005	0.58897	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_10691	k99_10691_2-4073.1	antibacterial	k99_10691_k99_10691_3	1840	2842	PF13555	0.57721	CL0023	P-loop_NTPase	AAA_29	P-loop containing region of AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_10691	k99_10691_2-4073.1	antibacterial	k99_10691_k99_10691_3	1840	2842	PF01926	0.49397	CL0023	P-loop_NTPase	MMR_HSR1	50S ribosome-binding GTPase	1747	Cutibacterium acnes
+SRR6145058	k99_10691	k99_10691_2-4073.1	antibacterial	k99_10691_k99_10691_4	3260	4073	PF12146	0.60853	CL0028	AB_hydrolase	Hydrolase_4	Serine aminopeptidase, S33	1747	Cutibacterium acnes
+SRR6145058	k99_10691	k99_10691_5111-5540.1	antibacterial	k99_10691_k99_10691_6	5111	5540	PF02826	0.54166	CL0063	NADP_Rossmann	2-Hacid_dh_C	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_662	k99_662_2-95.1	antibacterial	k99_662_k99_662_1	2	95	PF10698	0.67722	CL0209	Bet_V_1_like	DUF2505	Protein of unknown function (DUF2505)	1747	Cutibacterium acnes
+SRR6145058	k99_2494	k99_2494_0-2195.1	antibacterial	k99_2494_k99_2494_1	0	660	PF00513	0.58211	NA	NA	Late_protein_L2	Late Protein L2	10621	Human papillomavirus 9
+SRR6145058	k99_2494	k99_2494_0-2195.1	antibacterial	k99_2494_k99_2494_2	671	2195	PF00500	0.51546	CL0055	Nucleoplasmin	Late_protein_L1	L1 (late) protein	10621	Human papillomavirus 9
+SRR6145058	k99_9726	k99_9726_0-1955.1	antibacterial	k99_9726_k99_9726_1	0	573	PF03631	0.52396	NA	NA	Virul_fac_BrkB	Virulence factor BrkB	1747	Cutibacterium acnes
+SRR6145058	k99_9726	k99_9726_0-1955.1	antibacterial	k99_9726_k99_9726_2	803	1955	PF07690	0.59948	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_9158	k99_9158_602-1241.1	antibacterial	k99_9158_k99_9158_2	602	1241	PF08666	0.57769	CL0489	SAF	SAF	SAF domain	1747	Cutibacterium acnes
+SRR6145058	k99_6203	k99_6203_840-1260.1	antibacterial	k99_6203_k99_6203_2	840	1260	PF17249	0.53509	NA	NA	DUF5318	Family of unknown function (DUF5318)	1747	Cutibacterium acnes
+SRR6145058	k99_2626	k99_2626_0-1565.1	antibacterial	k99_2626_k99_2626_1	0	627	PF00215	0.51197	CL0036	TIM_barrel	OMPdecase	Orotidine 5'-phosphate decarboxylase / HUMPS family	1747	Cutibacterium acnes
+SRR6145058	k99_2626	k99_2626_0-1565.1	antibacterial	k99_2626_k99_2626_2	632	1565	PF02126	0.59639	CL0034	Amidohydrolase	PTE	Phosphotriesterase family	1747	Cutibacterium acnes
+SRR6145058	k99_11066	k99_11066_928-2994.1	antibacterial-antifungal	k99_11066_k99_11066_2	928	1222	PF04131	0.56416	CL0036	TIM_barrel	NanE	Putative N-acetylmannosamine-6-phosphate epimerase	1747	Cutibacterium acnes
+SRR6145058	k99_11066	k99_11066_928-2994.1	antibacterial-antifungal	k99_11066_k99_11066_3	1752	2994	PF11700	0.5866	CL0015	MFS	ATG22	Vacuole effluxer Atg22 like	1747	Cutibacterium acnes
+SRR6145058	k99_11066	k99_11066_928-2994.1	antibacterial-antifungal	k99_11066_k99_11066_3	1752	2994	PF07690	0.5997	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_11066	k99_11066_928-2994.1	antibacterial-antifungal	k99_11066_k99_11066_3	1752	2994	PF00083	0.56885	CL0015	MFS	Sugar_tr	Sugar (and other) transporter	1747	Cutibacterium acnes
+SRR6145058	k99_1607	k99_1607_265-1516.1	antibacterial-antifungal	k99_1607_k99_1607_1	265	1516	PF00083	0.62959	CL0015	MFS	Sugar_tr	Sugar (and other) transporter	1747	Cutibacterium acnes
+SRR6145058	k99_1607	k99_1607_265-1516.1	antibacterial-antifungal	k99_1607_k99_1607_1	265	1516	PF05977	0.64138	CL0015	MFS	MFS_3	Transmembrane secretion effector	1747	Cutibacterium acnes
+SRR6145058	k99_1607	k99_1607_265-1516.1	antibacterial-antifungal	k99_1607_k99_1607_1	265	1516	PF07690	0.6007	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_2627	k99_2627_0-891.1	antibacterial	k99_2627_k99_2627_1	0	891	PF00501	0.75866	CL0378	ANL	AMP-binding	AMP-binding enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_5833	k99_5833_1-1044.1	antibacterial	k99_5833_k99_5833_1	1	430	PF02104	0.76601	NA	NA	SURF1	SURF1 family	1747	Cutibacterium acnes
+SRR6145058	k99_5833	k99_5833_1-1044.1	antibacterial	k99_5833_k99_5833_2	426	1044	PF13489	0.79182	CL0063	NADP_Rossmann	Methyltransf_23	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_5833	k99_5833_1-1044.1	antibacterial	k99_5833_k99_5833_2	426	1044	PF13649	0.75111000000000006	CL0063	NADP_Rossmann	Methyltransf_25	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_5833	k99_5833_1-1044.1	antibacterial	k99_5833_k99_5833_2	426	1044	PF08242	0.70897	CL0063	NADP_Rossmann	Methyltransf_12	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_3751	k99_3751_159-795.1	antibacterial	k99_3751_k99_3751_2	159	795	PF08281	0.56839	CL0123	HTH	Sigma70_r4_2	Sigma-70, region 4	1747	Cutibacterium acnes
+SRR6145058	k99_3751	k99_3751_159-795.1	antibacterial	k99_3751_k99_3751_2	159	795	PF04545	0.49513	CL0123	HTH	Sigma70_r4	Sigma-70, region 4	1747	Cutibacterium acnes
+SRR6145058	k99_10305	k99_10305_1907-2123.1	antibacterial	k99_10305_k99_10305_3	1907	2123	PF13822	0.52919	NA	NA	ACC_epsilon	Acyl-CoA carboxylase epsilon subunit	1747	Cutibacterium acnes
+SRR6145058	k99_5017	k99_5017_1-1072.1	inhibitor	k99_5017_k99_5017_1	1	1072	PF00550	0.89302	CL0314	PP-binding	PP-binding	Phosphopantetheine attachment site	1881017	Pseudomonas sp. 7SR1
+SRR6145058	k99_5017	k99_5017_1-1072.1	inhibitor	k99_5017_k99_5017_1	1	1072	PF00668	0.8799	CL0149	CoA-acyltrans	Condensation	Condensation domain	1881017	Pseudomonas sp. 7SR1
+SRR6145058	k99_9878	k99_9878_0-1299.1	antibacterial	k99_9878_k99_9878_1	0	330	PF01654	0.58606	NA	NA	Cyt_bd_oxida_I	Cytochrome bd terminal oxidase subunit I	1747	Cutibacterium acnes
+SRR6145058	k99_9878	k99_9878_0-1299.1	antibacterial	k99_9878_k99_9878_2	342	1299	PF02322	0.53948	NA	NA	Cyt_bd_oxida_II	Cytochrome bd terminal oxidase subunit II	1747	Cutibacterium acnes
+SRR6145058	k99_9878	k99_9878_0-1299.1	antibacterial	k99_9878_k99_9878_2	342	1299	PF14256	0.46856	NA	NA	YwiC	YwiC-like protein	1747	Cutibacterium acnes
+SRR6145058	k99_11921	k99_11921_136-1744.1	antibacterial-antifungal	k99_11921_k99_11921_1	136	1744	PF00083	0.5813	CL0015	MFS	Sugar_tr	Sugar (and other) transporter	1747	Cutibacterium acnes
+SRR6145058	k99_11921	k99_11921_136-1744.1	antibacterial-antifungal	k99_11921_k99_11921_1	136	1744	PF07690	0.5778	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_1	1	67	PF16268	0.66443	CL0265	HIT	DUF4921	Domain of unknown function (DUF4921)	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_2	88	604	PF16268	0.66322	CL0265	HIT	DUF4921	Domain of unknown function (DUF4921)	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_3	723	1482	PF12802	0.72887	CL0123	HTH	MarR_2	MarR family	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_3	723	1482	PF01022	0.73028	CL0123	HTH	HTH_5	Bacterial regulatory protein, arsR family	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_3	723	1482	PF09339	0.7613	CL0123	HTH	HTH_IclR	IclR helix-turn-helix domain	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_3	723	1482	PF12840	0.75839	CL0123	HTH	HTH_20	Helix-turn-helix domain	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_3	723	1482	PF01978	0.74654	CL0123	HTH	TrmB	Sugar-specific transcriptional regulator TrmB	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_3	723	1482	PF13412	0.75283	CL0123	HTH	HTH_24	Winged helix-turn-helix DNA-binding	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_3	723	1482	PF01614	0.79629	CL0161	GAF	IclR	Bacterial transcriptional regulator	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_4	1707	2856	PF02771	0.78889	CL0544	AcylCoA_ox_dh_N	Acyl-CoA_dh_N	Acyl-CoA dehydrogenase, N-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_4	1707	2856	PF02770	0.77334	NA	NA	Acyl-CoA_dh_M	Acyl-CoA dehydrogenase, middle domain	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_4	1707	2856	PF00441	0.75584	CL0087	Acyl-CoA_dh	Acyl-CoA_dh_1	Acyl-CoA dehydrogenase, C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_4	1707	2856	PF08028	0.73665	CL0087	Acyl-CoA_dh	Acyl-CoA_dh_2	Acyl-CoA dehydrogenase, C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_5	2893	4060	PF02515	0.72438	NA	NA	CoA_transf_3	CoA-transferase family III	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_6	4168	4930	PF01012	0.63138	CL0039	HUP	ETF	Electron transfer flavoprotein domain	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_7	4962	5841	PF01012	0.55973	CL0039	HUP	ETF	Electron transfer flavoprotein domain	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_7	4962	5841	PF00766	0.59103000000000006	CL0085	FAD_DHS	ETF_alpha	Electron transfer flavoprotein FAD-binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_8	5837	6257	PF01262	0.61838	CL0063	NADP_Rossmann	AlaDh_PNT_C	Alanine dehydrogenase/PNT, C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_8	5837	6257	PF07992	0.67346	CL0063	NADP_Rossmann	Pyr_redox_2	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_8	5837	6257	PF01946	0.71809	CL0063	NADP_Rossmann	Thi4	Thi4 family	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_8	5837	6257	PF03486	0.71729	CL0063	NADP_Rossmann	HI0933_like	HI0933-like protein	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_8	5837	6257	PF01494	0.76393	CL0063	NADP_Rossmann	FAD_binding_3	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_8	5837	6257	PF01266	0.75629	CL0063	NADP_Rossmann	DAO	FAD dependent oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_8	5837	6257	PF12831	0.72665	CL0063	NADP_Rossmann	FAD_oxidored	FAD dependent oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_8	5837	6257	PF00890	0.73904	CL0063	NADP_Rossmann	FAD_binding_2	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_8	5837	6257	PF13738	0.73113	CL0063	NADP_Rossmann	Pyr_redox_3	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_8	5837	6257	PF05834	0.77029	CL0063	NADP_Rossmann	Lycopene_cycl	Lycopene cyclase protein	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_8	5837	6257	PF01134	0.68953	CL0063	NADP_Rossmann	GIDA	Glucose inhibited division protein A	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_8	5837	6257	PF00070	0.69909	CL0063	NADP_Rossmann	Pyr_redox	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_6654	k99_6654_1-6257.1	NA	k99_6654_k99_6654_8	5837	6257	PF13450	0.746	CL0063	NADP_Rossmann	NAD_binding_8	NAD(P)-binding Rossmann-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_6153	k99_6153_959-1385.1	antibacterial	k99_6153_k99_6153_1	959	1385	PF13460	0.6361	CL0063	NADP_Rossmann	NAD_binding_10	NAD(P)H-binding	1747	Cutibacterium acnes
+SRR6145058	k99_1231	k99_1231_233-776.1	antibacterial	k99_1231_k99_1231_1	233	776	PF00440	0.69307	CL0123	HTH	TetR_N	Bacterial regulatory proteins, tetR family	1747	Cutibacterium acnes
+SRR6145058	k99_4509	k99_4509_1650-3225.1	antibacterial	k99_4509_k99_4509_3	1650	3225	PF00150	0.50225	CL0058	Glyco_hydro_tim	Cellulase	Cellulase (glycosyl hydrolase family 5)	1747	Cutibacterium acnes
+SRR6145058	k99_10126	k99_10126_183-1038.1	antibacterial	k99_10126_k99_10126_1	183	1038	PF13336	0.5784	CL0246	ISOCOT_Fold	AcetylCoA_hyd_C	Acetyl-CoA hydrolase/transferase C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_926	k99_926_205-1662.1	NA	k99_926_k99_926_2	205	826	PF05175	0.70967	CL0063	NADP_Rossmann	MTS	Methyltransferase small domain	1747	Cutibacterium acnes
+SRR6145058	k99_926	k99_926_205-1662.1	NA	k99_926_k99_926_2	205	826	PF12847	0.75739	CL0063	NADP_Rossmann	Methyltransf_18	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_926	k99_926_205-1662.1	NA	k99_926_k99_926_2	205	826	PF13489	0.81145	CL0063	NADP_Rossmann	Methyltransf_23	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_926	k99_926_205-1662.1	NA	k99_926_k99_926_2	205	826	PF13649	0.79586	CL0063	NADP_Rossmann	Methyltransf_25	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_926	k99_926_205-1662.1	NA	k99_926_k99_926_2	205	826	PF13847	0.77329	CL0063	NADP_Rossmann	Methyltransf_31	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_926	k99_926_205-1662.1	NA	k99_926_k99_926_2	205	826	PF06325	0.72028	CL0063	NADP_Rossmann	PrmA	Ribosomal protein L11 methyltransferase (PrmA)	1747	Cutibacterium acnes
+SRR6145058	k99_926	k99_926_205-1662.1	NA	k99_926_k99_926_2	205	826	PF08241	0.72119	CL0063	NADP_Rossmann	Methyltransf_11	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_926	k99_926_205-1662.1	NA	k99_926_k99_926_2	205	826	PF08242	0.66192	CL0063	NADP_Rossmann	Methyltransf_12	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_926	k99_926_205-1662.1	NA	k99_926_k99_926_3	822	1662	PF01416	0.5243	CL0649	PseudoU_synth	PseudoU_synth_1	tRNA pseudouridine synthase	1747	Cutibacterium acnes
+SRR6145058	k99_2176	k99_2176_2-701.1	antibacterial	k99_2176_k99_2176_1	2	701	PF09754	0.62725	CL0408	PUP	PAC2	PAC2 family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_1753	k99_1753_0-1567.1	antibacterial	k99_1753_k99_1753_1	0	633	PF01135	0.73103	CL0063	NADP_Rossmann	PCMT	Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)	1747	Cutibacterium acnes
+SRR6145058	k99_1753	k99_1753_0-1567.1	antibacterial	k99_1753_k99_1753_1	0	633	PF08704	0.72039	CL0063	NADP_Rossmann	GCD14	tRNA methyltransferase complex GCD14 subunit	1747	Cutibacterium acnes
+SRR6145058	k99_1753	k99_1753_0-1567.1	antibacterial	k99_1753_k99_1753_2	707	1097	PF11255	0.70281	NA	NA	DUF3054	Protein of unknown function (DUF3054)	1747	Cutibacterium acnes
+SRR6145058	k99_1753	k99_1753_0-1567.1	antibacterial	k99_1753_k99_1753_3	1093	1567	PF12698	0.62677	CL0181	ABC-2	ABC2_membrane_3	ABC-2 family transporter protein	1747	Cutibacterium acnes
+SRR6145058	k99_1753	k99_1753_0-1567.1	antibacterial	k99_1753_k99_1753_3	1093	1567	PF01061	0.63187	CL0181	ABC-2	ABC2_membrane	ABC-2 type transporter	1747	Cutibacterium acnes
+SRR6145058	k99_4903	k99_4903_1182-2463.1	antibacterial	k99_4903_k99_4903_2	1182	2463	PF13353	0.65582	CL0344	4Fe-4S	Fer4_12	4Fe-4S single cluster domain	1747	Cutibacterium acnes
+SRR6145058	k99_4903	k99_4903_1182-2463.1	antibacterial	k99_4903_k99_4903_2	1182	2463	PF04055	0.62696	CL0036	TIM_barrel	Radical_SAM	Radical SAM superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_4903	k99_4903_1182-2463.1	antibacterial	k99_4903_k99_4903_2	1182	2463	PF13186	0.65199	NA	NA	SPASM	Iron-sulfur cluster-binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_4903	k99_4903_4057-6397.1	antibacterial	k99_4903_k99_4903_4	4057	4843	PF02872	0.52704	NA	NA	5_nucleotid_C	5'-nucleotidase, C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_4903	k99_4903_4057-6397.1	antibacterial	k99_4903_k99_4903_6	5548	5824	PF00664	0.73622	CL0241	ABC_membrane	ABC_membrane	ABC transporter transmembrane region	1747	Cutibacterium acnes
+SRR6145058	k99_4903	k99_4903_4057-6397.1	antibacterial	k99_4903_k99_4903_7	6100	6397	PF13280	0.5497	CL0654	WYL	WYL	WYL domain	1747	Cutibacterium acnes
+SRR6145058	k99_8355	k99_8355_0-1815.1	antibacterial	k99_8355_k99_8355_1	0	543	PF13506	0.67818	CL0110	GT-A	Glyco_transf_21	Glycosyl transferase family 21	1747	Cutibacterium acnes
+SRR6145058	k99_8355	k99_8355_0-1815.1	antibacterial	k99_8355_k99_8355_3	1344	1815	PF00483	0.5664	CL0110	GT-A	NTP_transferase	Nucleotidyl transferase	1747	Cutibacterium acnes
+SRR6145058	k99_8355	k99_8355_0-1815.1	antibacterial	k99_8355_k99_8355_3	1344	1815	PF12804	0.56871	CL0110	GT-A	NTP_transf_3	MobA-like NTP transferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_1190	k99_1190_1463-1736.1	antibacterial	k99_1190_k99_1190_2	1463	1736	PF00486	0.51411	CL0123	HTH	Trans_reg_C	Transcriptional regulatory protein, C terminal	1747	Cutibacterium acnes
+SRR6145058	k99_5516	k99_5516_682-1642.1	antibacterial	k99_5516_k99_5516_2	682	1642	PF07992	0.57664	CL0063	NADP_Rossmann	Pyr_redox_2	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_5516	k99_5516_682-1642.1	antibacterial	k99_5516_k99_5516_2	682	1642	PF01593	0.62845	CL0063	NADP_Rossmann	Amino_oxidase	Flavin containing amine oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_5516	k99_5516_682-1642.1	antibacterial	k99_5516_k99_5516_2	682	1642	PF00070	0.52582	CL0063	NADP_Rossmann	Pyr_redox	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_11441	k99_11441_2-1721.1	antibacterial	k99_11441_k99_11441_1	2	1721	PF02514	0.567	NA	NA	CobN-Mg_chel	CobN/Magnesium Chelatase	1747	Cutibacterium acnes
+SRR6145058	k99_8040	k99_8040_0-1789.1	antibacterial	k99_8040_k99_8040_1	0	666	PF00795	0.60508	NA	NA	CN_hydrolase	Carbon-nitrogen hydrolase	1747	Cutibacterium acnes
+SRR6145058	k99_8040	k99_8040_0-1789.1	antibacterial	k99_8040_k99_8040_3	1117	1789	PF03734	0.51716	CL0508	YkuD	YkuD	L,D-transpeptidase catalytic domain	1747	Cutibacterium acnes
+SRR6145058	k99_4009	k99_4009_101-1042.1	antibacterial	k99_4009_k99_4009_1	101	368	PF13490	0.71697	CL0645	Anti-sigma_N	zf-HC2	Putative zinc-finger	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_4009	k99_4009_101-1042.1	antibacterial	k99_4009_k99_4009_2	364	1042	PF07638	0.65547	CL0123	HTH	Sigma70_ECF	ECF sigma factor	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_4009	k99_4009_101-1042.1	antibacterial	k99_4009_k99_4009_2	364	1042	PF04545	0.60923	CL0123	HTH	Sigma70_r4	Sigma-70, region 4	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_4009	k99_4009_101-1042.1	antibacterial	k99_4009_k99_4009_2	364	1042	PF08281	0.65578	CL0123	HTH	Sigma70_r4_2	Sigma-70, region 4	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_4009	k99_4009_101-1042.1	antibacterial	k99_4009_k99_4009_2	364	1042	PF04542	0.58764	CL0123	HTH	Sigma70_r2	Sigma-70 region 2	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_1	2	1250	PF00144	0.71046	CL0013	Beta-lactamase	Beta-lactamase	Beta-lactamase	1747	Cutibacterium acnes
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_3	1667	3140	PF07992	0.69155	CL0063	NADP_Rossmann	Pyr_redox_2	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_3	1667	3140	PF13738	0.6918	CL0063	NADP_Rossmann	Pyr_redox_3	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_3	1667	3140	PF13434	0.71307	CL0063	NADP_Rossmann	K_oxygenase	L-lysine 6-monooxygenase (NADPH-requiring)	1747	Cutibacterium acnes
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_3	1667	3140	PF12831	0.69112	CL0063	NADP_Rossmann	FAD_oxidored	FAD dependent oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_3	1667	3140	PF01946	0.70813	CL0063	NADP_Rossmann	Thi4	Thi4 family	1747	Cutibacterium acnes
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_3	1667	3140	PF01593	0.74719	CL0063	NADP_Rossmann	Amino_oxidase	Flavin containing amine oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_3	1667	3140	PF13450	0.70751	CL0063	NADP_Rossmann	NAD_binding_8	NAD(P)-binding Rossmann-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_3	1667	3140	PF00890	0.65342	CL0063	NADP_Rossmann	FAD_binding_2	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_3	1667	3140	PF03486	0.62357	CL0063	NADP_Rossmann	HI0933_like	HI0933-like protein	1747	Cutibacterium acnes
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_3	1667	3140	PF01266	0.63678	CL0063	NADP_Rossmann	DAO	FAD dependent oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_3	1667	3140	PF01494	0.60174	CL0063	NADP_Rossmann	FAD_binding_3	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_3	1667	3140	PF14691	0.5089	CL0344	4Fe-4S	Fer4_20	Dihydroprymidine dehydrogenase domain II, 4Fe-4S cluster	1747	Cutibacterium acnes
+SRR6145058	k99_11805	k99_11805_2-3798.1	NA	k99_11805_k99_11805_4	3132	3798	PF01493	0.60491	NA	NA	GXGXG	GXGXG motif	1747	Cutibacterium acnes
+SRR6145058	k99_7674	k99_7674_1-532.1	antibacterial	k99_7674_k99_7674_1	1	532	PF00535	0.64331	CL0110	GT-A	Glycos_transf_2	Glycosyl transferase family 2	1747	Cutibacterium acnes
+SRR6145058	k99_7674	k99_7674_1-532.1	antibacterial	k99_7674_k99_7674_1	1	532	PF13641	0.59747	CL0110	GT-A	Glyco_tranf_2_3	Glycosyltransferase like family 2	1747	Cutibacterium acnes
+SRR6145058	k99_7154	k99_7154_1-541.1	antibacterial	k99_7154_k99_7154_1	1	541	PF04213	0.55076	NA	NA	HtaA	Htaa	1234380	Cutibacterium acnes C1
+SRR6145058	k99_988	k99_988_2-1575.1	antibacterial	k99_988_k99_988_1	2	416	PF01939	0.51387	CL0236	PDDEXK	NucS	Endonuclease NucS	1234380	Cutibacterium acnes C1
+SRR6145058	k99_988	k99_988_2-1575.1	antibacterial	k99_988_k99_988_2	756	1575	PF12146	0.57805	CL0028	AB_hydrolase	Hydrolase_4	Serine aminopeptidase, S33	1234380	Cutibacterium acnes C1
+SRR6145058	k99_988	k99_988_2-1575.1	antibacterial	k99_988_k99_988_2	756	1575	PF00975	0.63321	CL0028	AB_hydrolase	Thioesterase	Thioesterase domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_988	k99_988_2-1575.1	antibacterial	k99_988_k99_988_2	756	1575	PF00561	0.54686	CL0028	AB_hydrolase	Abhydrolase_1	alpha/beta hydrolase fold	1234380	Cutibacterium acnes C1
+SRR6145058	k99_988	k99_988_2-1575.1	antibacterial	k99_988_k99_988_2	756	1575	PF12697	0.54284	CL0028	AB_hydrolase	Abhydrolase_6	Alpha/beta hydrolase family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_988	k99_988_2-1575.1	antibacterial	k99_988_k99_988_2	756	1575	PF00756	0.501	CL0028	AB_hydrolase	Esterase	Putative esterase	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10571	k99_10571_1-1108.1	antibacterial	k99_10571_k99_10571_1	1	568	PF16154	0.62504	NA	NA	DUF4862	Domain of unknown function (DUF4862)	1747	Cutibacterium acnes
+SRR6145058	k99_10571	k99_10571_1-1108.1	antibacterial	k99_10571_k99_10571_2	592	1108	PF07690	0.64797	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_9693	k99_9693_2-389.1	antibacterial	k99_9693_k99_9693_1	2	389	PF02754	0.50728	NA	NA	CCG	Cysteine-rich domain	1747	Cutibacterium acnes
+SRR6145058	k99_7679	k99_7679_0-663.1	antibacterial	k99_7679_k99_7679_1	0	663	PF00425	0.62878	NA	NA	Chorismate_bind	chorismate binding enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_2871	k99_2871_0-1194.1	antibacterial	k99_2871_k99_2871_1	0	366	PF07992	0.66482	CL0063	NADP_Rossmann	Pyr_redox_2	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_2871	k99_2871_0-1194.1	antibacterial	k99_2871_k99_2871_2	489	1194	PF17197	0.6428	NA	NA	DUF5134	Domain of unknown function (DUF5134)	1747	Cutibacterium acnes
+SRR6145058	k99_10493	k99_10493_2051-2399.1	antibacterial	k99_10493_k99_10493_3	2051	2399	PF13524	0.55665	CL0113	GT-B	Glyco_trans_1_2	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_10493	k99_10493_2051-2399.1	antibacterial	k99_10493_k99_10493_3	2051	2399	PF00534	0.52987	CL0113	GT-B	Glycos_transf_1	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_10493	k99_10493_2051-2399.1	antibacterial	k99_10493_k99_10493_3	2051	2399	PF13692	0.54801	CL0113	GT-B	Glyco_trans_1_4	Glycosyl transferases group 1	1747	Cutibacterium acnes
+SRR6145058	k99_8992	k99_8992_2531-3140.1	antibacterial	k99_8992_k99_8992_2	2531	3140	PF00440	0.58125	CL0123	HTH	TetR_N	Bacterial regulatory proteins, tetR family	1747	Cutibacterium acnes
+SRR6145058	k99_3639	k99_3639_2-2033.1	antibacterial	k99_3639_k99_3639_1	2	1160	PF13385	0.53371	CL0004	Concanavalin	Laminin_G_3	Concanavalin A-like lectin/glucanases superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_3639	k99_3639_2-2033.1	antibacterial	k99_3639_k99_3639_1	2	1160	PF02210	0.5434	CL0004	Concanavalin	Laminin_G_2	Laminin G domain	1747	Cutibacterium acnes
+SRR6145058	k99_3639	k99_3639_2-2033.1	antibacterial	k99_3639_k99_3639_1	2	1160	PF00054	0.54809	CL0004	Concanavalin	Laminin_G_1	Laminin G domain	1747	Cutibacterium acnes
+SRR6145058	k99_3639	k99_3639_2-2033.1	antibacterial	k99_3639_k99_3639_2	1232	2033	PF07690	0.56723	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_7479	k99_7479_2-1855.1	antibacterial	k99_7479_k99_7479_1	2	548	PF00482	0.63696	NA	NA	T2SSF	Type II secretion system (T2SS), protein F	1747	Cutibacterium acnes
+SRR6145058	k99_7479	k99_7479_2-1855.1	antibacterial	k99_7479_k99_7479_2	756	1044	PF14029	0.57868	NA	NA	DUF4244	Protein of unknown function (DUF4244)	1747	Cutibacterium acnes
+SRR6145058	k99_7479	k99_7479_2-1855.1	antibacterial	k99_7479_k99_7479_4	1447	1855	PF13400	0.56291	CL0496	Tad-like	Tad	Putative Flp pilus-assembly TadE/G-like	1747	Cutibacterium acnes
+SRR6145058	k99_1195	k99_1195_0-1661.1	antibacterial	k99_1195_k99_1195_1	0	1407	PF01642	0.64325	NA	NA	MM_CoA_mutase	Methylmalonyl-CoA mutase	1747	Cutibacterium acnes
+SRR6145058	k99_1195	k99_1195_0-1661.1	antibacterial	k99_1195_k99_1195_2	1403	1661	PF01642	0.63885	NA	NA	MM_CoA_mutase	Methylmalonyl-CoA mutase	1747	Cutibacterium acnes
+SRR6145058	k99_7216	k99_7216_2-3523.1	NA	k99_7216_k99_7216_1	2	740	PF02518	0.56852	CL0025	His_Kinase_A	HATPase_c	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	1747	Cutibacterium acnes
+SRR6145058	k99_7216	k99_7216_2-3523.1	NA	k99_7216_k99_7216_3	1176	1758	PF13673	0.58281	CL0257	Acetyltrans	Acetyltransf_10	Acetyltransferase (GNAT) domain	1747	Cutibacterium acnes
+SRR6145058	k99_7216	k99_7216_2-3523.1	NA	k99_7216_k99_7216_3	1176	1758	PF13508	0.60212	CL0257	Acetyltrans	Acetyltransf_7	Acetyltransferase (GNAT) domain	1747	Cutibacterium acnes
+SRR6145058	k99_7216	k99_7216_2-3523.1	NA	k99_7216_k99_7216_3	1176	1758	PF00583	0.59327	CL0257	Acetyltrans	Acetyltransf_1	Acetyltransferase (GNAT) family	1747	Cutibacterium acnes
+SRR6145058	k99_7216	k99_7216_2-3523.1	NA	k99_7216_k99_7216_4	1877	3152	PF01593	0.6932	CL0063	NADP_Rossmann	Amino_oxidase	Flavin containing amine oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_7216	k99_7216_2-3523.1	NA	k99_7216_k99_7216_4	1877	3152	PF13450	0.64609	CL0063	NADP_Rossmann	NAD_binding_8	NAD(P)-binding Rossmann-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_7216	k99_7216_2-3523.1	NA	k99_7216_k99_7216_4	1877	3152	PF07992	0.60936	CL0063	NADP_Rossmann	Pyr_redox_2	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_7216	k99_7216_2-3523.1	NA	k99_7216_k99_7216_4	1877	3152	PF00890	0.58973	CL0063	NADP_Rossmann	FAD_binding_2	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_7216	k99_7216_2-3523.1	NA	k99_7216_k99_7216_4	1877	3152	PF01946	0.58602	CL0063	NADP_Rossmann	Thi4	Thi4 family	1747	Cutibacterium acnes
+SRR6145058	k99_7216	k99_7216_2-3523.1	NA	k99_7216_k99_7216_4	1877	3152	PF01266	0.56816	CL0063	NADP_Rossmann	DAO	FAD dependent oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_7216	k99_7216_2-3523.1	NA	k99_7216_k99_7216_4	1877	3152	PF13738	0.48295	CL0063	NADP_Rossmann	Pyr_redox_3	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_7216	k99_7216_2-3523.1	NA	k99_7216_k99_7216_4	1877	3152	PF01494	0.52717	CL0063	NADP_Rossmann	FAD_binding_3	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_7216	k99_7216_2-3523.1	NA	k99_7216_k99_7216_5	3229	3523	PF16646	0.59204	NA	NA	AXIN1_TNKS_BD	Axin-1 tankyrase binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_7217	k99_7217_611-1061.1	antibacterial	k99_7217_k99_7217_3	611	1061	PF09339	0.57133	CL0123	HTH	HTH_IclR	IclR helix-turn-helix domain	1747	Cutibacterium acnes
+SRR6145058	k99_3454	k99_3454_7086-7914.1	NA	k99_3454_k99_3454_6	7086	7914	PF01209	0.43936	CL0063	NADP_Rossmann	Ubie_methyltran	ubiE/COQ5 methyltransferase family	1747	Cutibacterium acnes
+SRR6145058	k99_3454	k99_3454_7086-7914.1	NA	k99_3454_k99_3454_6	7086	7914	PF13489	0.45211	CL0063	NADP_Rossmann	Methyltransf_23	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_3454	k99_3454_7086-7914.1	NA	k99_3454_k99_3454_6	7086	7914	PF13847	0.44191	CL0063	NADP_Rossmann	Methyltransf_31	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_3454	k99_3454_7086-7914.1	NA	k99_3454_k99_3454_6	7086	7914	PF05219	0.46627999999999997	CL0063	NADP_Rossmann	DREV	DREV methyltransferase	1747	Cutibacterium acnes
+SRR6145058	k99_3454	k99_3454_7086-7914.1	NA	k99_3454_k99_3454_6	7086	7914	PF07021	0.50409	CL0063	NADP_Rossmann	MetW	Methionine biosynthesis protein MetW	1747	Cutibacterium acnes
+SRR6145058	k99_3454	k99_3454_7086-7914.1	NA	k99_3454_k99_3454_6	7086	7914	PF08241	0.56875	CL0063	NADP_Rossmann	Methyltransf_11	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_3454	k99_3454_7086-7914.1	NA	k99_3454_k99_3454_6	7086	7914	PF08242	0.58996	CL0063	NADP_Rossmann	Methyltransf_12	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_3454	k99_3454_7086-7914.1	NA	k99_3454_k99_3454_6	7086	7914	PF13649	0.57622	CL0063	NADP_Rossmann	Methyltransf_25	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_7293	k99_7293_2-1338.1	antibacterial	k99_7293_k99_7293_1	2	500	PF01565	0.71677	CL0077	FAD_PCMH	FAD_binding_4	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_7293	k99_7293_2-1338.1	antibacterial	k99_7293_k99_7293_2	496	913	PF01575	0.6643	CL0050	HotDog	MaoC_dehydratas	MaoC like domain	1747	Cutibacterium acnes
+SRR6145058	k99_7293	k99_7293_2-1338.1	antibacterial	k99_7293_k99_7293_2	496	913	PF13452	0.65331	CL0050	HotDog	MaoC_dehydrat_N	N-terminal half of MaoC dehydratase	1747	Cutibacterium acnes
+SRR6145058	k99_7293	k99_7293_2-1338.1	antibacterial	k99_7293_k99_7293_3	909	1338	PF13452	0.64555	CL0050	HotDog	MaoC_dehydrat_N	N-terminal half of MaoC dehydratase	1747	Cutibacterium acnes
+SRR6145058	k99_7355	k99_7355_79-3597.1	NA	k99_7355_k99_7355_2	79	1303	PF00745	0.62246	NA	NA	GlutR_dimer	Glutamyl-tRNAGlu reductase, dimerisation domain	1747	Cutibacterium acnes
+SRR6145058	k99_7355	k99_7355_79-3597.1	NA	k99_7355_k99_7355_2	79	1303	PF01488	0.63592	CL0063	NADP_Rossmann	Shikimate_DH	Shikimate / quinate 5-dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_7355	k99_7355_79-3597.1	NA	k99_7355_k99_7355_2	79	1303	PF05201	0.58373	NA	NA	GlutR_N	Glutamyl-tRNAGlu reductase, N-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_7355	k99_7355_79-3597.1	NA	k99_7355_k99_7355_3	1324	2605	PF01208	0.59407	CL0160	Methionine_synt	URO-D	Uroporphyrinogen decarboxylase (URO-D)	1747	Cutibacterium acnes
+SRR6145058	k99_7355	k99_7355_79-3597.1	NA	k99_7355_k99_7355_4	2619	3597	PF01266	0.5548	CL0063	NADP_Rossmann	DAO	FAD dependent oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_7355	k99_7355_79-3597.1	NA	k99_7355_k99_7355_4	2619	3597	PF07992	0.56033	CL0063	NADP_Rossmann	Pyr_redox_2	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_7355	k99_7355_79-3597.1	NA	k99_7355_k99_7355_4	2619	3597	PF12831	0.55955	CL0063	NADP_Rossmann	FAD_oxidored	FAD dependent oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_7355	k99_7355_79-3597.1	NA	k99_7355_k99_7355_4	2619	3597	PF00890	0.57259	CL0063	NADP_Rossmann	FAD_binding_2	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_7355	k99_7355_79-3597.1	NA	k99_7355_k99_7355_4	2619	3597	PF03486	0.55485	CL0063	NADP_Rossmann	HI0933_like	HI0933-like protein	1747	Cutibacterium acnes
+SRR6145058	k99_7355	k99_7355_79-3597.1	NA	k99_7355_k99_7355_4	2619	3597	PF01134	0.50601	CL0063	NADP_Rossmann	GIDA	Glucose inhibited division protein A	1747	Cutibacterium acnes
+SRR6145058	k99_7355	k99_7355_79-3597.1	NA	k99_7355_k99_7355_4	2619	3597	PF13450	0.55193	CL0063	NADP_Rossmann	NAD_binding_8	NAD(P)-binding Rossmann-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_7355	k99_7355_79-3597.1	NA	k99_7355_k99_7355_4	2619	3597	PF01593	0.58542	CL0063	NADP_Rossmann	Amino_oxidase	Flavin containing amine oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_1558	k99_1558_0-837.1	antibacterial	k99_1558_k99_1558_1	0	837	PF02775	0.5969	CL0254	THDP-binding	TPP_enzyme_C	Thiamine pyrophosphate enzyme, C-terminal TPP binding domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7357	k99_7357_956-1193.1	antibacterial	k99_7357_k99_7357_2	956	1193	PF00728	0.50122	CL0058	Glyco_hydro_tim	Glyco_hydro_20	Glycosyl hydrolase family 20, catalytic domain	1747	Cutibacterium acnes
+SRR6145058	k99_12002	k99_12002_445-1711.1	antibacterial	k99_12002_k99_12002_2	445	1711	PF12897	0.56119	CL0061	PLP_aminotran	Aminotran_MocR	Alanine-glyoxylate amino-transferase	1747	Cutibacterium acnes
+SRR6145058	k99_12002	k99_12002_445-1711.1	antibacterial	k99_12002_k99_12002_2	445	1711	PF00155	0.54069	CL0061	PLP_aminotran	Aminotran_1_2	Aminotransferase class I and II	1747	Cutibacterium acnes
+SRR6145058	k99_8107	k99_8107_317-2853.1	antibacterial	k99_8107_k99_8107_1	317	575	PF02467	0.61597	NA	NA	Whib	Transcription factor WhiB	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8107	k99_8107_317-2853.1	antibacterial	k99_8107_k99_8107_2	723	2853	PF00535	0.60196	CL0110	GT-A	Glycos_transf_2	Glycosyl transferase family 2	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8107	k99_8107_317-2853.1	antibacterial	k99_8107_k99_8107_2	723	2853	PF13641	0.58737	CL0110	GT-A	Glyco_tranf_2_3	Glycosyltransferase like family 2	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8170	k99_8170_1-1669.1	antibacterial	k99_8170_k99_8170_1	1	1111	PF04389	0.60339	CL0035	Peptidase_MH	Peptidase_M28	Peptidase family M28	1747	Cutibacterium acnes
+SRR6145058	k99_8170	k99_8170_1-1669.1	antibacterial	k99_8170_k99_8170_1	1	1111	PF01546	0.57616	CL0035	Peptidase_MH	Peptidase_M20	Peptidase family M20/M25/M40	1747	Cutibacterium acnes
+SRR6145058	k99_8170	k99_8170_1-1669.1	antibacterial	k99_8170_k99_8170_1	1	1111	PF07687	0.53156	NA	NA	M20_dimer	Peptidase dimerisation domain	1747	Cutibacterium acnes
+SRR6145058	k99_8170	k99_8170_1-1669.1	antibacterial	k99_8170_k99_8170_3	1501	1669	PF11314	0.58041	NA	NA	DUF3117	Protein of unknown function (DUF3117)	1747	Cutibacterium acnes
+SRR6145058	k99_5472	k99_5472_2-2200.1	antibacterial	k99_5472_k99_5472_1	2	932	PF02653	0.61475	CL0142	Membrane_trans	BPD_transp_2	Branched-chain amino acid transport system / permease component	1747	Cutibacterium acnes
+SRR6145058	k99_5472	k99_5472_2-2200.1	antibacterial	k99_5472_k99_5472_2	928	2200	PF02653	0.58989	CL0142	Membrane_trans	BPD_transp_2	Branched-chain amino acid transport system / permease component	1747	Cutibacterium acnes
+SRR6145058	k99_5214	k99_5214_1-1915.1	antibacterial	k99_5214_k99_5214_1	1	1915	PF13473	0.58396	CL0026	CU_oxidase	Cupredoxin_1	Cupredoxin-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_10199	k99_10199_7862-8144.1	antibacterial	k99_10199_k99_10199_14	7862	8144	PF11984	0.63702	NA	NA	DUF3485	Protein of unknown function (DUF3485)	9606	Homo sapiens
+SRR6145058	k99_8881	k99_8881_1-3989.1	antibacterial	k99_8881_k99_8881_1	1	475	PF08051	0.67985	NA	NA	Ery_res_leader1	Erythromycin resistance leader peptide	1747	Cutibacterium acnes
+SRR6145058	k99_8881	k99_8881_1-3989.1	antibacterial	k99_8881_k99_8881_2	471	1440	PF07584	0.72052	NA	NA	BatA	Aerotolerance regulator N-terminal	1747	Cutibacterium acnes
+SRR6145058	k99_8881	k99_8881_1-3989.1	antibacterial	k99_8881_k99_8881_2	471	1440	PF13768	0.74692	CL0128	vWA-like	VWA_3	von Willebrand factor type A domain	1747	Cutibacterium acnes
+SRR6145058	k99_8881	k99_8881_1-3989.1	antibacterial	k99_8881_k99_8881_2	471	1440	PF00092	0.7678	CL0128	vWA-like	VWA	von Willebrand factor type A domain	1747	Cutibacterium acnes
+SRR6145058	k99_8881	k99_8881_1-3989.1	antibacterial	k99_8881_k99_8881_2	471	1440	PF13519	0.76161	CL0128	vWA-like	VWA_2	von Willebrand factor type A domain	1747	Cutibacterium acnes
+SRR6145058	k99_8881	k99_8881_1-3989.1	antibacterial	k99_8881_k99_8881_3	1436	2393	PF00092	0.79257	CL0128	vWA-like	VWA	von Willebrand factor type A domain	1747	Cutibacterium acnes
+SRR6145058	k99_8881	k99_8881_1-3989.1	antibacterial	k99_8881_k99_8881_3	1436	2393	PF13519	0.76815	CL0128	vWA-like	VWA_2	von Willebrand factor type A domain	1747	Cutibacterium acnes
+SRR6145058	k99_8881	k99_8881_1-3989.1	antibacterial	k99_8881_k99_8881_4	2441	3158	PF01168	0.73035	CL0036	TIM_barrel	Ala_racemase_N	Alanine racemase, N-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_8881	k99_8881_1-3989.1	antibacterial	k99_8881_k99_8881_5	3235	3733	PF11343	0.78744	NA	NA	DUF3145	Protein of unknown function (DUF3145)	1747	Cutibacterium acnes
+SRR6145058	k99_8881	k99_8881_1-3989.1	antibacterial	k99_8881_k99_8881_6	3818	3989	PF16197	0.82623	CL0046	Thiolase	KAsynt_C_assoc	Ketoacyl-synthetase C-terminal extension	1747	Cutibacterium acnes
+SRR6145058	k99_10078	k99_10078_306-690.1	antibacterial	k99_10078_k99_10078_3	306	690	PF01648	0.6285	CL0670	4PPT	ACPS	4'-phosphopantetheinyl transferase superfamily	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7609	k99_7609_1352-1664.1	antibacterial	k99_7609_k99_7609_1	1352	1664	PF15288	0.52866	CL0511	Retroviral_zf	zf-CCHC_6	Zinc knuckle	9606	Homo sapiens
+SRR6145058	k99_9889	k99_9889_2-1768.1	antibacterial	k99_9889_k99_9889_1	2	779	PF00664	0.71641	CL0241	ABC_membrane	ABC_membrane	ABC transporter transmembrane region	1747	Cutibacterium acnes
+SRR6145058	k99_9889	k99_9889_2-1768.1	antibacterial	k99_9889_k99_9889_2	775	1768	PF02463	0.49538	CL0023	P-loop_NTPase	SMC_N	RecF/RecN/SMC N terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_9889	k99_9889_2-1768.1	antibacterial	k99_9889_k99_9889_2	775	1768	PF13558	0.45998	CL0023	P-loop_NTPase	SbcCD_C	Putative exonuclease SbcCD, C subunit	1747	Cutibacterium acnes
+SRR6145058	k99_9889	k99_9889_2-1768.1	antibacterial	k99_9889_k99_9889_2	775	1768	PF00005	0.55259	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_9889	k99_9889_2-1768.1	antibacterial	k99_9889_k99_9889_2	775	1768	PF13191	0.60203	CL0023	P-loop_NTPase	AAA_16	AAA ATPase domain	1747	Cutibacterium acnes
+SRR6145058	k99_9114	k99_9114_2-3301.1	antibacterial	k99_9114_k99_9114_1	2	596	PF00890	0.8417	CL0063	NADP_Rossmann	FAD_binding_2	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_9114	k99_9114_2-3301.1	antibacterial	k99_9114_k99_9114_2	583	1351	PF00890	0.82793	CL0063	NADP_Rossmann	FAD_binding_2	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_9114	k99_9114_2-3301.1	antibacterial	k99_9114_k99_9114_3	1334	1694	PF00890	0.81344	CL0063	NADP_Rossmann	FAD_binding_2	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_9114	k99_9114_2-3301.1	antibacterial	k99_9114_k99_9114_3	1334	1694	PF07992	0.83181	CL0063	NADP_Rossmann	Pyr_redox_2	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_9114	k99_9114_2-3301.1	antibacterial	k99_9114_k99_9114_4	1695	2472	PF13561	0.82901	CL0063	NADP_Rossmann	adh_short_C2	Enoyl-(Acyl carrier protein) reductase	1747	Cutibacterium acnes
+SRR6145058	k99_9114	k99_9114_2-3301.1	antibacterial	k99_9114_k99_9114_4	1695	2472	PF00106	0.83841	CL0063	NADP_Rossmann	adh_short	short chain dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_9114	k99_9114_2-3301.1	antibacterial	k99_9114_k99_9114_4	1695	2472	PF08659	0.83601	CL0063	NADP_Rossmann	KR	KR domain	1747	Cutibacterium acnes
+SRR6145058	k99_9114	k99_9114_2-3301.1	antibacterial	k99_9114_k99_9114_5	2674	3301	PF01081	0.72678	CL0036	TIM_barrel	Aldolase	KDPG and KHG aldolase	1747	Cutibacterium acnes
+SRR6145058	k99_6862	k99_6862_211-6346.1	antibacterial	k99_6862_k99_6862_2	211	1228	PF13602	0.57879	CL0063	NADP_Rossmann	ADH_zinc_N_2	Zinc-binding dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_6862	k99_6862_211-6346.1	antibacterial	k99_6862_k99_6862_2	211	1228	PF00107	0.60258	CL0063	NADP_Rossmann	ADH_zinc_N	Zinc-binding dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_6862	k99_6862_211-6346.1	antibacterial	k99_6862_k99_6862_2	211	1228	PF16884	0.57901	CL0296	GroES	ADH_N_2	N-terminal domain of oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_6862	k99_6862_211-6346.1	antibacterial	k99_6862_k99_6862_3	1345	1861	PF01661	0.53795	CL0223	MACRO	Macro	Macro domain	1747	Cutibacterium acnes
+SRR6145058	k99_6862	k99_6862_211-6346.1	antibacterial	k99_6862_k99_6862_4	1891	2254	PF04343	0.57944	NA	NA	DUF488	Protein of unknown function, DUF488	1747	Cutibacterium acnes
+SRR6145058	k99_6862	k99_6862_211-6346.1	antibacterial	k99_6862_k99_6862_5	2278	3067	PF09335	0.56158	NA	NA	SNARE_assoc	SNARE associated Golgi protein	1747	Cutibacterium acnes
+SRR6145058	k99_6862	k99_6862_211-6346.1	antibacterial	k99_6862_k99_6862_6	3228	4065	PF00005	0.65642	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_6862	k99_6862_211-6346.1	antibacterial	k99_6862_k99_6862_6	3228	4065	PF01078	0.62366	CL0023	P-loop_NTPase	Mg_chelatase	Magnesium chelatase, subunit ChlI	1747	Cutibacterium acnes
+SRR6145058	k99_6862	k99_6862_211-6346.1	antibacterial	k99_6862_k99_6862_6	3228	4065	PF06414	0.68133	CL0023	P-loop_NTPase	Zeta_toxin	Zeta toxin	1747	Cutibacterium acnes
+SRR6145058	k99_6862	k99_6862_211-6346.1	antibacterial	k99_6862_k99_6862_6	3228	4065	PF13191	0.71437	CL0023	P-loop_NTPase	AAA_16	AAA ATPase domain	1747	Cutibacterium acnes
+SRR6145058	k99_6862	k99_6862_211-6346.1	antibacterial	k99_6862_k99_6862_7	4061	4709	PF00528	0.63886	CL0404	BPD_transp_1	BPD_transp_1	Binding-protein-dependent transport system inner membrane component	1747	Cutibacterium acnes
+SRR6145058	k99_6862	k99_6862_211-6346.1	antibacterial	k99_6862_k99_6862_8	4705	5401	PF00528	0.60355	CL0404	BPD_transp_1	BPD_transp_1	Binding-protein-dependent transport system inner membrane component	1747	Cutibacterium acnes
+SRR6145058	k99_6862	k99_6862_211-6346.1	antibacterial	k99_6862_k99_6862_9	5422	6346	PF04069	0.60492	CL0177	PBP	OpuAC	Substrate binding domain of ABC-type glycine betaine transport system	1747	Cutibacterium acnes
+SRR6145058	k99_8364	k99_8364_2-224.1	antibacterial	k99_8364_k99_8364_1	2	224	PF02550	0.54133	CL0246	ISOCOT_Fold	AcetylCoA_hydro	Acetyl-CoA hydrolase/transferase N-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_8364	k99_8364_2-224.1	antibacterial	k99_8364_k99_8364_1	2	224	PF01144	0.5051	CL0246	ISOCOT_Fold	CoA_trans	Coenzyme A transferase	1747	Cutibacterium acnes
+SRR6145058	k99_9738	k99_9738_1-1063.1	antibacterial	k99_9738_k99_9738_1	1	1063	PF00171	0.62707	CL0099	ALDH-like	Aldedh	Aldehyde dehydrogenase family	1747	Cutibacterium acnes
+SRR6145058	k99_2510	k99_2510_699-1947.1	antibacterial	k99_2510_k99_2510_2	699	1947	PF00561	0.53659	CL0028	AB_hydrolase	Abhydrolase_1	alpha/beta hydrolase fold	1747	Cutibacterium acnes
+SRR6145058	k99_2510	k99_2510_699-1947.1	antibacterial	k99_2510_k99_2510_2	699	1947	PF12146	0.51462	CL0028	AB_hydrolase	Hydrolase_4	Serine aminopeptidase, S33	1747	Cutibacterium acnes
+SRR6145058	k99_8441	k99_8441_815-1562.1	antibacterial	k99_8441_k99_8441_2	815	1562	PF01497	0.6134	CL0043	Chelatase	Peripla_BP_2	Periplasmic binding protein	1747	Cutibacterium acnes
+SRR6145058	k99_8116	k99_8116_2-1173.1	antibacterial	k99_8116_k99_8116_1	2	425	PF03995	0.79538	CL0333	gCrystallin	Inhibitor_I36	Peptidase inhibitor family I36	1747	Cutibacterium acnes
+SRR6145058	k99_8116	k99_8116_2-1173.1	antibacterial	k99_8116_k99_8116_2	498	1173	PF03193	0.48586	CL0023	P-loop_NTPase	RsgA_GTPase	RsgA GTPase	1747	Cutibacterium acnes
+SRR6145058	k99_8116	k99_8116_2-1173.1	antibacterial	k99_8116_k99_8116_2	498	1173	PF13555	0.52232	CL0023	P-loop_NTPase	AAA_29	P-loop containing region of AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_8116	k99_8116_2-1173.1	antibacterial	k99_8116_k99_8116_2	498	1173	PF13476	0.52895	CL0023	P-loop_NTPase	AAA_23	AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_8116	k99_8116_2-1173.1	antibacterial	k99_8116_k99_8116_2	498	1173	PF00005	0.58741	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_8116	k99_8116_2-1173.1	antibacterial	k99_8116_k99_8116_2	498	1173	PF02463	0.56204	CL0023	P-loop_NTPase	SMC_N	RecF/RecN/SMC N terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_8116	k99_8116_2-1173.1	antibacterial	k99_8116_k99_8116_2	498	1173	PF13401	0.59589	CL0023	P-loop_NTPase	AAA_22	AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_8116	k99_8116_2-1173.1	antibacterial	k99_8116_k99_8116_2	498	1173	PF13191	0.63786	CL0023	P-loop_NTPase	AAA_16	AAA ATPase domain	1747	Cutibacterium acnes
+SRR6145058	k99_9739	k99_9739_2-1100.1	antibacterial	k99_9739_k99_9739_1	2	1100	PF13440	0.56101	CL0222	MviN_MATE	Polysacc_synt_3	Polysaccharide biosynthesis protein	1747	Cutibacterium acnes
+SRR6145058	k99_8558	k99_8558_1578-4026.1	antibacterial	k99_8558_k99_8558_3	1578	2337	PF13191	0.4365	CL0023	P-loop_NTPase	AAA_16	AAA ATPase domain	1747	Cutibacterium acnes
+SRR6145058	k99_8558	k99_8558_1578-4026.1	antibacterial	k99_8558_k99_8558_3	1578	2337	PF02463	0.41573	CL0023	P-loop_NTPase	SMC_N	RecF/RecN/SMC N terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_8558	k99_8558_1578-4026.1	antibacterial	k99_8558_k99_8558_3	1578	2337	PF00005	0.5234	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_8558	k99_8558_1578-4026.1	antibacterial	k99_8558_k99_8558_3	1578	2337	PF00735	0.43623	CL0023	P-loop_NTPase	Septin	Septin	1747	Cutibacterium acnes
+SRR6145058	k99_8558	k99_8558_1578-4026.1	antibacterial	k99_8558_k99_8558_3	1578	2337	PF03193	0.53959	CL0023	P-loop_NTPase	RsgA_GTPase	RsgA GTPase	1747	Cutibacterium acnes
+SRR6145058	k99_8558	k99_8558_1578-4026.1	antibacterial	k99_8558_k99_8558_3	1578	2337	PF03308	0.57049	CL0023	P-loop_NTPase	MeaB	Methylmalonyl Co-A mutase-associated GTPase MeaB	1747	Cutibacterium acnes
+SRR6145058	k99_8558	k99_8558_1578-4026.1	antibacterial	k99_8558_k99_8558_3	1578	2337	PF01926	0.52447	CL0023	P-loop_NTPase	MMR_HSR1	50S ribosome-binding GTPase	1747	Cutibacterium acnes
+SRR6145058	k99_8558	k99_8558_1578-4026.1	antibacterial	k99_8558_k99_8558_3	1578	2337	PF13514	0.57745	CL0023	P-loop_NTPase	AAA_27	AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_8558	k99_8558_1578-4026.1	antibacterial	k99_8558_k99_8558_3	1578	2337	PF13304	0.59503	CL0023	P-loop_NTPase	AAA_21	AAA domain, putative AbiEii toxin, Type IV TA system	1747	Cutibacterium acnes
+SRR6145058	k99_8558	k99_8558_1578-4026.1	antibacterial	k99_8558_k99_8558_3	1578	2337	PF13476	0.53614	CL0023	P-loop_NTPase	AAA_23	AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_8558	k99_8558_1578-4026.1	antibacterial	k99_8558_k99_8558_3	1578	2337	PF13555	0.50797	CL0023	P-loop_NTPase	AAA_29	P-loop containing region of AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_8558	k99_8558_1578-4026.1	antibacterial	k99_8558_k99_8558_4	2333	3434	PF01032	0.50425	CL0142	Membrane_trans	FecCD	FecCD transport family	1747	Cutibacterium acnes
+SRR6145058	k99_8558	k99_8558_1578-4026.1	antibacterial	k99_8558_k99_8558_5	3618	4026	PF04954	0.59263	CL0091	NAD_Ferredoxin	SIP	Siderophore-interacting protein	1747	Cutibacterium acnes
+SRR6145058	k99_1815	k99_1815_2-1457.1	antibacterial	k99_1815_k99_1815_1	2	1457	PF01642	0.57278	NA	NA	MM_CoA_mutase	Methylmalonyl-CoA mutase	1747	Cutibacterium acnes
+SRR6145058	k99_9701	k99_9701_151-457.1	antibacterial	k99_9701_k99_9701_1	151	457	PF02826	0.58383	CL0063	NADP_Rossmann	2-Hacid_dh_C	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_7494	k99_7494_0-1687.1	antibacterial	k99_7494_k99_7494_1	0	363	PF09335	0.59283	NA	NA	SNARE_assoc	SNARE associated Golgi protein	1747	Cutibacterium acnes
+SRR6145058	k99_7494	k99_7494_0-1687.1	antibacterial	k99_7494_k99_7494_2	385	1687	PF00815	0.55546	CL0099	ALDH-like	Histidinol_dh	Histidinol dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_2767	k99_2767_0-1080.1	antibacterial	k99_2767_k99_2767_1	0	1080	PF07690	0.61863	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_9745	k99_9745_2-1182.1	antibacterial	k99_9745_k99_9745_1	2	635	PF00348	0.6936	CL0613	Terp_synthase	polyprenyl_synt	Polyprenyl synthetase	1747	Cutibacterium acnes
+SRR6145058	k99_9745	k99_9745_2-1182.1	antibacterial	k99_9745_k99_9745_2	852	1182	PF02219	0.67131	CL0086	FAD_oxidored	MTHFR	Methylenetetrahydrofolate reductase	1747	Cutibacterium acnes
+SRR6145058	k99_6411	k99_6411_220-3341.1	inhibitor	k99_6411_k99_6411_2	220	1960	PF00550	0.96571	CL0314	PP-binding	PP-binding	Phosphopantetheine attachment site	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6411	k99_6411_220-3341.1	inhibitor	k99_6411_k99_6411_2	220	1960	PF00501	0.93821	CL0378	ANL	AMP-binding	AMP-binding enzyme	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6411	k99_6411_220-3341.1	inhibitor	k99_6411_k99_6411_3	1982	3341	PF00668	0.95539	CL0149	CoA-acyltrans	Condensation	Condensation domain	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5227	k99_5227_590-1119.1	antibacterial	k99_5227_k99_5227_1	590	929	PF08020	0.6939	CL0310	DinB	DUF1706	Protein of unknown function (DUF1706)	1747	Cutibacterium acnes
+SRR6145058	k99_5227	k99_5227_590-1119.1	antibacterial	k99_5227_k99_5227_2	867	1119	PF08020	0.63667	CL0310	DinB	DUF1706	Protein of unknown function (DUF1706)	1747	Cutibacterium acnes
+SRR6145058	k99_11506	k99_11506_71-2063.1	antibacterial	k99_11506_k99_11506_1	71	1073	PF00291	0.59309	CL0063	NADP_Rossmann	PALP	Pyridoxal-phosphate dependent enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_11506	k99_11506_71-2063.1	antibacterial	k99_11506_k99_11506_2	1073	2063	PF02423	0.61831	CL0063	NADP_Rossmann	OCD_Mu_crystall	Ornithine cyclodeaminase/mu-crystallin family	1747	Cutibacterium acnes
+SRR6145058	k99_1004	k99_1004_1-649.1	antibacterial	k99_1004_k99_1004_1	1	649	PF05175	0.68053	CL0063	NADP_Rossmann	MTS	Methyltransferase small domain	1747	Cutibacterium acnes
+SRR6145058	k99_1004	k99_1004_1-649.1	antibacterial	k99_1004_k99_1004_1	1	649	PF01596	0.73459	CL0063	NADP_Rossmann	Methyltransf_3	O-methyltransferase	1747	Cutibacterium acnes
+SRR6145058	k99_1004	k99_1004_1-649.1	antibacterial	k99_1004_k99_1004_1	1	649	PF13649	0.73702	CL0063	NADP_Rossmann	Methyltransf_25	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_1004	k99_1004_1-649.1	antibacterial	k99_1004_k99_1004_1	1	649	PF13578	0.69802	CL0063	NADP_Rossmann	Methyltransf_24	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_1004	k99_1004_1-649.1	antibacterial	k99_1004_k99_1004_1	1	649	PF08242	0.65329	CL0063	NADP_Rossmann	Methyltransf_12	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_1004	k99_1004_1-649.1	antibacterial	k99_1004_k99_1004_1	1	649	PF08241	0.56542	CL0063	NADP_Rossmann	Methyltransf_11	Methyltransferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_11564	k99_11564_2-353.1	antibacterial	k99_11564_k99_11564_1	2	353	PF00288	0.53329	CL0329	S5	GHMP_kinases_N	GHMP kinases N terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_11564	k99_11564_2-353.1	antibacterial	k99_11564_k99_11564_1	2	353	PF10509	0.4677	CL0329	S5	GalKase_gal_bdg	Galactokinase galactose-binding signature	1747	Cutibacterium acnes
+SRR6145058	k99_6349	k99_6349_0-765.1	antibacterial	k99_6349_k99_6349_1	0	765	PF00528	0.51021	CL0404	BPD_transp_1	BPD_transp_1	Binding-protein-dependent transport system inner membrane component	1747	Cutibacterium acnes
+SRR6145058	k99_9005	k99_9005_0-1095.1	antibacterial	k99_9005_k99_9005_1	0	1095	PF04055	0.54416	CL0036	TIM_barrel	Radical_SAM	Radical SAM superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_8061	k99_8061_632-1055.1	antibacterial	k99_8061_k99_8061_2	632	1055	PF12900	0.54296	CL0336	FMN-binding	Pyridox_ox_2	Pyridoxamine 5'-phosphate oxidase	1747	Cutibacterium acnes
+SRR6145058	k99_8061	k99_8061_632-1055.1	antibacterial	k99_8061_k99_8061_2	632	1055	PF01243	0.51754	CL0336	FMN-binding	Putative_PNPOx	Pyridoxamine 5'-phosphate oxidase	1747	Cutibacterium acnes
+SRR6145058	k99_4025	k99_4025_431-1343.1	antibacterial	k99_4025_k99_4025_1	431	1343	PF13193	0.77673	CL0531	AMP-binding_C	AMP-binding_C	AMP-binding enzyme C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_4025	k99_4025_431-1343.1	antibacterial	k99_4025_k99_4025_1	431	1343	PF00501	0.74406	CL0378	ANL	AMP-binding	AMP-binding enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_5161	k99_5161_405-1335.1	inhibitor	k99_5161_k99_5161_2	405	1335	PF13602	0.56418	CL0063	NADP_Rossmann	ADH_zinc_N_2	Zinc-binding dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_5161	k99_5161_405-1335.1	inhibitor	k99_5161_k99_5161_2	405	1335	PF00107	0.56734	CL0063	NADP_Rossmann	ADH_zinc_N	Zinc-binding dehydrogenase	1747	Cutibacterium acnes
+SRR6145058	k99_5161	k99_5161_405-1335.1	inhibitor	k99_5161_k99_5161_2	405	1335	PF08240	0.56838	CL0296	GroES	ADH_N	Alcohol dehydrogenase GroES-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_10641	k99_10641_1-325.1	antibacterial	k99_10641_k99_10641_1	1	325	PF07690	0.50429	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1234380	Cutibacterium acnes C1
+SRR6145058	k99_11572	k99_11572_490-1663.1	antibacterial	k99_11572_k99_11572_2	490	1663	PF01040	0.65041	CL0613	Terp_synthase	UbiA	UbiA prenyltransferase family	1747	Cutibacterium acnes
+SRR6145058	k99_10643	k99_10643_221-1232.1	antibacterial	k99_10643_k99_10643_1	221	1232	PF01636	0.66426	CL0016	PKinase	APH	Phosphotransferase enzyme family	1747	Cutibacterium acnes
+SRR6145058	k99_12010	k99_12010_1-5968.1	antibacterial	k99_12010_k99_12010_1	1	2797	PF02514	0.72744	NA	NA	CobN-Mg_chel	CobN/Magnesium Chelatase	1747	Cutibacterium acnes
+SRR6145058	k99_12010	k99_12010_1-5968.1	antibacterial	k99_12010_k99_12010_2	2793	3798	PF13186	0.7265	NA	NA	SPASM	Iron-sulfur cluster-binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_12010	k99_12010_1-5968.1	antibacterial	k99_12010_k99_12010_2	2793	3798	PF04055	0.66159	CL0036	TIM_barrel	Radical_SAM	Radical SAM superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_12010	k99_12010_1-5968.1	antibacterial	k99_12010_k99_12010_3	3884	4886	PF13304	0.68652	CL0023	P-loop_NTPase	AAA_21	AAA domain, putative AbiEii toxin, Type IV TA system	1747	Cutibacterium acnes
+SRR6145058	k99_12010	k99_12010_1-5968.1	antibacterial	k99_12010_k99_12010_3	3884	4886	PF00005	0.69965	CL0023	P-loop_NTPase	ABC_tran	ABC transporter	1747	Cutibacterium acnes
+SRR6145058	k99_12010	k99_12010_1-5968.1	antibacterial	k99_12010_k99_12010_3	3884	4886	PF13191	0.73157	CL0023	P-loop_NTPase	AAA_16	AAA ATPase domain	1747	Cutibacterium acnes
+SRR6145058	k99_12010	k99_12010_1-5968.1	antibacterial	k99_12010_k99_12010_3	3884	4886	PF00004	0.67936	CL0023	P-loop_NTPase	AAA	ATPase family associated with various cellular activities (AAA)	1747	Cutibacterium acnes
+SRR6145058	k99_12010	k99_12010_1-5968.1	antibacterial	k99_12010_k99_12010_3	3884	4886	PF13604	0.7108	CL0023	P-loop_NTPase	AAA_30	AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_12010	k99_12010_1-5968.1	antibacterial	k99_12010_k99_12010_3	3884	4886	PF13555	0.71349	CL0023	P-loop_NTPase	AAA_29	P-loop containing region of AAA domain	1747	Cutibacterium acnes
+SRR6145058	k99_12010	k99_12010_1-5968.1	antibacterial	k99_12010_k99_12010_4	4882	5968	PF01032	0.61662	CL0142	Membrane_trans	FecCD	FecCD transport family	1747	Cutibacterium acnes
+SRR6145058	k99_12010	k99_12010_1-5968.1	antibacterial	k99_12010_k99_12010_4	4882	5968	PF00950	0.50907	CL0142	Membrane_trans	ABC-3	ABC 3 transport family	1747	Cutibacterium acnes
+SRR6145058	k99_12010	k99_12010_7405-8674.1	antibacterial	k99_12010_k99_12010_6	7405	8674	PF01497	0.51831	CL0043	Chelatase	Peripla_BP_2	Periplasmic binding protein	1747	Cutibacterium acnes
+SRR6145058	k99_11818	k99_11818_1262-2750.1	antibacterial	k99_11818_k99_11818_3	1262	2750	PF02133	0.56181	CL0062	APC	Transp_cyt_pur	Permease for cytosine/purines, uracil, thiamine, allantoin	1747	Cutibacterium acnes
+SRR6145058	k99_4029	k99_4029_0-1207.1	antibacterial	k99_4029_k99_4029_1	0	558	PF01458	0.60451	NA	NA	UPF0051	Uncharacterized protein family (UPF0051)	1747	Cutibacterium acnes
+SRR6145058	k99_4029	k99_4029_0-1207.1	antibacterial	k99_4029_k99_4029_2	610	1207	PF01458	0.61765	NA	NA	UPF0051	Uncharacterized protein family (UPF0051)	1747	Cutibacterium acnes
+SRR6145058	k99_11819	k99_11819_0-462.1	antibacterial	k99_11819_k99_11819_1	0	462	PF00155	0.57945	CL0061	PLP_aminotran	Aminotran_1_2	Aminotransferase class I and II	1747	Cutibacterium acnes
+SRR6145058	k99_9570	k99_9570_2-2852.1	antibacterial	k99_9570_k99_9570_1	2	485	PF00083	0.81363	CL0015	MFS	Sugar_tr	Sugar (and other) transporter	1747	Cutibacterium acnes
+SRR6145058	k99_9570	k99_9570_2-2852.1	antibacterial	k99_9570_k99_9570_1	2	485	PF07690	0.84146	CL0015	MFS	MFS_1	Major Facilitator Superfamily	1747	Cutibacterium acnes
+SRR6145058	k99_9570	k99_9570_2-2852.1	antibacterial	k99_9570_k99_9570_1	2	485	PF13347	0.85075	CL0015	MFS	MFS_2	MFS/sugar transport protein	1747	Cutibacterium acnes
+SRR6145058	k99_9570	k99_9570_2-2852.1	antibacterial	k99_9570_k99_9570_1	2	485	PF01306	0.82392	CL0015	MFS	LacY_symp	LacY proton/sugar symporter	1747	Cutibacterium acnes
+SRR6145058	k99_9570	k99_9570_2-2852.1	antibacterial	k99_9570_k99_9570_1	2	485	PF12832	0.8064	CL0015	MFS	MFS_1_like	MFS_1 like family	1747	Cutibacterium acnes
+SRR6145058	k99_9570	k99_9570_2-2852.1	antibacterial	k99_9570_k99_9570_2	519	1470	PF00294	0.70599	CL0118	Ribokinase	PfkB	pfkB family carbohydrate kinase	1747	Cutibacterium acnes
+SRR6145058	k99_9570	k99_9570_2-2852.1	antibacterial	k99_9570_k99_9570_3	1466	2135	PF00596	0.69649	NA	NA	Aldolase_II	Class II Aldolase and Adducin N-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_9570	k99_9570_2-2852.1	antibacterial	k99_9570_k99_9570_4	2222	2852	PF01261	0.72684	CL0036	TIM_barrel	AP_endonuc_2	Xylose isomerase-like TIM barrel	1747	Cutibacterium acnes
+SRR6145058	k99_10646	k99_10646_1235-1967.1	antibacterial	k99_10646_k99_10646_2	1235	1967	PF01636	0.51811	CL0016	PKinase	APH	Phosphotransferase enzyme family	1234380	Cutibacterium acnes C1
+SRR6145058	k99_4723	k99_4723_0-1071.1	antibacterial	k99_4723_k99_4723_1	0	1071	PF00698	0.70117	CL0323	Patatin	Acyl_transf_1	Acyl transferase domain	1747	Cutibacterium acnes
+SRR6145058	k99_10381	k99_10381_0-771.1	antibacterial	k99_10381_k99_10381_1	0	771	PF03793	0.54786	NA	NA	PASTA	PASTA domain	1747	Cutibacterium acnes
+SRR6145058	k99_10381	k99_10381_1813-2086.1	antibacterial	k99_10381_k99_10381_3	1813	2086	PF06781	0.54025	NA	NA	CrgA	Cell division protein CrgA	1747	Cutibacterium acnes
+SRR6145058	k99_377	k99_377_264-1038.1	antibacterial	k99_377_k99_377_2	264	1038	PF08386	0.68652	CL0028	AB_hydrolase	Abhydrolase_4	TAP-like protein	1747	Cutibacterium acnes
+SRR6145058	k99_7239	k99_7239_644-4617.1	antibacterial	k99_7239_k99_7239_2	644	1895	PF13193	0.96001	CL0531	AMP-binding_C	AMP-binding_C	AMP-binding enzyme C-terminal domain	1747	Cutibacterium acnes
+SRR6145058	k99_7239	k99_7239_644-4617.1	antibacterial	k99_7239_k99_7239_2	644	1895	PF00501	0.94955	CL0378	ANL	AMP-binding	AMP-binding enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_7239	k99_7239_644-4617.1	antibacterial	k99_7239_k99_7239_3	1836	2742	PF00378	0.92021	CL0127	ClpP_crotonase	ECH_1	Enoyl-CoA hydratase/isomerase	1747	Cutibacterium acnes
+SRR6145058	k99_7239	k99_7239_644-4617.1	antibacterial	k99_7239_k99_7239_3	1836	2742	PF16113	0.90304	CL0127	ClpP_crotonase	ECH_2	Enoyl-CoA hydratase/isomerase	1747	Cutibacterium acnes
+SRR6145058	k99_7239	k99_7239_644-4617.1	antibacterial	k99_7239_k99_7239_4	2850	3468	PF01694	0.81627	CL0207	Rhomboid-like	Rhomboid	Rhomboid family	1747	Cutibacterium acnes
+SRR6145058	k99_7239	k99_7239_644-4617.1	antibacterial	k99_7239_k99_7239_5	3826	4204	PF00501	0.90715	CL0378	ANL	AMP-binding	AMP-binding enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_7239	k99_7239_644-4617.1	antibacterial	k99_7239_k99_7239_5	3826	4204	PF02687	0.7867	CL0404	BPD_transp_1	FtsX	FtsX-like permease family	1747	Cutibacterium acnes
+SRR6145058	k99_7239	k99_7239_644-4617.1	antibacterial	k99_7239_k99_7239_6	4200	4617	PF00501	0.87822	CL0378	ANL	AMP-binding	AMP-binding enzyme	1747	Cutibacterium acnes
+SRR6145058	k99_6801	k99_6801_368-3219.1	antibacterial	k99_6801_k99_6801_2	368	566	PF00528	0.57539	CL0404	BPD_transp_1	BPD_transp_1	Binding-protein-dependent transport system inner membrane component	1747	Cutibacterium acnes
+SRR6145058	k99_6801	k99_6801_368-3219.1	antibacterial	k99_6801_k99_6801_3	615	1494	PF00528	0.53878	CL0404	BPD_transp_1	BPD_transp_1	Binding-protein-dependent transport system inner membrane component	1747	Cutibacterium acnes
+SRR6145058	k99_6801	k99_6801_368-3219.1	antibacterial	k99_6801_k99_6801_4	1650	3219	PF00728	0.53808	CL0058	Glyco_hydro_tim	Glyco_hydro_20	Glycosyl hydrolase family 20, catalytic domain	1747	Cutibacterium acnes
+SRR6145058	k99_3274	k99_3274_593-1769.1	antibacterial	k99_3274_k99_3274_2	593	1769	PF04188	0.61296	CL0111	GT-C	Mannosyl_trans2	Mannosyltransferase (PIG-V)	1747	Cutibacterium acnes
+SRR6145058	k99_3968	k99_3968_2832-6090.1	NA	k99_3968_k99_3968_5	2832	4095	PF05834	0.57708	CL0063	NADP_Rossmann	Lycopene_cycl	Lycopene cyclase protein	1747	Cutibacterium acnes
+SRR6145058	k99_3968	k99_3968_2832-6090.1	NA	k99_3968_k99_3968_5	2832	4095	PF01494	0.59978	CL0063	NADP_Rossmann	FAD_binding_3	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_3968	k99_3968_2832-6090.1	NA	k99_3968_k99_3968_5	2832	4095	PF01266	0.61492	CL0063	NADP_Rossmann	DAO	FAD dependent oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_3968	k99_3968_2832-6090.1	NA	k99_3968_k99_3968_5	2832	4095	PF12831	0.60665	CL0063	NADP_Rossmann	FAD_oxidored	FAD dependent oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_3968	k99_3968_2832-6090.1	NA	k99_3968_k99_3968_5	2832	4095	PF00070	0.61967	CL0063	NADP_Rossmann	Pyr_redox	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_3968	k99_3968_2832-6090.1	NA	k99_3968_k99_3968_5	2832	4095	PF07992	0.64615	CL0063	NADP_Rossmann	Pyr_redox_2	Pyridine nucleotide-disulphide oxidoreductase	1747	Cutibacterium acnes
+SRR6145058	k99_3968	k99_3968_2832-6090.1	NA	k99_3968_k99_3968_5	2832	4095	PF04820	0.68115	CL0063	NADP_Rossmann	Trp_halogenase	Tryptophan halogenase	1747	Cutibacterium acnes
+SRR6145058	k99_3968	k99_3968_2832-6090.1	NA	k99_3968_k99_3968_5	2832	4095	PF13450	0.66889	CL0063	NADP_Rossmann	NAD_binding_8	NAD(P)-binding Rossmann-like domain	1747	Cutibacterium acnes
+SRR6145058	k99_3968	k99_3968_2832-6090.1	NA	k99_3968_k99_3968_5	2832	4095	PF03486	0.60213	CL0063	NADP_Rossmann	HI0933_like	HI0933-like protein	1747	Cutibacterium acnes
+SRR6145058	k99_3968	k99_3968_2832-6090.1	NA	k99_3968_k99_3968_5	2832	4095	PF00890	0.60363	CL0063	NADP_Rossmann	FAD_binding_2	FAD binding domain	1747	Cutibacterium acnes
+SRR6145058	k99_3968	k99_3968_2832-6090.1	NA	k99_3968_k99_3968_5	2832	4095	PF01946	0.59343	CL0063	NADP_Rossmann	Thi4	Thi4 family	1747	Cutibacterium acnes
+SRR6145058	k99_3968	k99_3968_2832-6090.1	NA	k99_3968_k99_3968_5	2832	4095	PF01134	0.51319	CL0063	NADP_Rossmann	GIDA	Glucose inhibited division protein A	1747	Cutibacterium acnes
+SRR6145058	k99_3968	k99_3968_2832-6090.1	NA	k99_3968_k99_3968_7	4821	6090	PF00425	0.6145	NA	NA	Chorismate_bind	chorismate binding enzyme	1747	Cutibacterium acnes

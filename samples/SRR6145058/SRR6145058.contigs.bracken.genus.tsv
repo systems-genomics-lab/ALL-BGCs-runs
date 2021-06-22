@@ -1,0 +1,13 @@
+sample	name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+SRR6145058	Cutibacterium	1912216	G	894	2	896	0.93724
+SRR6145058	Homo	9605	G	43	0	43	0.04498
+SRR6145058	Staphylococcus	1279	G	5	0	5	0.00523
+SRR6145058	Micrococcus	1269	G	4	0	4	0.00418
+SRR6145058	Betapapillomavirus	333922	G	2	0	2	0.00209
+SRR6145058	Rothia	32207	G	1	0	1	0.00105
+SRR6145058	Pseudomonas	286	G	1	0	1	0.00105
+SRR6145058	Moraxella	475	G	1	0	1	0.00105
+SRR6145058	Gammapapillomavirus	325455	G	1	0	1	0.00105
+SRR6145058	Clostridium	1485	G	1	0	1	0.00105
+SRR6145058	Bosea	85413	G	1	0	1	0.00105
+SRR6145058	Streptomyces	1883	G	1	-1	0	0.00000

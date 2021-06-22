@@ -1,11 +1,11 @@
 + set -o pipefail
 ++ date +%s%N
-+ ts=1624389982912364350
++ ts=1624390078373237154
 + sample=SRR6145058
 + echo '--START-- SRR6145058'
 --START-- SRR6145058
 + date
-Tue Jun 22 19:26:22 UTC 2021
+Tue Jun 22 19:27:58 UTC 2021
 + export KRAKEN=/data/kraken2
 + KRAKEN=/data/kraken2
 + export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ncbi/sra-tools/bin/:/usr/local/ncbi/ngs-tools/bin/:/usr/local/ncbi/ncbi-vdb/bin:/usr/local/miniconda3/bin:/data/kraken2/bin
@@ -23,5 +23,2114 @@ CPUs: 192
 + filtered2=SRR6145058_2.filtered.fastq.gz
 + reads1=SRR6145058_1.final.fastq.gz
 + reads2=SRR6145058_1.final.fastq.gz
++ echo
+
++ echo '-- STEP 1 -- Downloading the fastq'
+-- STEP 1 -- Downloading the fastq
++ cd /projects/metaBGC//samples/
++ prefetch SRR6145058
+
+2021-06-22T19:28:01 prefetch.2.10.8: 1) Downloading 'SRR6145058'...
+2021-06-22T19:28:01 prefetch.2.10.8:  Downloading via HTTPS...
+2021-06-22T19:30:05 prefetch.2.10.8:  HTTPS download succeed
+2021-06-22T19:30:08 prefetch.2.10.8:  'SRR6145058' is valid
+2021-06-22T19:30:08 prefetch.2.10.8: 1) 'SRR6145058' was downloaded successfully
+2021-06-22T19:30:08 prefetch.2.10.8: 'SRR6145058' has 0 unresolved dependencies
 + cd /projects/metaBGC//samples/SRR6145058
-/projects/metaBGC//scripts/run.sh: line 31: cd: /projects/metaBGC//samples/SRR6145058: No such file or directory
++ fastq-dump --split-files --split-spot --skip-technical --gzip SRR6145058.sra
+Read 24489197 spots for SRR6145058.sra
+Written 24489197 spots for SRR6145058.sra
++ zcat SRR6145058_1.fastq.gz
++ wc -l
++ awk -v sample=SRR6145058 '{print sample"\t"$0/4;}'
++ echo
+
++ echo '-- STEP 2 -- QC'
+-- STEP 2 -- QC
++ fastp --verbose --thread 192 --in1 SRR6145058_1.fastq.gz --in2 SRR6145058_2.fastq.gz --out1 SRR6145058_1.filtered.fastq.gz --out2 SRR6145058_2.filtered.fastq.gz --json SRR6145058.fastp.jason --html SRR6145058.fastp.html --report_title SRR6145058
+WARNING: fastp uses up to 16 threads although you specified 192
+[19:55:03]
+[19:55:15]
+[19:55:27]
+[19:55:40]
+[19:55:52]
+[19:56:03]
+[19:56:15]
+[19:56:26]
+[19:56:38]
+[19:56:50]
+[19:57:02]
+[19:57:13]
+[19:57:25]
+[19:57:37]
+[19:57:49]
+[19:58:01]
+[19:58:12]
+[19:58:24]
+[19:58:36]
+[19:58:47]
+[19:58:59]
+[19:59:11]
+[19:59:22]
+[19:59:34]
+[19:59:46]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+[19:59:52]
+Read1 before filtering:
+total reads: 24489197
+total bases: 2428590460
+Q20 bases: 2342154113(96.4409%)
+Q30 bases: 2249859260(92.6405%)
+
+Read2 before filtering:
+total reads: 24489197
+total bases: 2426275735
+Q20 bases: 2304677687(94.9883%)
+Q30 bases: 2196616358(90.5345%)
+
+Read1 after filtering:
+total reads: 23624911
+total bases: 2334441620
+Q20 bases: 2266975085(97.1099%)
+Q30 bases: 2187716732(93.7148%)
+
+Read2 after filtering:
+total reads: 23624911
+total bases: 2332802573
+Q20 bases: 2252371982(96.5522%)
+Q30 bases: 2164010166(92.7644%)
+
+Filtering result:
+reads passed filter: 47249822
+reads failed due to low quality: 1713108
+reads failed due to too many N: 15464
+reads failed due to too short: 0
+reads with adapter trimmed: 2153842
+bases trimmed due to adapters: 17485420
+
+Duplication rate: 0.0860955%
+
+Insert size peak (evaluated by paired-end reads): 159
+
+JSON report: SRR6145058.fastp.jason
+HTML report: SRR6145058.fastp.html
+
+fastp --verbose --thread 192 --in1 SRR6145058_1.fastq.gz --in2 SRR6145058_2.fastq.gz --out1 SRR6145058_1.filtered.fastq.gz --out2 SRR6145058_2.filtered.fastq.gz --json SRR6145058.fastp.jason --html SRR6145058.fastp.html --report_title SRR6145058 
+fastp v0.21.0, time used: 289 seconds
+
+real	4m49.056s
+user	20m19.545s
+sys	2m3.839s
++ zcat SRR6145058_1.filtered.fastq.gz
++ wc -l
++ awk -v sample=SRR6145058 '{print sample"\t"$0/4;}'
++ echo
+
++ echo '-- STEP 2 -- Subsample'
+-- STEP 2 -- Subsample
++ maxreads=10000000
++ seqtk sample -s123 SRR6145058_1.filtered.fastq.gz 10000000
++ gzip -c
++ seqtk sample -s123 SRR6145058_2.filtered.fastq.gz 10000000
++ gzip -c
++ zcat SRR6145058_1.final.fastq.gz
++ wc -l
++ awk -v sample=SRR6145058 '{print sample"\t"$0/4;}'
++ echo
+
++ echo '-- STEP 3 -- Taxonomic classification of reads'
+-- STEP 3 -- Taxonomic classification of reads
++ kraken2 --db /data/kraken2/db --threads 192 --classified-out SRR6145058.reads.kraken.classified#.fq --unclassified-out SRR6145058.reads.kraken.unclassified#.fq --report SRR6145058.reads.kraken --use-names --pair SRR6145058_1.final.fastq.gz SRR6145058_1.final.fastq.gz
+
+real	1m22.471s
+user	4m20.592s
+sys	1m14.883s
++ set +e
++ set +o pipefail
++ bracken -d /data/kraken2/db -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.species.tmp -l S -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.species.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l S -t 1
+PROGRAM START TIME: 06-22-2021 20:08:51
+BRACKEN SUMMARY (Kraken report: SRR6145058.reads.kraken)
+    >>> Threshold: 1 
+    >>> Number of species in sample: 5639 
+	  >> Number of species with reads > threshold: 5639 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 10000000
+	  >> Total reads kept at species level (reads > threshold): 8957452
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 9148822
+	  >> Reads not distributed (eg. no species above threshold): 530
+	  >> Unclassified reads: 850648
+BRACKEN OUTPUT PRODUCED: SRR6145058.reads.bracken.species.tmp
+PROGRAM END TIME: 06-22-2021 20:08:51
+  Bracken complete.
++ bracken -d /data/kraken2/db -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.genus.tmp -l G -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.genus.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l G -t 1
+PROGRAM START TIME: 06-22-2021 20:08:51
+BRACKEN SUMMARY (Kraken report: SRR6145058.reads.kraken)
+    >>> Threshold: 1 
+    >>> Number of genuses in sample: 1586 
+	  >> Number of genuses with reads > threshold: 1586 
+	  >> Number of genuses with reads < threshold: 0 
+    >>> Total reads in sample: 10000000
+	  >> Total reads kept at genuses level (reads > threshold): 9065824
+	  >> Total reads discarded (genuses reads < threshold): 0
+	  >> Reads distributed: 9148828
+	  >> Reads not distributed (eg. no genuses above threshold): 524
+	  >> Unclassified reads: 850648
+BRACKEN OUTPUT PRODUCED: SRR6145058.reads.bracken.genus.tmp
+PROGRAM END TIME: 06-22-2021 20:08:52
+  Bracken complete.
++ bracken -d /data/kraken2/db -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.order.tmp -l O -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.order.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l O -t 1
+PROGRAM START TIME: 06-22-2021 20:08:52
+BRACKEN SUMMARY (Kraken report: SRR6145058.reads.kraken)
+    >>> Threshold: 1 
+    >>> Number of orders in sample: 199 
+	  >> Number of orders with reads > threshold: 199 
+	  >> Number of orders with reads < threshold: 0 
+    >>> Total reads in sample: 10000000
+	  >> Total reads kept at orders level (reads > threshold): 9089829
+	  >> Total reads discarded (orders reads < threshold): 0
+	  >> Reads distributed: 9148828
+	  >> Reads not distributed (eg. no orders above threshold): 524
+	  >> Unclassified reads: 850648
+BRACKEN OUTPUT PRODUCED: SRR6145058.reads.bracken.order.tmp
+PROGRAM END TIME: 06-22-2021 20:08:52
+  Bracken complete.
++ bracken -d /data/kraken2/db -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.family.tmp -l F -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.family.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l F -t 1
+PROGRAM START TIME: 06-22-2021 20:08:52
+BRACKEN SUMMARY (Kraken report: SRR6145058.reads.kraken)
+    >>> Threshold: 1 
+    >>> Number of families in sample: 428 
+	  >> Number of families with reads > threshold: 428 
+	  >> Number of families with reads < threshold: 0 
+    >>> Total reads in sample: 10000000
+	  >> Total reads kept at families level (reads > threshold): 9071916
+	  >> Total reads discarded (families reads < threshold): 0
+	  >> Reads distributed: 9148828
+	  >> Reads not distributed (eg. no families above threshold): 524
+	  >> Unclassified reads: 850648
+BRACKEN OUTPUT PRODUCED: SRR6145058.reads.bracken.family.tmp
+PROGRAM END TIME: 06-22-2021 20:08:53
+  Bracken complete.
++ bracken -d /data/kraken2/db -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.class.tmp -l C -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.class.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l C -t 1
+PROGRAM START TIME: 06-22-2021 20:08:53
+BRACKEN SUMMARY (Kraken report: SRR6145058.reads.kraken)
+    >>> Threshold: 1 
+    >>> Number of classes in sample: 94 
+	  >> Number of classes with reads > threshold: 94 
+	  >> Number of classes with reads < threshold: 0 
+    >>> Total reads in sample: 10000000
+	  >> Total reads kept at classes level (reads > threshold): 9102295
+	  >> Total reads discarded (classes reads < threshold): 0
+	  >> Reads distributed: 9148828
+	  >> Reads not distributed (eg. no classes above threshold): 524
+	  >> Unclassified reads: 850648
+BRACKEN OUTPUT PRODUCED: SRR6145058.reads.bracken.class.tmp
+PROGRAM END TIME: 06-22-2021 20:08:53
+  Bracken complete.
++ bracken -d /data/kraken2/db -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.phylum.tmp -l P -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.phylum.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l P -t 1
+PROGRAM START TIME: 06-22-2021 20:08:53
+BRACKEN SUMMARY (Kraken report: SRR6145058.reads.kraken)
+    >>> Threshold: 1 
+    >>> Number of phylums in sample: 55 
+	  >> Number of phylums with reads > threshold: 55 
+	  >> Number of phylums with reads < threshold: 0 
+    >>> Total reads in sample: 10000000
+	  >> Total reads kept at phylums level (reads > threshold): 9109613
+	  >> Total reads discarded (phylums reads < threshold): 0
+	  >> Reads distributed: 9148828
+	  >> Reads not distributed (eg. no phylums above threshold): 524
+	  >> Unclassified reads: 850648
+BRACKEN OUTPUT PRODUCED: SRR6145058.reads.bracken.phylum.tmp
+PROGRAM END TIME: 06-22-2021 20:08:53
+  Bracken complete.
++ bracken -d /data/kraken2/db -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.domain.tmp -l D -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.reads.kraken -o SRR6145058.reads.bracken.domain.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l D -t 1
+PROGRAM START TIME: 06-22-2021 20:08:54
+BRACKEN SUMMARY (Kraken report: SRR6145058.reads.kraken)
+    >>> Threshold: 1 
+    >>> Number of domains in sample: 4 
+	  >> Number of domains with reads > threshold: 4 
+	  >> Number of domains with reads < threshold: 0 
+    >>> Total reads in sample: 10000000
+	  >> Total reads kept at domains level (reads > threshold): 9121825
+	  >> Total reads discarded (domains reads < threshold): 0
+	  >> Reads distributed: 9148828
+	  >> Reads not distributed (eg. no domains above threshold): 524
+	  >> Unclassified reads: 850648
+BRACKEN OUTPUT PRODUCED: SRR6145058.reads.bracken.domain.tmp
+PROGRAM END TIME: 06-22-2021 20:08:54
+  Bracken complete.
++ cat SRR6145058.reads.bracken.species.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.reads.bracken.species.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ /projects/metaBGC//scripts/plot_abundances.sh SRR6145058.reads.bracken.species.tsv
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.1
+v tidyr   1.1.1     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'tidylog'
+
+The following objects are masked from 'package:dplyr':
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following objects are masked from 'package:tidyr':
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    spread, uncount
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  name = col_character(),
+  taxonomy_id = col_double(),
+  taxonomy_lvl = col_character(),
+  kraken_assigned_reads = col_double(),
+  added_reads = col_double(),
+  new_est_reads = col_double(),
+  fraction_total_reads = col_double()
+)
+# A tibble: 6 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <chr>                   <dbl>       <dbl>
+1 SRR61~ Homo~        9606 S                     7868181        4955
+2 SRR61~ Cand~     2572088 S                          38          18
+3 SRR61~ Cand~     2572087 S                           7           7
+4 SRR61~ Nost~     1618022 S                           7           1
+5 SRR61~ Bloc~     1505597 S                           1           0
+6 SRR61~ Dein~     1309411 S                         105          31
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+mutate: changed 5,626 values (>99%) of 'name' (0 new NA)
+# A tibble: 6 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <chr>                   <dbl>       <dbl>
+1 SRR61~ Homo~        9606 S                     7868181        4955
+2 SRR61~ _oth~     2572088 S                          38          18
+3 SRR61~ _oth~     2572087 S                           7           7
+4 SRR61~ _oth~     1618022 S                           7           1
+5 SRR61~ _oth~     1505597 S                           1           0
+6 SRR61~ _oth~     1309411 S                         105          31
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+group_by: one grouping variable (name)
+summarize: now 14 rows and 2 columns, ungrouped
+# A tibble: 6 x 2
+  name                        fraction_total_reads
+  <chr>                                      <dbl>
+1 Actinomyces oris                         0.00105
+2 Corynebacterium segmentosum              0.00106
+3 Cutibacterium acnes                      0.0523 
+4 Cutibacterium granulosum                 0.00128
+5 Homo sapiens                             0.861  
+6 Micrococcus luteus                       0.00432
+# A tibble: 6 x 2
+  name                       fraction_total_reads
+  <chr>                                     <dbl>
+1 Homo sapiens                            0.861  
+2 _other_                                 0.0610 
+3 Cutibacterium acnes                     0.0523 
+4 Micrococcus luteus                      0.00432
+5 Moraxella osloensis                     0.00412
+6 Staphylococcus epidermidis              0.00378
+# A tibble: 6 x 2
+  name                       fraction_total_reads
+  <chr>                                     <dbl>
+1 Homo sapiens                            0.861  
+2 _other_                                 0.0610 
+3 Cutibacterium acnes                     0.0523 
+4 Micrococcus luteus                      0.00432
+5 Moraxella osloensis                     0.00412
+6 Staphylococcus epidermidis              0.00378
+# A tibble: 6 x 2
+  name                         fraction_total_reads
+  <chr>                                       <dbl>
+1 Staphylococcus saprophyticus              0.0014 
+2 Staphylococcus warneri                    0.00142
+3 Streptococcus mitis                       0.00142
+4 Staphylococcus hominis                    0.00166
+5 Staphylococcus epidermidis                0.00378
+6 Moraxella osloensis                       0.00412
+mutate: converted 'name' from character to factor (0 new NA)
+# A tibble: 6 x 2
+  name                         fraction_total_reads
+  <fct>                                       <dbl>
+1 Staphylococcus saprophyticus              0.0014 
+2 Staphylococcus warneri                    0.00142
+3 Streptococcus mitis                       0.00142
+4 Staphylococcus hominis                    0.00166
+5 Staphylococcus epidermidis                0.00378
+6 Moraxella osloensis                       0.00412
+Saving 7 x 7 in image
++ cat SRR6145058.reads.bracken.genus.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.reads.bracken.genus.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ /projects/metaBGC//scripts/plot_abundances.sh SRR6145058.reads.bracken.genus.tsv
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.1
+v tidyr   1.1.1     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'tidylog'
+
+The following objects are masked from 'package:dplyr':
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following objects are masked from 'package:tidyr':
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    spread, uncount
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  name = col_character(),
+  taxonomy_id = col_double(),
+  taxonomy_lvl = col_character(),
+  kraken_assigned_reads = col_double(),
+  added_reads = col_double(),
+  new_est_reads = col_double(),
+  fraction_total_reads = col_double()
+)
+# A tibble: 6 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <chr>                   <dbl>       <dbl>
+1 SRR61~ Cand~      327159 G                          36          33
+2 SRR61~ Cand~     1808977 G                           5          40
+3 SRR61~ Cand~      198251 G                          23           7
+4 SRR61~ Cand~     1679002 G                          16          13
+5 SRR61~ Cand~     1331051 G                          11          12
+6 SRR61~ Cand~      332162 G                          18           0
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+mutate: changed 1,569 values (99%) of 'name' (0 new NA)
+# A tibble: 6 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <chr>                   <dbl>       <dbl>
+1 SRR61~ _oth~      327159 G                          36          33
+2 SRR61~ _oth~     1808977 G                           5          40
+3 SRR61~ _oth~      198251 G                          23           7
+4 SRR61~ _oth~     1679002 G                          16          13
+5 SRR61~ _oth~     1331051 G                          11          12
+6 SRR61~ _oth~      332162 G                          18           0
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+group_by: one grouping variable (name)
+summarize: now 18 rows and 2 columns, ungrouped
+# A tibble: 6 x 2
+  name             fraction_total_reads
+  <chr>                           <dbl>
+1 Acinetobacter                 0.00324
+2 Actinomyces                   0.00345
+3 Chryseobacterium              0.00141
+4 Corynebacterium               0.00516
+5 Cutibacterium                 0.0540 
+6 Gordonia                      0.00145
+# A tibble: 6 x 2
+  name            fraction_total_reads
+  <chr>                          <dbl>
+1 Homo                         0.861  
+2 Cutibacterium                0.0540 
+3 _other_                      0.0340 
+4 Staphylococcus               0.0124 
+5 Streptococcus                0.00613
+6 Corynebacterium              0.00516
+# A tibble: 6 x 2
+  name            fraction_total_reads
+  <chr>                          <dbl>
+1 Homo                         0.861  
+2 Cutibacterium                0.0540 
+3 _other_                      0.0340 
+4 Staphylococcus               0.0124 
+5 Streptococcus                0.00613
+6 Corynebacterium              0.00516
+# A tibble: 6 x 2
+  name            fraction_total_reads
+  <chr>                          <dbl>
+1 Acinetobacter                0.00324
+2 Actinomyces                  0.00345
+3 Moraxella                    0.00418
+4 Micrococcus                  0.00491
+5 Corynebacterium              0.00516
+6 Streptococcus                0.00613
+mutate: converted 'name' from character to factor (0 new NA)
+# A tibble: 6 x 2
+  name            fraction_total_reads
+  <fct>                          <dbl>
+1 Acinetobacter                0.00324
+2 Actinomyces                  0.00345
+3 Moraxella                    0.00418
+4 Micrococcus                  0.00491
+5 Corynebacterium              0.00516
+6 Streptococcus                0.00613
+Saving 7 x 7 in image
++ cat SRR6145058.reads.bracken.order.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.reads.bracken.order.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ /projects/metaBGC//scripts/plot_abundances.sh SRR6145058.reads.bracken.order.tsv
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.1
+v tidyr   1.1.1     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'tidylog'
+
+The following objects are masked from 'package:dplyr':
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following objects are masked from 'package:tidyr':
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    spread, uncount
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  name = col_character(),
+  taxonomy_id = col_double(),
+  taxonomy_lvl = col_character(),
+  kraken_assigned_reads = col_double(),
+  added_reads = col_double(),
+  new_est_reads = col_double(),
+  fraction_total_reads = col_double()
+)
+# A tibble: 6 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <chr>                   <dbl>       <dbl>
+1 SRR61~ Cand~     2039638 O                          23           1
+2 SRR61~ Cand~     1127829 O                           7           0
+3 SRR61~ Prim~        9443 O                     7868181        4955
+4 SRR61~ Prop~       85009 O                      497024        4775
+5 SRR61~ Baci~        1385 O                      102867       19249
+6 SRR61~ Cory~       85007 O                      101390        1523
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+mutate: changed 180 values (90%) of 'name' (0 new NA)
+# A tibble: 6 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <chr>                   <dbl>       <dbl>
+1 SRR61~ _oth~     2039638 O                          23           1
+2 SRR61~ _oth~     1127829 O                           7           0
+3 SRR61~ Prim~        9443 O                     7868181        4955
+4 SRR61~ Prop~       85009 O                      497024        4775
+5 SRR61~ Baci~        1385 O                      102867       19249
+6 SRR61~ Cory~       85007 O                      101390        1523
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+group_by: one grouping variable (name)
+summarize: now 20 rows and 2 columns, ungrouped
+# A tibble: 6 x 2
+  name              fraction_total_reads
+  <chr>                            <dbl>
+1 Actinomycetales                0.00378
+2 Bacillales                     0.0134 
+3 Burkholderiales                0.00371
+4 Caudovirales                   0.00124
+5 Caulobacterales                0.00109
+6 Corynebacteriales              0.0112 
+# A tibble: 6 x 2
+  name                fraction_total_reads
+  <chr>                              <dbl>
+1 Primates                         0.861  
+2 Propionibacteriales              0.0548 
+3 Bacillales                       0.0134 
+4 Corynebacteriales                0.0112 
+5 Micrococcales                    0.0111 
+6 _other_                          0.00915
+# A tibble: 6 x 2
+  name                fraction_total_reads
+  <chr>                              <dbl>
+1 Primates                         0.861  
+2 Propionibacteriales              0.0548 
+3 Bacillales                       0.0134 
+4 Corynebacteriales                0.0112 
+5 Micrococcales                    0.0111 
+6 _other_                          0.00915
+# A tibble: 6 x 2
+  name            fraction_total_reads
+  <chr>                          <dbl>
+1 Burkholderiales              0.00371
+2 Actinomycetales              0.00378
+3 Lactobacillales              0.00683
+4 Pseudomonadales              0.00883
+5 _other_                      0.00915
+6 Micrococcales                0.0111 
+mutate: converted 'name' from character to factor (0 new NA)
+# A tibble: 6 x 2
+  name            fraction_total_reads
+  <fct>                          <dbl>
+1 Burkholderiales              0.00371
+2 Actinomycetales              0.00378
+3 Lactobacillales              0.00683
+4 Pseudomonadales              0.00883
+5 _other_                      0.00915
+6 Micrococcales                0.0111 
+Saving 7 x 7 in image
++ cat SRR6145058.reads.bracken.family.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.reads.bracken.family.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ /projects/metaBGC//scripts/plot_abundances.sh SRR6145058.reads.bracken.family.tsv
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.1
+v tidyr   1.1.1     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'tidylog'
+
+The following objects are masked from 'package:dplyr':
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following objects are masked from 'package:tidyr':
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    spread, uncount
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  name = col_character(),
+  taxonomy_id = col_double(),
+  taxonomy_lvl = col_logical(),
+  kraken_assigned_reads = col_double(),
+  added_reads = col_double(),
+  new_est_reads = col_double(),
+  fraction_total_reads = col_double()
+)
+# A tibble: 6 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <lgl>                   <dbl>       <dbl>
+1 SRR61~ Cand~     2162846 FALSE                      23           1
+2 SRR61~ Cand~     1127830 FALSE                       7           0
+3 SRR61~ Cand~     1777752 FALSE                       2           0
+4 SRR61~ Cand~     2603433 FALSE                       2           0
+5 SRR61~ Cand~     1902584 FALSE                       1           0
+6 SRR61~ Homi~        9604 FALSE                 7868181        4955
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+mutate: changed 403 values (94%) of 'name' (0 new NA)
+# A tibble: 6 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <lgl>                   <dbl>       <dbl>
+1 SRR61~ _oth~     2162846 FALSE                      23           1
+2 SRR61~ _oth~     1127830 FALSE                       7           0
+3 SRR61~ _oth~     1777752 FALSE                       2           0
+4 SRR61~ _oth~     2603433 FALSE                       2           0
+5 SRR61~ _oth~     1902584 FALSE                       1           0
+6 SRR61~ Homi~        9604 FALSE                 7868181        4955
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+group_by: one grouping variable (name)
+summarize: now 26 rows and 2 columns, ungrouped
+# A tibble: 6 x 2
+  name               fraction_total_reads
+  <chr>                             <dbl>
+1 Actinomycetaceae                0.00378
+2 Bradyrhizobiaceae               0.001  
+3 Burkholderiaceae                0.00206
+4 Caulobacteraceae                0.00109
+5 Comamonadaceae                  0.00119
+6 Corynebacteriaceae              0.00516
+# A tibble: 6 x 2
+  name                 fraction_total_reads
+  <chr>                               <dbl>
+1 Hominidae                         0.861  
+2 Propionibacteriaceae              0.0544 
+3 _other_                           0.0181 
+4 Staphylococcaceae                 0.0131 
+5 Moraxellaceae                     0.00745
+6 Micrococcaceae                    0.00709
+# A tibble: 6 x 2
+  name                 fraction_total_reads
+  <chr>                               <dbl>
+1 Hominidae                         0.861  
+2 Propionibacteriaceae              0.0544 
+3 _other_                           0.0181 
+4 Staphylococcaceae                 0.0131 
+5 Moraxellaceae                     0.00745
+6 Micrococcaceae                    0.00709
+# A tibble: 6 x 2
+  name               fraction_total_reads
+  <chr>                             <dbl>
+1 Flavobacteriaceae               0.0021 
+2 Actinomycetaceae                0.00378
+3 Corynebacteriaceae              0.00516
+4 Streptococcaceae                0.00617
+5 Micrococcaceae                  0.00709
+6 Moraxellaceae                   0.00745
+mutate: converted 'name' from character to factor (0 new NA)
+# A tibble: 6 x 2
+  name               fraction_total_reads
+  <fct>                             <dbl>
+1 Flavobacteriaceae               0.0021 
+2 Actinomycetaceae                0.00378
+3 Corynebacteriaceae              0.00516
+4 Streptococcaceae                0.00617
+5 Micrococcaceae                  0.00709
+6 Moraxellaceae                   0.00745
+Saving 7 x 7 in image
++ cat SRR6145058.reads.bracken.class.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.reads.bracken.class.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ /projects/metaBGC//scripts/plot_abundances.sh SRR6145058.reads.bracken.class.tsv
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.1
+v tidyr   1.1.1     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'tidylog'
+
+The following objects are masked from 'package:dplyr':
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following objects are masked from 'package:tidyr':
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    spread, uncount
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  name = col_character(),
+  taxonomy_id = col_double(),
+  taxonomy_lvl = col_character(),
+  kraken_assigned_reads = col_double(),
+  added_reads = col_double(),
+  new_est_reads = col_double(),
+  fraction_total_reads = col_double()
+)
+# A tibble: 6 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <chr>                   <dbl>       <dbl>
+1 SRR61~ Cand~     2517206 C                           7           0
+2 SRR61~ Mamm~       40674 C                     7868181        4955
+3 SRR61~ Acti~        1760 C                      758302        1156
+4 SRR61~ Baci~       91061 C                      162662       21964
+5 SRR61~ Gamm~        1236 C                      119231        5441
+6 SRR61~ Alph~       28211 C                       71413         806
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+mutate: changed 86 values (91%) of 'name' (0 new NA)
+# A tibble: 6 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <chr>                   <dbl>       <dbl>
+1 SRR61~ _oth~     2517206 C                           7           0
+2 SRR61~ Mamm~       40674 C                     7868181        4955
+3 SRR61~ Acti~        1760 C                      758302        1156
+4 SRR61~ Baci~       91061 C                      162662       21964
+5 SRR61~ Gamm~        1236 C                      119231        5441
+6 SRR61~ Alph~       28211 C                       71413         806
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+group_by: one grouping variable (name)
+summarize: now 9 rows and 2 columns, ungrouped
+# A tibble: 6 x 2
+  name                fraction_total_reads
+  <chr>                              <dbl>
+1 Actinobacteria                   0.0830 
+2 Alphaproteobacteria              0.00789
+3 Bacilli                          0.0202 
+4 Betaproteobacteria               0.00579
+5 Caudoviricetes                   0.00124
+6 Flavobacteriia                   0.0021 
+# A tibble: 6 x 2
+  name                fraction_total_reads
+  <chr>                              <dbl>
+1 Mammalia                         0.861  
+2 Actinobacteria                   0.0830 
+3 Bacilli                          0.0202 
+4 Gammaproteobacteria              0.0136 
+5 Alphaproteobacteria              0.00789
+6 Betaproteobacteria               0.00579
+# A tibble: 6 x 2
+  name                fraction_total_reads
+  <chr>                              <dbl>
+1 Mammalia                         0.861  
+2 Actinobacteria                   0.0830 
+3 Bacilli                          0.0202 
+4 Gammaproteobacteria              0.0136 
+5 Alphaproteobacteria              0.00789
+6 Betaproteobacteria               0.00579
+# A tibble: 6 x 2
+  name                fraction_total_reads
+  <chr>                              <dbl>
+1 Caudoviricetes                   0.00124
+2 Flavobacteriia                   0.0021 
+3 _other_                          0.00552
+4 Betaproteobacteria               0.00579
+5 Alphaproteobacteria              0.00789
+6 Gammaproteobacteria              0.0136 
+mutate: converted 'name' from character to factor (0 new NA)
+# A tibble: 6 x 2
+  name                fraction_total_reads
+  <fct>                              <dbl>
+1 Caudoviricetes                   0.00124
+2 Flavobacteriia                   0.0021 
+3 _other_                          0.00552
+4 Betaproteobacteria               0.00579
+5 Alphaproteobacteria              0.00789
+6 Gammaproteobacteria              0.0136 
+Saving 7 x 7 in image
++ cat SRR6145058.reads.bracken.phylum.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.reads.bracken.phylum.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ /projects/metaBGC//scripts/plot_abundances.sh SRR6145058.reads.bracken.phylum.tsv
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.1
+v tidyr   1.1.1     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'tidylog'
+
+The following objects are masked from 'package:dplyr':
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following objects are masked from 'package:tidyr':
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    spread, uncount
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  name = col_character(),
+  taxonomy_id = col_double(),
+  taxonomy_lvl = col_character(),
+  kraken_assigned_reads = col_double(),
+  added_reads = col_double(),
+  new_est_reads = col_double(),
+  fraction_total_reads = col_double()
+)
+# A tibble: 6 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <chr>                   <dbl>       <dbl>
+1 SRR61~ Cand~       95818 P                         345           0
+2 SRR61~ Cand~      363464 P                          12           0
+3 SRR61~ Cand~       67810 P                           2           6
+4 SRR61~ Cand~     1655434 P                           4           0
+5 SRR61~ Cand~      456828 P                           2           0
+6 SRR61~ Cand~     1801631 P                           1           0
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+mutate: changed 49 values (89%) of 'name' (0 new NA)
+# A tibble: 6 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <chr>                   <dbl>       <dbl>
+1 SRR61~ _oth~       95818 P                         345           0
+2 SRR61~ _oth~      363464 P                          12           0
+3 SRR61~ _oth~       67810 P                           2           6
+4 SRR61~ _oth~     1655434 P                           4           0
+5 SRR61~ _oth~      456828 P                           2           0
+6 SRR61~ _oth~     1801631 P                           1           0
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+group_by: one grouping variable (name)
+summarize: now 7 rows and 2 columns, ungrouped
+# A tibble: 6 x 2
+  name           fraction_total_reads
+  <chr>                         <dbl>
+1 Actinobacteria              0.0832 
+2 Bacteroidetes               0.00349
+3 Chordata                    0.861  
+4 Firmicutes                  0.0217 
+5 Proteobacteria              0.0277 
+6 Uroviricota                 0.00124
+# A tibble: 6 x 2
+  name           fraction_total_reads
+  <chr>                         <dbl>
+1 Chordata                    0.861  
+2 Actinobacteria              0.0832 
+3 Proteobacteria              0.0277 
+4 Firmicutes                  0.0217 
+5 Bacteroidetes               0.00349
+6 _other_                     0.00217
+# A tibble: 6 x 2
+  name           fraction_total_reads
+  <chr>                         <dbl>
+1 Chordata                    0.861  
+2 Actinobacteria              0.0832 
+3 Proteobacteria              0.0277 
+4 Firmicutes                  0.0217 
+5 Bacteroidetes               0.00349
+6 _other_                     0.00217
+# A tibble: 6 x 2
+  name           fraction_total_reads
+  <chr>                         <dbl>
+1 Uroviricota                 0.00124
+2 _other_                     0.00217
+3 Bacteroidetes               0.00349
+4 Firmicutes                  0.0217 
+5 Proteobacteria              0.0277 
+6 Actinobacteria              0.0832 
+mutate: converted 'name' from character to factor (0 new NA)
+# A tibble: 6 x 2
+  name           fraction_total_reads
+  <fct>                         <dbl>
+1 Uroviricota                 0.00124
+2 _other_                     0.00217
+3 Bacteroidetes               0.00349
+4 Firmicutes                  0.0217 
+5 Proteobacteria              0.0277 
+6 Actinobacteria              0.0832 
+Saving 7 x 7 in image
++ cat SRR6145058.reads.bracken.domain.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.reads.bracken.domain.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ /projects/metaBGC//scripts/plot_abundances.sh SRR6145058.reads.bracken.domain.tsv
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.1
+v tidyr   1.1.1     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'tidylog'
+
+The following objects are masked from 'package:dplyr':
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following objects are masked from 'package:tidyr':
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    spread, uncount
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  name = col_character(),
+  taxonomy_id = col_double(),
+  taxonomy_lvl = col_character(),
+  kraken_assigned_reads = col_double(),
+  added_reads = col_double(),
+  new_est_reads = col_double(),
+  fraction_total_reads = col_double()
+)
+# A tibble: 4 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <chr>                   <dbl>       <dbl>
+1 SRR61~ Euka~        2759 D                     7868181        4955
+2 SRR61~ Bact~           2 D                     1248358       14715
+3 SRR61~ Viru~       10239 D                        4290        7334
+4 SRR61~ Arch~        2157 D                         996          -4
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+mutate: changed one value (25%) of 'name' (0 new NA)
+# A tibble: 4 x 8
+  sample name  taxonomy_id taxonomy_lvl kraken_assigned~ added_reads
+  <chr>  <chr>       <dbl> <chr>                   <dbl>       <dbl>
+1 SRR61~ Euka~        2759 D                     7868181        4955
+2 SRR61~ Bact~           2 D                     1248358       14715
+3 SRR61~ Viru~       10239 D                        4290        7334
+4 SRR61~ _oth~        2157 D                         996          -4
+# ... with 2 more variables: new_est_reads <dbl>, fraction_total_reads <dbl>
+group_by: one grouping variable (name)
+summarize: now 4 rows and 2 columns, ungrouped
+# A tibble: 4 x 2
+  name      fraction_total_reads
+  <chr>                    <dbl>
+1 Bacteria               0.138  
+2 Eukaryota              0.861  
+3 Viruses                0.00127
+4 _other_                0.00011
+# A tibble: 4 x 2
+  name      fraction_total_reads
+  <chr>                    <dbl>
+1 Eukaryota              0.861  
+2 Bacteria               0.138  
+3 Viruses                0.00127
+4 _other_                0.00011
+# A tibble: 4 x 2
+  name      fraction_total_reads
+  <chr>                    <dbl>
+1 Eukaryota              0.861  
+2 Bacteria               0.138  
+3 Viruses                0.00127
+4 _other_                0.00011
+# A tibble: 4 x 2
+  name      fraction_total_reads
+  <chr>                    <dbl>
+1 _other_                0.00011
+2 Viruses                0.00127
+3 Bacteria               0.138  
+4 Eukaryota              0.861  
+mutate: converted 'name' from character to factor (0 new NA)
+# A tibble: 4 x 2
+  name      fraction_total_reads
+  <fct>                    <dbl>
+1 _other_                0.00011
+2 Viruses                0.00127
+3 Bacteria               0.138  
+4 Eukaryota              0.861  
+Saving 7 x 7 in image
++ set -e
++ set -o pipefail
++ echo
+
++ echo '-- STEP 4 -- Assembly'
+-- STEP 4 -- Assembly
++ rm -fr assembly/
++ megahit -1 SRR6145058_1.final.fastq.gz -2 SRR6145058_1.final.fastq.gz --out-dir assembly --out-prefix SRR6145058 --cleaning-rounds 10 --num-cpu-threads 192
+
+real	53m48.499s
+user	7212m18.702s
+sys	74m51.238s
++ tail -2 SRR6145058.megahit.log
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ grep N50
++ grep -v ALL
++ sed 's/ \+/\t/g'
++ cut -f 1,5,8,11,14,17,20
++ /projects/metaBGC//scripts/get_sizes.py assembly/SRR6145058.contigs.fa
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ sed '1isample\tcontig\tlength'
++ /projects/metaBGC//scripts/plot_sizes.R SRR6145058.contigs.sizes.tsv
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.1
+v tidyr   1.1.1     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'tidylog'
+
+The following objects are masked from 'package:dplyr':
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following objects are masked from 'package:tidyr':
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    spread, uncount
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  contig = col_character(),
+  length = col_double()
+)
+# A tibble: 6 x 3
+  sample     contig    length
+  <chr>      <chr>      <dbl>
+1 SRR6145058 k99_12033  16011
+2 SRR6145058 k99_7398   14944
+3 SRR6145058 k99_10641  14600
+4 SRR6145058 k99_11230  14505
+5 SRR6145058 k99_10301  12551
+6 SRR6145058 k99_4695   12080
+Saving 7 x 7 in image
++ /projects/metaBGC//scripts/filter_sizes.py assembly/SRR6145058.contigs.fa SRR6145058.contigs.fa 1000
+Read  12075  sequences
+Wrote  965  sequences
+Skipped  11110 sequences
++ echo
+
++ echo '-- STEP 5 -- Taxonomic classification of contigs'
+-- STEP 5 -- Taxonomic classification of contigs
++ kraken2 --db /data/kraken2/db --threads 192 --classified-out SRR6145058.contigs.kraken.classified.fa --unclassified-out SRR6145058.contigs.kraken.unclassified.fa --report SRR6145058.contigs.kraken --use-names SRR6145058.contigs.fa
+
+real	0m38.640s
+user	0m14.603s
+sys	0m38.996s
++ cat SRR6145058.contigs.kraken.classified.fa
++ grep '>'
++ sed 's/>//g'
++ sed 's/ .*|/\t/g'
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ sed '1isample\tcontig\ttaxid'
++ /projects/metaBGC//scripts/join.sh SRR6145058.contigs.kraken.classified.tmp /data/taxonomy/names.tsv SRR6145058.contigs.kraken.classified.tsv
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.1
+v tidyr   1.1.1     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'tidylog'
+
+The following objects are masked from 'package:dplyr':
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following objects are masked from 'package:tidyr':
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    spread, uncount
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  contig = col_character(),
+  taxid = col_double()
+)
+Rows: 958
+Columns: 3
+$ sample <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145058", "SRR...
+$ contig <chr> "k99_504", "k99_5670", "k99_10206", "k99_3276", "k99_6867", ...
+$ taxid  <dbl> 1747, 1747, 1747, 1234380, 1747, 1747, 1747, 1747, 1747, 174...
+Parsed with column specification:
+cols(
+  taxid = col_double(),
+  name = col_character()
+)
+Rows: 2,260,364
+Columns: 2
+$ taxid <dbl> 1, 2, 6, 7, 9, 10, 11, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23...
+$ name  <chr> "root", "Bacteria", "Azorhizobium", "Azorhizobium caulinodans...
+Joining, by = "taxid"
+left_join: added one column (name)
+           > rows only in x           0
+           > rows only in y  (2,260,341)
+           > matched rows           958
+           >                 ===========
+           > rows total             958
+Rows: 958
+Columns: 4
+$ sample <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145058", "SRR...
+$ contig <chr> "k99_504", "k99_5670", "k99_10206", "k99_3276", "k99_6867", ...
+$ taxid  <dbl> 1747, 1747, 1747, 1234380, 1747, 1747, 1747, 1747, 1747, 174...
+$ name   <chr> "Cutibacterium acnes", "Cutibacterium acnes", "Cutibacterium...
+# A tibble: 6 x 4
+  sample     contig      taxid name                  
+  <chr>      <chr>       <dbl> <chr>                 
+1 SRR6145058 k99_504      1747 Cutibacterium acnes   
+2 SRR6145058 k99_5670     1747 Cutibacterium acnes   
+3 SRR6145058 k99_10206    1747 Cutibacterium acnes   
+4 SRR6145058 k99_3276  1234380 Cutibacterium acnes C1
+5 SRR6145058 k99_6867     1747 Cutibacterium acnes   
+6 SRR6145058 k99_3277     1747 Cutibacterium acnes   
++ set +e
++ set +o pipefail
++ bracken -d /data/kraken2/db -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.species.tmp -l S -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.species.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l S -t 1
+PROGRAM START TIME: 06-22-2021 21:04:13
+BRACKEN SUMMARY (Kraken report: SRR6145058.contigs.kraken)
+    >>> Threshold: 1 
+    >>> Number of species in sample: 14 
+	  >> Number of species with reads > threshold: 14 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 965
+	  >> Total reads kept at species level (reads > threshold): 952
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 957
+	  >> Reads not distributed (eg. no species above threshold): 1
+	  >> Unclassified reads: 7
+BRACKEN OUTPUT PRODUCED: SRR6145058.contigs.bracken.species.tmp
+PROGRAM END TIME: 06-22-2021 21:04:13
+  Bracken complete.
++ bracken -d /data/kraken2/db -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.genus.tmp -l G -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.genus.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l G -t 1
+PROGRAM START TIME: 06-22-2021 21:04:13
+BRACKEN SUMMARY (Kraken report: SRR6145058.contigs.kraken)
+    >>> Threshold: 1 
+    >>> Number of genuses in sample: 12 
+	  >> Number of genuses with reads > threshold: 12 
+	  >> Number of genuses with reads < threshold: 0 
+    >>> Total reads in sample: 965
+	  >> Total reads kept at genuses level (reads > threshold): 955
+	  >> Total reads discarded (genuses reads < threshold): 0
+	  >> Reads distributed: 957
+	  >> Reads not distributed (eg. no genuses above threshold): 1
+	  >> Unclassified reads: 7
+BRACKEN OUTPUT PRODUCED: SRR6145058.contigs.bracken.genus.tmp
+PROGRAM END TIME: 06-22-2021 21:04:13
+  Bracken complete.
++ bracken -d /data/kraken2/db -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.order.tmp -l O -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.order.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l O -t 1
+PROGRAM START TIME: 06-22-2021 21:04:13
+BRACKEN SUMMARY (Kraken report: SRR6145058.contigs.kraken)
+    >>> Threshold: 1 
+    >>> Number of orders in sample: 9 
+	  >> Number of orders with reads > threshold: 9 
+	  >> Number of orders with reads < threshold: 0 
+    >>> Total reads in sample: 965
+	  >> Total reads kept at orders level (reads > threshold): 956
+	  >> Total reads discarded (orders reads < threshold): 0
+	  >> Reads distributed: 957
+	  >> Reads not distributed (eg. no orders above threshold): 1
+	  >> Unclassified reads: 7
+BRACKEN OUTPUT PRODUCED: SRR6145058.contigs.bracken.order.tmp
+PROGRAM END TIME: 06-22-2021 21:04:13
+  Bracken complete.
++ bracken -d /data/kraken2/db -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.family.tmp -l F -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.family.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l F -t 1
+PROGRAM START TIME: 06-22-2021 21:04:13
+BRACKEN SUMMARY (Kraken report: SRR6145058.contigs.kraken)
+    >>> Threshold: 1 
+    >>> Number of families in sample: 10 
+	  >> Number of families with reads > threshold: 10 
+	  >> Number of families with reads < threshold: 0 
+    >>> Total reads in sample: 965
+	  >> Total reads kept at families level (reads > threshold): 956
+	  >> Total reads discarded (families reads < threshold): 0
+	  >> Reads distributed: 957
+	  >> Reads not distributed (eg. no families above threshold): 1
+	  >> Unclassified reads: 7
+BRACKEN OUTPUT PRODUCED: SRR6145058.contigs.bracken.family.tmp
+PROGRAM END TIME: 06-22-2021 21:04:14
+  Bracken complete.
++ bracken -d /data/kraken2/db -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.class.tmp -l C -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.class.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l C -t 1
+PROGRAM START TIME: 06-22-2021 21:04:14
+BRACKEN SUMMARY (Kraken report: SRR6145058.contigs.kraken)
+    >>> Threshold: 1 
+    >>> Number of classes in sample: 7 
+	  >> Number of classes with reads > threshold: 7 
+	  >> Number of classes with reads < threshold: 0 
+    >>> Total reads in sample: 965
+	  >> Total reads kept at classes level (reads > threshold): 956
+	  >> Total reads discarded (classes reads < threshold): 0
+	  >> Reads distributed: 957
+	  >> Reads not distributed (eg. no classes above threshold): 1
+	  >> Unclassified reads: 7
+BRACKEN OUTPUT PRODUCED: SRR6145058.contigs.bracken.class.tmp
+PROGRAM END TIME: 06-22-2021 21:04:14
+  Bracken complete.
++ bracken -d /data/kraken2/db -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.phylum.tmp -l P -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.phylum.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l P -t 1
+PROGRAM START TIME: 06-22-2021 21:04:14
+BRACKEN SUMMARY (Kraken report: SRR6145058.contigs.kraken)
+    >>> Threshold: 1 
+    >>> Number of phylums in sample: 5 
+	  >> Number of phylums with reads > threshold: 5 
+	  >> Number of phylums with reads < threshold: 0 
+    >>> Total reads in sample: 965
+	  >> Total reads kept at phylums level (reads > threshold): 956
+	  >> Total reads discarded (phylums reads < threshold): 0
+	  >> Reads distributed: 957
+	  >> Reads not distributed (eg. no phylums above threshold): 1
+	  >> Unclassified reads: 7
+BRACKEN OUTPUT PRODUCED: SRR6145058.contigs.bracken.phylum.tmp
+PROGRAM END TIME: 06-22-2021 21:04:14
+  Bracken complete.
++ bracken -d /data/kraken2/db -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.domain.tmp -l D -t 1
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i SRR6145058.contigs.kraken -o SRR6145058.contigs.bracken.domain.tmp -k /data/kraken2/db/database100mers.kmer_distrib -l D -t 1
+PROGRAM START TIME: 06-22-2021 21:04:14
+BRACKEN SUMMARY (Kraken report: SRR6145058.contigs.kraken)
+    >>> Threshold: 1 
+    >>> Number of domains in sample: 3 
+	  >> Number of domains with reads > threshold: 3 
+	  >> Number of domains with reads < threshold: 0 
+    >>> Total reads in sample: 965
+	  >> Total reads kept at domains level (reads > threshold): 958
+	  >> Total reads discarded (domains reads < threshold): 0
+	  >> Reads distributed: 957
+	  >> Reads not distributed (eg. no domains above threshold): 1
+	  >> Unclassified reads: 7
+BRACKEN OUTPUT PRODUCED: SRR6145058.contigs.bracken.domain.tmp
+PROGRAM END TIME: 06-22-2021 21:04:14
+  Bracken complete.
++ cat SRR6145058.contigs.bracken.species.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.contigs.bracken.species.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ cat SRR6145058.contigs.bracken.genus.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.contigs.bracken.genus.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ cat SRR6145058.contigs.bracken.order.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.contigs.bracken.order.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ cat SRR6145058.contigs.bracken.family.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.contigs.bracken.family.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ cat SRR6145058.contigs.bracken.class.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.contigs.bracken.class.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ cat SRR6145058.contigs.bracken.phylum.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.contigs.bracken.phylum.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ cat SRR6145058.contigs.bracken.domain.tmp
++ head -1
++ awk '{print "sample\t"$0;}'
++ cat SRR6145058.contigs.bracken.domain.tmp
++ sed 1d
++ sort -k 7 -nr
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ set -e
++ set -o pipefail
++ echo
+
++ echo '-- STEP 6 -- deepBGC'
+-- STEP 6 -- deepBGC
++ deepbgc pipeline --prodigal-meta-mode --output SRR6145058 SRR6145058.contigs.fa
+
+real	25m2.322s
+user	24m33.076s
+sys	12m34.989s
++ cat SRR6145058/SRR6145058.bgc.tsv
++ sed 1d
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ sed '1isample\tcontig\tdetector\tdetector_version\tdetector_label\tbgc_candidate_id\tnucl_start\tnucl_end\tnucl_length\tnum_proteins\tnum_domains\tnum_bio_domains\tdeepbgc_score\tproduct_activity\tantibacterial\tcytotoxic\tinhibitor\tantifungal\tproduct_class\tAlkaloid\tNRP\tOther\tPolyketide\tRiPP\tSaccharide\tTerpene\tprotein_ids\tbio_pfam_ids\tpfam_ids'
++ cat SRR6145058/SRR6145058.pfam.tsv
++ sed 1d
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ sed '1isample\tcontig\tprotein_id\tgene_start\tgene_end\tgene_strand\tpfam_id\tprotein_id\tdeepbgc_score\tin_cluster'
++ /projects/metaBGC//scripts/join.sh SRR6145058.bgc.pfam.tmp SRR6145058.contigs.kraken.classified.tsv SRR6145058.bgc.deepbgc.pfam.tsv
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.1
+v tidyr   1.1.1     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'tidylog'
+
+The following objects are masked from 'package:dplyr':
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following objects are masked from 'package:tidyr':
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    spread, uncount
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  contig = col_character(),
+  protein_id = col_character(),
+  gene_start = col_double(),
+  gene_end = col_double(),
+  gene_strand = col_double(),
+  pfam_id = col_character(),
+  protein_id_1 = col_double(),
+  deepbgc_score = col_double(),
+  in_cluster = col_character()
+)
+Warning: 4953 parsing failures.
+row col   expected    actual                      file
+  1  -- 10 columns 9 columns 'SRR6145058.bgc.pfam.tmp'
+  2  -- 10 columns 9 columns 'SRR6145058.bgc.pfam.tmp'
+  3  -- 10 columns 9 columns 'SRR6145058.bgc.pfam.tmp'
+  4  -- 10 columns 9 columns 'SRR6145058.bgc.pfam.tmp'
+  5  -- 10 columns 9 columns 'SRR6145058.bgc.pfam.tmp'
+... ... .......... ......... .........................
+See problems(...) for more details.
+
+Warning message:
+Duplicated column names deduplicated: 'protein_id' => 'protein_id_1' [8] 
+Rows: 4,953
+Columns: 10
+$ sample        <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145058...
+$ contig        <chr> "k99_504", "k99_504", "k99_504", "k99_504", "k99_5670...
+$ protein_id    <chr> "k99_504_k99_504_1", "k99_504_k99_504_1", "k99_504_k9...
+$ gene_start    <dbl> 109, 109, 109, 840, 2, 2, 2, 1, 750, 1026, 732, 732, ...
+$ gene_end      <dbl> 844, 844, 844, 1512, 1148, 1148, 1148, 754, 1020, 181...
+$ gene_strand   <dbl> 1, 1, 1, 1, 1, 1, 1, -1, -1, -1, -1, -1, -1, -1, -1, ...
+$ pfam_id       <chr> "PF08207", "PF01132", "PF09285", "PF01029", "PF01029"...
+$ protein_id_1  <dbl> 0.35702, 0.35361, 0.34768, 0.36270, 0.42694, 0.42738,...
+$ deepbgc_score <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,...
+$ in_cluster    <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N...
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  contig = col_character(),
+  taxid = col_double(),
+  name = col_character()
+)
+Rows: 958
+Columns: 4
+$ sample <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145058", "SRR...
+$ contig <chr> "k99_504", "k99_5670", "k99_10206", "k99_3276", "k99_6867", ...
+$ taxid  <dbl> 1747, 1747, 1747, 1234380, 1747, 1747, 1747, 1747, 1747, 174...
+$ name   <chr> "Cutibacterium acnes", "Cutibacterium acnes", "Cutibacterium...
+Joining, by = c("sample", "contig")
+left_join: added 2 columns (taxid, name)
+           > rows only in x      14
+           > rows only in y  (   74)
+           > matched rows     4,939
+           >                 =======
+           > rows total       4,953
+Rows: 4,953
+Columns: 12
+$ sample        <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145058...
+$ contig        <chr> "k99_504", "k99_504", "k99_504", "k99_504", "k99_5670...
+$ protein_id    <chr> "k99_504_k99_504_1", "k99_504_k99_504_1", "k99_504_k9...
+$ gene_start    <dbl> 109, 109, 109, 840, 2, 2, 2, 1, 750, 1026, 732, 732, ...
+$ gene_end      <dbl> 844, 844, 844, 1512, 1148, 1148, 1148, 754, 1020, 181...
+$ gene_strand   <dbl> 1, 1, 1, 1, 1, 1, 1, -1, -1, -1, -1, -1, -1, -1, -1, ...
+$ pfam_id       <chr> "PF08207", "PF01132", "PF09285", "PF01029", "PF01029"...
+$ protein_id_1  <dbl> 0.35702, 0.35361, 0.34768, 0.36270, 0.42694, 0.42738,...
+$ deepbgc_score <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,...
+$ in_cluster    <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N...
+$ taxid         <dbl> 1747, 1747, 1747, 1747, 1747, 1747, 1747, 1747, 1747,...
+$ name          <chr> "Cutibacterium acnes", "Cutibacterium acnes", "Cutiba...
+# A tibble: 6 x 12
+  sample contig protein_id gene_start gene_end gene_strand pfam_id protein_id_1
+  <chr>  <chr>  <chr>           <dbl>    <dbl>       <dbl> <chr>          <dbl>
+1 SRR61~ k99_5~ k99_504_k~        109      844           1 PF08207        0.357
+2 SRR61~ k99_5~ k99_504_k~        109      844           1 PF01132        0.354
+3 SRR61~ k99_5~ k99_504_k~        109      844           1 PF09285        0.348
+4 SRR61~ k99_5~ k99_504_k~        840     1512           1 PF01029        0.363
+5 SRR61~ k99_5~ k99_5670_~          2     1148           1 PF01029        0.427
+6 SRR61~ k99_5~ k99_5670_~          2     1148           1 PF01189        0.427
+# ... with 4 more variables: deepbgc_score <dbl>, in_cluster <chr>,
+#   taxid <dbl>, name <chr>
++ /projects/metaBGC//scripts/join.sh SRR6145058.bgc.full.tmp SRR6145058.contigs.kraken.classified.tsv SRR6145058.bgc.deepbgc.full.tsv
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.1
+v tidyr   1.1.1     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'tidylog'
+
+The following objects are masked from 'package:dplyr':
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following objects are masked from 'package:tidyr':
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    spread, uncount
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Parsed with column specification:
+cols(
+  .default = col_double(),
+  sample = col_character(),
+  contig = col_character(),
+  detector = col_character(),
+  detector_version = col_character(),
+  detector_label = col_character(),
+  bgc_candidate_id = col_character(),
+  product_activity = col_character(),
+  product_class = col_character(),
+  protein_ids = col_character(),
+  bio_pfam_ids = col_character(),
+  pfam_ids = col_character()
+)
+See spec(...) for full column specifications.
+Rows: 296
+Columns: 29
+$ sample           <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145...
+$ contig           <chr> "k99_10206", "k99_3276", "k99_10774", "k99_5041", ...
+$ detector         <chr> "deepbgc", "deepbgc", "deepbgc", "deepbgc", "deepb...
+$ detector_version <chr> "0.1.0", "0.1.0", "0.1.0", "0.1.0", "0.1.0", "0.1....
+$ detector_label   <chr> "deepbgc", "deepbgc", "deepbgc", "deepbgc", "deepb...
+$ bgc_candidate_id <chr> "k99_10206_1-1815.1", "k99_3276_732-1782.1", "k99_...
+$ nucl_start       <dbl> 1, 732, 2, 146, 1, 638, 0, 1, 842, 2, 455, 2, 74, ...
+$ nucl_end         <dbl> 1815, 1782, 1054, 2325, 1285, 1148, 621, 1290, 205...
+$ nucl_length      <dbl> 1814, 1050, 1052, 2179, 1284, 510, 621, 1289, 1214...
+$ num_proteins     <dbl> 3, 1, 2, 2, 1, 1, 1, 2, 2, 4, 3, 2, 3, 2, 1, 1, 2,...
+$ num_domains      <dbl> 3, 5, 2, 7, 1, 5, 1, 2, 2, 8, 5, 3, 3, 2, 1, 1, 2,...
+$ num_bio_domains  <dbl> 1, 3, 0, 0, 0, 3, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,...
+$ deepbgc_score    <dbl> 0.66242, 0.54939, 0.78506, 0.61091, 0.61863, 0.535...
+$ product_activity <chr> "antibacterial", "inhibitor", "antibacterial", "an...
+$ antibacterial    <dbl> 0.71, 0.27, 0.88, 0.63, 0.80, 0.82, 0.60, 0.87, 0....
+$ cytotoxic        <dbl> 0.09, 0.08, 0.06, 0.11, 0.04, 0.06, 0.03, 0.06, 0....
+$ inhibitor        <dbl> 0.23, 0.64, 0.16, 0.18, 0.16, 0.17, 0.37, 0.17, 0....
+$ antifungal       <dbl> 0.25, 0.06, 0.26, 0.36, 0.46, 0.33, 0.16, 0.26, 0....
+$ product_class    <chr> NA, "Polyketide", NA, "Polyketide", "Polyketide", ...
+$ Alkaloid         <dbl> 0.06, 0.01, 0.00, 0.03, 0.00, 0.00, 0.00, 0.00, 0....
+$ NRP              <dbl> 0.08, 0.18, 0.10, 0.02, 0.00, 0.00, 0.37, 0.09, 0....
+$ Other            <dbl> 0.13, 0.10, 0.09, 0.20, 0.01, 0.01, 0.11, 0.07, 0....
+$ Polyketide       <dbl> 0.36, 0.70, 0.33, 0.65, 0.92, 0.79, 0.40, 0.33, 0....
+$ RiPP             <dbl> 0.12, 0.02, 0.19, 0.04, 0.01, 0.01, 0.13, 0.21, 0....
+$ Saccharide       <dbl> 0.03, 0.03, 0.03, 0.00, 0.01, 0.01, 0.01, 0.03, 0....
+$ Terpene          <dbl> 0.28, 0.03, 0.31, 0.07, 0.05, 0.19, 0.17, 0.32, 0....
+$ protein_ids      <chr> "k99_10206_k99_10206_1;k99_10206_k99_10206_2;k99_1...
+$ bio_pfam_ids     <chr> "PF01266", "PF08240;PF00107;PF01266", NA, NA, NA, ...
+$ pfam_ids         <chr> "PF05690;PF02597;PF01266", "PF16912;PF13602;PF0010...
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  contig = col_character(),
+  taxid = col_double(),
+  name = col_character()
+)
+Rows: 958
+Columns: 4
+$ sample <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145058", "SRR...
+$ contig <chr> "k99_504", "k99_5670", "k99_10206", "k99_3276", "k99_6867", ...
+$ taxid  <dbl> 1747, 1747, 1747, 1234380, 1747, 1747, 1747, 1747, 1747, 174...
+$ name   <chr> "Cutibacterium acnes", "Cutibacterium acnes", "Cutibacterium...
+Joining, by = c("sample", "contig")
+left_join: added 2 columns (taxid, name)
+           > rows only in x     1
+           > rows only in y  (678)
+           > matched rows     295
+           >                 =====
+           > rows total       296
+Rows: 296
+Columns: 31
+$ sample           <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145...
+$ contig           <chr> "k99_10206", "k99_3276", "k99_10774", "k99_5041", ...
+$ detector         <chr> "deepbgc", "deepbgc", "deepbgc", "deepbgc", "deepb...
+$ detector_version <chr> "0.1.0", "0.1.0", "0.1.0", "0.1.0", "0.1.0", "0.1....
+$ detector_label   <chr> "deepbgc", "deepbgc", "deepbgc", "deepbgc", "deepb...
+$ bgc_candidate_id <chr> "k99_10206_1-1815.1", "k99_3276_732-1782.1", "k99_...
+$ nucl_start       <dbl> 1, 732, 2, 146, 1, 638, 0, 1, 842, 2, 455, 2, 74, ...
+$ nucl_end         <dbl> 1815, 1782, 1054, 2325, 1285, 1148, 621, 1290, 205...
+$ nucl_length      <dbl> 1814, 1050, 1052, 2179, 1284, 510, 621, 1289, 1214...
+$ num_proteins     <dbl> 3, 1, 2, 2, 1, 1, 1, 2, 2, 4, 3, 2, 3, 2, 1, 1, 2,...
+$ num_domains      <dbl> 3, 5, 2, 7, 1, 5, 1, 2, 2, 8, 5, 3, 3, 2, 1, 1, 2,...
+$ num_bio_domains  <dbl> 1, 3, 0, 0, 0, 3, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,...
+$ deepbgc_score    <dbl> 0.66242, 0.54939, 0.78506, 0.61091, 0.61863, 0.535...
+$ product_activity <chr> "antibacterial", "inhibitor", "antibacterial", "an...
+$ antibacterial    <dbl> 0.71, 0.27, 0.88, 0.63, 0.80, 0.82, 0.60, 0.87, 0....
+$ cytotoxic        <dbl> 0.09, 0.08, 0.06, 0.11, 0.04, 0.06, 0.03, 0.06, 0....
+$ inhibitor        <dbl> 0.23, 0.64, 0.16, 0.18, 0.16, 0.17, 0.37, 0.17, 0....
+$ antifungal       <dbl> 0.25, 0.06, 0.26, 0.36, 0.46, 0.33, 0.16, 0.26, 0....
+$ product_class    <chr> NA, "Polyketide", NA, "Polyketide", "Polyketide", ...
+$ Alkaloid         <dbl> 0.06, 0.01, 0.00, 0.03, 0.00, 0.00, 0.00, 0.00, 0....
+$ NRP              <dbl> 0.08, 0.18, 0.10, 0.02, 0.00, 0.00, 0.37, 0.09, 0....
+$ Other            <dbl> 0.13, 0.10, 0.09, 0.20, 0.01, 0.01, 0.11, 0.07, 0....
+$ Polyketide       <dbl> 0.36, 0.70, 0.33, 0.65, 0.92, 0.79, 0.40, 0.33, 0....
+$ RiPP             <dbl> 0.12, 0.02, 0.19, 0.04, 0.01, 0.01, 0.13, 0.21, 0....
+$ Saccharide       <dbl> 0.03, 0.03, 0.03, 0.00, 0.01, 0.01, 0.01, 0.03, 0....
+$ Terpene          <dbl> 0.28, 0.03, 0.31, 0.07, 0.05, 0.19, 0.17, 0.32, 0....
+$ protein_ids      <chr> "k99_10206_k99_10206_1;k99_10206_k99_10206_2;k99_1...
+$ bio_pfam_ids     <chr> "PF01266", "PF08240;PF00107;PF01266", NA, NA, NA, ...
+$ pfam_ids         <chr> "PF05690;PF02597;PF01266", "PF16912;PF13602;PF0010...
+$ taxid            <dbl> 1747, 1234380, 1747, 1747, 1747, 1747, 1747, 1747,...
+$ name             <chr> "Cutibacterium acnes", "Cutibacterium acnes C1", "...
+# A tibble: 6 x 31
+  sample contig detector detector_version detector_label bgc_candidate_id
+  <chr>  <chr>  <chr>    <chr>            <chr>          <chr>           
+1 SRR61~ k99_1~ deepbgc  0.1.0            deepbgc        k99_10206_1-181~
+2 SRR61~ k99_3~ deepbgc  0.1.0            deepbgc        k99_3276_732-17~
+3 SRR61~ k99_1~ deepbgc  0.1.0            deepbgc        k99_10774_2-105~
+4 SRR61~ k99_5~ deepbgc  0.1.0            deepbgc        k99_5041_146-23~
+5 SRR61~ k99_8~ deepbgc  0.1.0            deepbgc        k99_8005_1-1285~
+6 SRR61~ k99_5~ deepbgc  0.1.0            deepbgc        k99_5796_638-11~
+# ... with 25 more variables: nucl_start <dbl>, nucl_end <dbl>,
+#   nucl_length <dbl>, num_proteins <dbl>, num_domains <dbl>,
+#   num_bio_domains <dbl>, deepbgc_score <dbl>, product_activity <chr>,
+#   antibacterial <dbl>, cytotoxic <dbl>, inhibitor <dbl>, antifungal <dbl>,
+#   product_class <chr>, Alkaloid <dbl>, NRP <dbl>, Other <dbl>,
+#   Polyketide <dbl>, RiPP <dbl>, Saccharide <dbl>, Terpene <dbl>,
+#   protein_ids <chr>, bio_pfam_ids <chr>, pfam_ids <chr>, taxid <dbl>,
+#   name <chr>
++ /projects/metaBGC//scripts/extract_proteins.py SRR6145058.bgc.deepbgc.full.tsv
++ sed 1d
++ sed '1isample\tcontig\tbgc_candidate_id\tdeepbgc_score\tproduct_activity\tprotein_id'
++ /projects/metaBGC//scripts/extract_pfams.R SRR6145058.bgc.deepbgc.proteins.tsv SRR6145058.bgc.pfam.tmp /projects/metaBGC//ref/pfam.tsv SRR6145058.contigs.kraken.classified.tsv SRR6145058.bgc.deepbgc.pfam.tsv
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.1
+v tidyr   1.1.1     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'tidylog'
+
+The following objects are masked from 'package:dplyr':
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following objects are masked from 'package:tidyr':
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    spread, uncount
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  contig = col_character(),
+  bgc_candidate_id = col_character(),
+  deepbgc_score = col_double(),
+  product_activity = col_character(),
+  protein_id = col_character()
+)
+Rows: 562
+Columns: 6
+$ sample           <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145...
+$ contig           <chr> "k99_10206", "k99_10206", "k99_10206", "k99_3276",...
+$ bgc_candidate_id <chr> "k99_10206_1-1815.1", "k99_10206_1-1815.1", "k99_1...
+$ deepbgc_score    <dbl> 0.66242, 0.66242, 0.66242, 0.54939, 0.78506, 0.785...
+$ product_activity <chr> "antibacterial", "antibacterial", "antibacterial",...
+$ protein_id       <chr> "k99_10206_k99_10206_1", "k99_10206_k99_10206_2", ...
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  contig = col_character(),
+  protein_id = col_character(),
+  gene_start = col_double(),
+  gene_end = col_double(),
+  gene_strand = col_double(),
+  pfam_id = col_character(),
+  protein_id_1 = col_double(),
+  deepbgc_score = col_double(),
+  in_cluster = col_character()
+)
+Warning: 4953 parsing failures.
+row col   expected    actual                      file
+  1  -- 10 columns 9 columns 'SRR6145058.bgc.pfam.tmp'
+  2  -- 10 columns 9 columns 'SRR6145058.bgc.pfam.tmp'
+  3  -- 10 columns 9 columns 'SRR6145058.bgc.pfam.tmp'
+  4  -- 10 columns 9 columns 'SRR6145058.bgc.pfam.tmp'
+  5  -- 10 columns 9 columns 'SRR6145058.bgc.pfam.tmp'
+... ... .......... ......... .........................
+See problems(...) for more details.
+
+select: dropped one variable (in_cluster)
+Warning message:
+Duplicated column names deduplicated: 'protein_id' => 'protein_id_1' [8] 
+Rows: 4,953
+Columns: 9
+$ sample        <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145058...
+$ contig        <chr> "k99_504", "k99_504", "k99_504", "k99_504", "k99_5670...
+$ protein_id    <chr> "k99_504_k99_504_1", "k99_504_k99_504_1", "k99_504_k9...
+$ gene_start    <dbl> 109, 109, 109, 840, 2, 2, 2, 1, 750, 1026, 732, 732, ...
+$ gene_end      <dbl> 844, 844, 844, 1512, 1148, 1148, 1148, 754, 1020, 181...
+$ gene_strand   <dbl> 1, 1, 1, 1, 1, 1, 1, -1, -1, -1, -1, -1, -1, -1, -1, ...
+$ pfam_id       <chr> "PF08207", "PF01132", "PF09285", "PF01029", "PF01029"...
+$ protein_id_1  <dbl> 0.35702, 0.35361, 0.34768, 0.36270, 0.42694, 0.42738,...
+$ deepbgc_score <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,...
+Parsed with column specification:
+cols(
+  pfam_id = col_character(),
+  clan = col_character(),
+  name = col_character(),
+  family = col_character(),
+  description = col_character()
+)
+rename: renamed one variable (pfam)
+Rows: 17,929
+Columns: 5
+$ pfam_id     <chr> "PF00001", "PF00002", "PF00003", "PF00004", "PF00005", ...
+$ clan        <chr> "CL0192", "CL0192", "CL0192", "CL0023", "CL0023", "CL00...
+$ pfam        <chr> "GPCR_A", "GPCR_A", "GPCR_A", "P-loop_NTPase", "P-loop_...
+$ family      <chr> "7tm_1", "7tm_2", "7tm_3", "AAA", "ABC_tran", "ATP-synt...
+$ description <chr> "7 transmembrane receptor (rhodopsin family)", "7 trans...
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  contig = col_character(),
+  taxid = col_double(),
+  name = col_character()
+)
+rename: renamed one variable (taxonomy)
+Rows: 958
+Columns: 4
+$ sample   <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145058", "S...
+$ contig   <chr> "k99_504", "k99_5670", "k99_10206", "k99_3276", "k99_6867"...
+$ taxid    <dbl> 1747, 1747, 1747, 1234380, 1747, 1747, 1747, 1747, 1747, 1...
+$ taxonomy <chr> "Cutibacterium acnes", "Cutibacterium acnes", "Cutibacteri...
+group_by: 5 grouping variables (sample, contig, gene_start, gene_end, protein_id)
+top_n (grouped): no rows removed
+select: dropped one variable (deepbgc_score)
+Rows: 4,953
+Columns: 8
+Groups: sample, contig, gene_start, gene_end, protein_id [2,251]
+$ sample       <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145058"...
+$ contig       <chr> "k99_504", "k99_504", "k99_504", "k99_504", "k99_5670"...
+$ protein_id   <chr> "k99_504_k99_504_1", "k99_504_k99_504_1", "k99_504_k99...
+$ gene_start   <dbl> 109, 109, 109, 840, 2, 2, 2, 1, 750, 1026, 732, 732, 7...
+$ gene_end     <dbl> 844, 844, 844, 1512, 1148, 1148, 1148, 754, 1020, 1815...
+$ gene_strand  <dbl> 1, 1, 1, 1, 1, 1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -...
+$ pfam_id      <chr> "PF08207", "PF01132", "PF09285", "PF01029", "PF01029",...
+$ protein_id_1 <dbl> 0.35702, 0.35361, 0.34768, 0.36270, 0.42694, 0.42738, ...
+# A tibble: 6 x 8
+# Groups:   sample, contig, gene_start, gene_end, protein_id [3]
+  sample  contig protein_id gene_start gene_end gene_strand pfam_id protein_id_1
+  <chr>   <chr>  <chr>           <dbl>    <dbl>       <dbl> <chr>          <dbl>
+1 SRR614~ k99_5~ k99_504_k~        109      844           1 PF08207        0.357
+2 SRR614~ k99_5~ k99_504_k~        109      844           1 PF01132        0.354
+3 SRR614~ k99_5~ k99_504_k~        109      844           1 PF09285        0.348
+4 SRR614~ k99_5~ k99_504_k~        840     1512           1 PF01029        0.363
+5 SRR614~ k99_5~ k99_5670_~          2     1148           1 PF01029        0.427
+6 SRR614~ k99_5~ k99_5670_~          2     1148           1 PF01189        0.427
+Joining, by = c("sample", "contig", "protein_id")
+inner_join: added 5 columns (gene_start, gene_end, gene_strand, pfam_id, protein_id_1)
+            > rows only in x  (   31)
+            > rows only in y  (3,986)
+            > matched rows       967    (includes duplicates)
+            >                 =======
+            > rows total         967
+Joining, by = "pfam_id"
+left_join: added 4 columns (clan, pfam, family, description)
+           > rows only in x        0
+           > rows only in y  (17,446)
+           > matched rows        967
+           >                 ========
+           > rows total          967
+Joining, by = c("sample", "contig")
+left_join: added 2 columns (taxid, taxonomy)
+           > rows only in x     1
+           > rows only in y  (678)
+           > matched rows     966
+           >                 =====
+           > rows total       967
+select: dropped 2 variables (deepbgc_score, gene_strand)
+Rows: 967
+Columns: 15
+$ sample           <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145...
+$ contig           <chr> "k99_10206", "k99_10206", "k99_10206", "k99_3276",...
+$ bgc_candidate_id <chr> "k99_10206_1-1815.1", "k99_10206_1-1815.1", "k99_1...
+$ product_activity <chr> "antibacterial", "antibacterial", "antibacterial",...
+$ protein_id       <chr> "k99_10206_k99_10206_1", "k99_10206_k99_10206_2", ...
+$ gene_start       <dbl> 1, 750, 1026, 732, 732, 732, 732, 732, 2, 484, 146...
+$ gene_end         <dbl> 754, 1020, 1815, 1782, 1782, 1782, 1782, 1782, 419...
+$ pfam_id          <chr> "PF05690", "PF02597", "PF01266", "PF16912", "PF136...
+$ protein_id_1     <dbl> 0.69192, 0.60230, 0.69305, 0.53114, 0.55435, 0.564...
+$ clan             <chr> "CL0036", "CL0072", "CL0063", "CL0063", "CL0063", ...
+$ pfam             <chr> "TIM_barrel", "Ubiquitin", "NADP_Rossmann", "NADP_...
+$ family           <chr> "ThiG", "ThiS", "DAO", "Glu_dehyd_C", "ADH_zinc_N_...
+$ description      <chr> "Thiazole biosynthesis protein ThiG", "ThiS family...
+$ taxid            <dbl> 1747, 1747, 1747, 1234380, 1234380, 1234380, 12343...
+$ taxonomy         <chr> "Cutibacterium acnes", "Cutibacterium acnes", "Cut...
+# A tibble: 6 x 15
+  sample contig bgc_candidate_id product_activity protein_id gene_start gene_end
+  <chr>  <chr>  <chr>            <chr>            <chr>           <dbl>    <dbl>
+1 SRR61~ k99_1~ k99_10206_1-181~ antibacterial    k99_10206~          1      754
+2 SRR61~ k99_1~ k99_10206_1-181~ antibacterial    k99_10206~        750     1020
+3 SRR61~ k99_1~ k99_10206_1-181~ antibacterial    k99_10206~       1026     1815
+4 SRR61~ k99_3~ k99_3276_732-17~ inhibitor        k99_3276_~        732     1782
+5 SRR61~ k99_3~ k99_3276_732-17~ inhibitor        k99_3276_~        732     1782
+6 SRR61~ k99_3~ k99_3276_732-17~ inhibitor        k99_3276_~        732     1782
+# ... with 8 more variables: pfam_id <chr>, protein_id_1 <dbl>, clan <chr>,
+#   pfam <chr>, family <chr>, description <chr>, taxid <dbl>, taxonomy <chr>
++ mv SRR6145058/SRR6145058.bgc.gbk SRR6145058.bgc.deepbgc.gbk
++ echo
+
++ echo '-- STEP 7 -- antiSmash'
+-- STEP 7 -- antiSmash
++ antismash --cpus 192 --genefinding-tool prodigal --output-dir antismash SRR6145058.contigs.fa
+
+real	148m11.801s
+user	208m12.096s
+sys	597m35.794s
++ mv antismash/SRR6145058.contigs.gbk SRR6145058.bgc.antismash.gbk
++ echo -e 'sample\tcontig\tantismash_region\tregion_start\tregion_end'
++ /projects/metaBGC//scripts/parse_genbank.py SRR6145058.bgc.antismash.gbk
++ awk -v sample=SRR6145058 '{print sample"\t"$0;}'
++ /projects/metaBGC//scripts/join.sh SRR6145058.bgc.antismash.tmp SRR6145058.contigs.kraken.classified.tsv SRR6145058.bgc.antismash.tsv
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.1
+v tidyr   1.1.1     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'tidylog'
+
+The following objects are masked from 'package:dplyr':
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following objects are masked from 'package:tidyr':
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    spread, uncount
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  contig = col_character(),
+  antismash_region = col_character(),
+  region_start = col_double(),
+  region_end = col_double()
+)
+Rows: 2
+Columns: 5
+$ sample           <chr> "SRR6145058", "SRR6145058"
+$ contig           <chr> "k99_4162", "k99_6411"
+$ antismash_region <chr> "RiPP-like", "NRPS-like"
+$ region_start     <dbl> 217, 1
+$ region_end       <dbl> 5623, 3341
+Parsed with column specification:
+cols(
+  sample = col_character(),
+  contig = col_character(),
+  taxid = col_double(),
+  name = col_character()
+)
+Rows: 958
+Columns: 4
+$ sample <chr> "SRR6145058", "SRR6145058", "SRR6145058", "SRR6145058", "SRR...
+$ contig <chr> "k99_504", "k99_5670", "k99_10206", "k99_3276", "k99_6867", ...
+$ taxid  <dbl> 1747, 1747, 1747, 1234380, 1747, 1747, 1747, 1747, 1747, 174...
+$ name   <chr> "Cutibacterium acnes", "Cutibacterium acnes", "Cutibacterium...
+Joining, by = c("sample", "contig")
+left_join: added 2 columns (taxid, name)
+           > rows only in x     0
+           > rows only in y  (956)
+           > matched rows       2
+           >                 =====
+           > rows total         2
+Rows: 2
+Columns: 7
+$ sample           <chr> "SRR6145058", "SRR6145058"
+$ contig           <chr> "k99_4162", "k99_6411"
+$ antismash_region <chr> "RiPP-like", "NRPS-like"
+$ region_start     <dbl> 217, 1
+$ region_end       <dbl> 5623, 3341
+$ taxid            <dbl> 1747, 1234380
+$ name             <chr> "Cutibacterium acnes", "Cutibacterium acnes C1"
+# A tibble: 2 x 7
+  sample   contig  antismash_region region_start region_end   taxid name        
+  <chr>    <chr>   <chr>                   <dbl>      <dbl>   <dbl> <chr>       
+1 SRR6145~ k99_41~ RiPP-like                 217       5623    1747 Cutibacteri~
+2 SRR6145~ k99_64~ NRPS-like                   1       3341 1234380 Cutibacteri~
++ echo
+
++ echo '-- STEP 8 -- Cleaning'
+-- STEP 8 -- Cleaning
++ rm -fr SRR6145058.fastq.gz
++ rm -fr SRR6145058.sra
++ rm -fr SRR6145058.fastp.html
++ rm -fr SRR6145058_1.fastq.gz
++ rm -fr SRR6145058_2.fastq.gz
++ rm -fr SRR6145058_1.filtered.fastq.gz
++ rm -fr SRR6145058_2.filtered.fastq.gz
++ rm -fr SRR6145058_1.final.fastq.gz
++ rm -fr SRR6145058_1.final.fastq.gz
++ rm -fr SRR6145058.filtered.fastq.gz
++ rm -fr SRR6145058.reads.kraken.classified.fq
++ rm -fr SRR6145058.reads.kraken.unclassified.fq
++ rm -fr SRR6145058.reads.kraken.classified.tsv
++ rm -fr SRR6145058.reads.kraken.classified_1.fq
++ rm -fr SRR6145058.reads.kraken.classified_2.fq
++ rm -fr SRR6145058.reads.kraken.unclassified_1.fq
++ rm -fr SRR6145058.reads.kraken.unclassified_2.fq
++ rm -fr SRR6145058.contigs.kraken SRR6145058.contigs_bracken_classes.kraken SRR6145058.contigs_bracken_domains.kraken SRR6145058.contigs_bracken_families.kraken SRR6145058.contigs_bracken_genuses.kraken SRR6145058.contigs_bracken_orders.kraken SRR6145058.contigs_bracken_phylums.kraken SRR6145058.contigs_bracken_species.kraken SRR6145058.reads.kraken SRR6145058.reads_bracken_classes.kraken SRR6145058.reads_bracken_domains.kraken SRR6145058.reads_bracken_families.kraken SRR6145058.reads_bracken_genuses.kraken SRR6145058.reads_bracken_orders.kraken SRR6145058.reads_bracken_phylums.kraken SRR6145058.reads_bracken_species.kraken
++ rm -fr SRR6145058.bgc.antismash.tmp SRR6145058.bgc.full.tmp SRR6145058.bgc.pfam.tmp SRR6145058.contigs.bracken.class.tmp SRR6145058.contigs.bracken.domain.tmp SRR6145058.contigs.bracken.family.tmp SRR6145058.contigs.bracken.genus.tmp SRR6145058.contigs.bracken.order.tmp SRR6145058.contigs.bracken.phylum.tmp SRR6145058.contigs.bracken.species.tmp SRR6145058.contigs.kraken.classified.tmp SRR6145058.reads.bracken.class.tmp SRR6145058.reads.bracken.domain.tmp SRR6145058.reads.bracken.family.tmp SRR6145058.reads.bracken.genus.tmp SRR6145058.reads.bracken.order.tmp SRR6145058.reads.bracken.phylum.tmp SRR6145058.reads.bracken.species.tmp
++ rm -fr SRR6145058.bgc.antismash.log SRR6145058.bgc.deepbgc.log SRR6145058.contigs.kraken.log SRR6145058.megahit.log SRR6145058.reads.kraken.log
++ rm -fr assembly
++ rm -fr SRR6145058
++ rm -fr SRR6145058.fastp.html
++ rm -fr antismash
++ gzip SRR6145058.contigs.fa SRR6145058.contigs.kraken.classified.fa SRR6145058.contigs.kraken.unclassified.fa
++ touch /projects/metaBGC//samples/SRR6145058.SUCCESS
++ echo '--END-- SRR6145058'
+--END-- SRR6145058
++ date
+Tue Jun 22 23:57:38 UTC 2021
+++ date +%s%N
++ tt=16180440
++ echo 'Time: 16180440 milliseconds'
+Time: 16180440 milliseconds

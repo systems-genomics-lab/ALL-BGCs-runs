@@ -1,0 +1,8 @@
+sample	name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+SRR6145058	Actinobacteria	1760	C	901	0	901	0.94148
+SRR6145058	Mammalia	40674	C	43	0	43	0.04493
+SRR6145058	Bacilli	91061	C	5	0	5	0.00522
+SRR6145058	Papovaviricetes	2732421	C	3	0	3	0.00313
+SRR6145058	Gammaproteobacteria	1236	C	2	0	2	0.00209
+SRR6145058	Clostridia	186801	C	1	0	1	0.00104
+SRR6145058	Alphaproteobacteria	28211	C	1	0	1	0.00104

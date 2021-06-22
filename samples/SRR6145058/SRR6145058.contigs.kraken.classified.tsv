@@ -1,0 +1,959 @@
+sample	contig	taxid	name
+SRR6145058	k99_504	1747	Cutibacterium acnes
+SRR6145058	k99_5670	1747	Cutibacterium acnes
+SRR6145058	k99_10206	1747	Cutibacterium acnes
+SRR6145058	k99_3276	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6867	1747	Cutibacterium acnes
+SRR6145058	k99_3277	1747	Cutibacterium acnes
+SRR6145058	k99_3655	1747	Cutibacterium acnes
+SRR6145058	k99_10774	1747	Cutibacterium acnes
+SRR6145058	k99_5041	1747	Cutibacterium acnes
+SRR6145058	k99_8005	1747	Cutibacterium acnes
+SRR6145058	k99_5796	1747	Cutibacterium acnes
+SRR6145058	k99_7122	1747	Cutibacterium acnes
+SRR6145058	k99_10898	1747	Cutibacterium acnes
+SRR6145058	k99_11643	1747	Cutibacterium acnes
+SRR6145058	k99_1386	1747	Cutibacterium acnes
+SRR6145058	k99_7371	1747	Cutibacterium acnes
+SRR6145058	k99_7749	1747	Cutibacterium acnes
+SRR6145058	k99_6742	1747	Cutibacterium acnes
+SRR6145058	k99_12014	1747	Cutibacterium acnes
+SRR6145058	k99_9642	1747	Cutibacterium acnes
+SRR6145058	k99_6745	1747	Cutibacterium acnes
+SRR6145058	k99_1834	1747	Cutibacterium acnes
+SRR6145058	k99_4731	1747	Cutibacterium acnes
+SRR6145058	k99_2460	1747	Cutibacterium acnes
+SRR6145058	k99_1513	1747	Cutibacterium acnes
+SRR6145058	k99_6301	1747	Cutibacterium acnes
+SRR6145058	k99_1514	1747	Cutibacterium acnes
+SRR6145058	k99_9897	1747	Cutibacterium acnes
+SRR6145058	k99_3404	1747	Cutibacterium acnes
+SRR6145058	k99_2773	1747	Cutibacterium acnes
+SRR6145058	k99_11027	1747	Cutibacterium acnes
+SRR6145058	k99_2079	9606	Homo sapiens
+SRR6145058	k99_4855	1234380	Cutibacterium acnes C1
+SRR6145058	k99_947	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5420	1747	Cutibacterium acnes
+SRR6145058	k99_9958	1747	Cutibacterium acnes
+SRR6145058	k99_4032	1747	Cutibacterium acnes
+SRR6145058	k99_10081	1747	Cutibacterium acnes
+SRR6145058	k99_11708	1747	Cutibacterium acnes
+SRR6145058	k99_6239	1747	Cutibacterium acnes
+SRR6145058	k99_5424	1747	Cutibacterium acnes
+SRR6145058	k99_4983	1747	Cutibacterium acnes
+SRR6145058	k99_6491	9606	Homo sapiens
+SRR6145058	k99_5738	1747	Cutibacterium acnes
+SRR6145058	k99_6242	1747	Cutibacterium acnes
+SRR6145058	k99_10586	1747	Cutibacterium acnes
+SRR6145058	k99_10144	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6556	1747	Cutibacterium acnes
+SRR6145058	k99_5739	29382	Staphylococcus cohnii
+SRR6145058	k99_10780	1747	Cutibacterium acnes
+SRR6145058	k99_8637	1747	Cutibacterium acnes
+SRR6145058	k99_1516	1747	Cutibacterium acnes
+SRR6145058	k99_11770	1747	Cutibacterium acnes
+SRR6145058	k99_4234	1747	Cutibacterium acnes
+SRR6145058	k99_2900	1091045	Cutibacterium acnes subsp. defendens ATCC 11828
+SRR6145058	k99_3530	1747	Cutibacterium acnes
+SRR6145058	k99_12019	1234380	Cutibacterium acnes C1
+SRR6145058	k99_1451	1747	Cutibacterium acnes
+SRR6145058	k99_6433	1747	Cutibacterium acnes
+SRR6145058	k99_11459	1747	Cutibacterium acnes
+SRR6145058	k99_7821	1747	Cutibacterium acnes
+SRR6145058	k99_6434	1747	Cutibacterium acnes
+SRR6145058	k99_12020	1747	Cutibacterium acnes
+SRR6145058	k99_8068	1747	Cutibacterium acnes
+SRR6145058	k99_948	9606	Homo sapiens
+SRR6145058	k99_4860	1747	Cutibacterium acnes
+SRR6145058	k99_8069	1747	Cutibacterium acnes
+SRR6145058	k99_4861	1747	Cutibacterium acnes
+SRR6145058	k99_4347	1747	Cutibacterium acnes
+SRR6145058	k99_8570	1747	Cutibacterium acnes
+SRR6145058	k99_10651	1747	Cutibacterium acnes
+SRR6145058	k99_6443	1747	Cutibacterium acnes
+SRR6145058	k99_10655	1747	Cutibacterium acnes
+SRR6145058	k99_4609	1747	Cutibacterium acnes
+SRR6145058	k99_4039	1747	Cutibacterium acnes
+SRR6145058	k99_7376	1747	Cutibacterium acnes
+SRR6145058	k99_3091	1747	Cutibacterium acnes
+SRR6145058	k99_4041	9606	Homo sapiens
+SRR6145058	k99_1264	1747	Cutibacterium acnes
+SRR6145058	k99_6686	9606	Homo sapiens
+SRR6145058	k99_7880	1747	Cutibacterium acnes
+SRR6145058	k99_826	1270	Micrococcus luteus
+SRR6145058	k99_11335	1234380	Cutibacterium acnes C1
+SRR6145058	k99_2583	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7881	1747	Cutibacterium acnes
+SRR6145058	k99_6559	1747	Cutibacterium acnes
+SRR6145058	k99_4044	1747	Cutibacterium acnes
+SRR6145058	k99_8011	1747	Cutibacterium acnes
+SRR6145058	k99_6560	1747	Cutibacterium acnes
+SRR6145058	k99_7127	1747	Cutibacterium acnes
+SRR6145058	k99_9707	1747	Cutibacterium acnes
+SRR6145058	k99_6370	1747	Cutibacterium acnes
+SRR6145058	k99_1520	1270	Micrococcus luteus
+SRR6145058	k99_12023	1747	Cutibacterium acnes
+SRR6145058	k99_11337	1747	Cutibacterium acnes
+SRR6145058	k99_8072	1747	Cutibacterium acnes
+SRR6145058	k99_4414	1747	Cutibacterium acnes
+SRR6145058	k99_7002	9606	Homo sapiens
+SRR6145058	k99_10215	1747	Cutibacterium acnes
+SRR6145058	k99_8889	1747	Cutibacterium acnes
+SRR6145058	k99_4734	1747	Cutibacterium acnes
+SRR6145058	k99_5299	1234380	Cutibacterium acnes C1
+SRR6145058	k99_11893	1747	Cutibacterium acnes
+SRR6145058	k99_2649	1747	Cutibacterium acnes
+SRR6145058	k99_5740	1747	Cutibacterium acnes
+SRR6145058	k99_11031	1747	Cutibacterium acnes
+SRR6145058	k99_7316	1747	Cutibacterium acnes
+SRR6145058	k99_9836	1747	Cutibacterium acnes
+SRR6145058	k99_3283	1747	Cutibacterium acnes
+SRR6145058	k99_4480	1747	Cutibacterium acnes
+SRR6145058	k99_9901	1234380	Cutibacterium acnes C1
+SRR6145058	k99_4162	1747	Cutibacterium acnes
+SRR6145058	k99_5742	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6565	9606	Homo sapiens
+SRR6145058	k99_10275	1747	Cutibacterium acnes
+SRR6145058	k99_448	1747	Cutibacterium acnes
+SRR6145058	k99_2720	1747	Cutibacterium acnes
+SRR6145058	k99_3348	1747	Cutibacterium acnes
+SRR6145058	k99_8258	1747	Cutibacterium acnes
+SRR6145058	k99_4357	1747	Cutibacterium acnes
+SRR6145058	k99_9458	1747	Cutibacterium acnes
+SRR6145058	k99_7516	1747	Cutibacterium acnes
+SRR6145058	k99_2971	1747	Cutibacterium acnes
+SRR6145058	k99_6249	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_4614	1747	Cutibacterium acnes
+SRR6145058	k99_11831	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6809	9606	Homo sapiens
+SRR6145058	k99_10786	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8948	1747	Cutibacterium acnes
+SRR6145058	k99_8766	1747	Cutibacterium acnes
+SRR6145058	k99_5174	1747	Cutibacterium acnes
+SRR6145058	k99_3534	1747	Cutibacterium acnes
+SRR6145058	k99_4361	9606	Homo sapiens
+SRR6145058	k99_6371	1747	Cutibacterium acnes
+SRR6145058	k99_7826	1747	Cutibacterium acnes
+SRR6145058	k99_10407	1747	Cutibacterium acnes
+SRR6145058	k99_2271	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8707	1747	Cutibacterium acnes
+SRR6145058	k99_10216	1747	Cutibacterium acnes
+SRR6145058	k99_8259	1747	Cutibacterium acnes
+SRR6145058	k99_6308	9606	Homo sapiens
+SRR6145058	k99_9776	1747	Cutibacterium acnes
+SRR6145058	k99_7636	1747	Cutibacterium acnes
+SRR6145058	k99_6250	1747	Cutibacterium acnes
+SRR6145058	k99_8382	1747	Cutibacterium acnes
+SRR6145058	k99_10023	1747	Cutibacterium acnes
+SRR6145058	k99_8262	1747	Cutibacterium acnes
+SRR6145058	k99_8323	1747	Cutibacterium acnes
+SRR6145058	k99_11587	1747	Cutibacterium acnes
+SRR6145058	k99_11523	1747	Cutibacterium acnes
+SRR6145058	k99_5111	1747	Cutibacterium acnes
+SRR6145058	k99_1646	1234380	Cutibacterium acnes C1
+SRR6145058	k99_1333	1747	Cutibacterium acnes
+SRR6145058	k99_9141	1747	Cutibacterium acnes
+SRR6145058	k99_9843	1747	Cutibacterium acnes
+SRR6145058	k99_9459	1747	Cutibacterium acnes
+SRR6145058	k99_9905	1747	Cutibacterium acnes
+SRR6145058	k99_3978	1234380	Cutibacterium acnes C1
+SRR6145058	k99_2088	1747	Cutibacterium acnes
+SRR6145058	k99_9277	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10794	1747	Cutibacterium acnes
+SRR6145058	k99_5989	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9584	1747	Cutibacterium acnes
+SRR6145058	k99_1967	1747	Cutibacterium acnes
+SRR6145058	k99_6310	1747	Cutibacterium acnes
+SRR6145058	k99_2339	1747	Cutibacterium acnes
+SRR6145058	k99_4114	1747	Cutibacterium acnes
+SRR6145058	k99_3413	1747	Cutibacterium acnes
+SRR6145058	k99_8383	1747	Cutibacterium acnes
+SRR6145058	k99_4997	1747	Cutibacterium acnes
+SRR6145058	k99_1206	1747	Cutibacterium acnes
+SRR6145058	k99_9654	1747	Cutibacterium acnes
+SRR6145058	k99_10024	1747	Cutibacterium acnes
+SRR6145058	k99_4362	1747	Cutibacterium acnes
+SRR6145058	k99_2089	1747	Cutibacterium acnes
+SRR6145058	k99_2526	1747	Cutibacterium acnes
+SRR6145058	k99_9143	1747	Cutibacterium acnes
+SRR6145058	k99_3482	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9203	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5365	1747	Cutibacterium acnes
+SRR6145058	k99_11962	1747	Cutibacterium acnes
+SRR6145058	k99_4239	1747	Cutibacterium acnes
+SRR6145058	k99_896	1747	Cutibacterium acnes
+SRR6145058	k99_10916	1747	Cutibacterium acnes
+SRR6145058	k99_8641	1747	Cutibacterium acnes
+SRR6145058	k99_6117	1747	Cutibacterium acnes
+SRR6145058	k99_5431	1747	Cutibacterium acnes
+SRR6145058	k99_4620	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9205	1747	Cutibacterium acnes
+SRR6145058	k99_3846	1747	Cutibacterium acnes
+SRR6145058	k99_10724	1747	Cutibacterium acnes
+SRR6145058	k99_5993	1747	Cutibacterium acnes
+SRR6145058	k99_7886	1747	Cutibacterium acnes
+SRR6145058	k99_11277	1747	Cutibacterium acnes
+SRR6145058	k99_319	1747	Cutibacterium acnes
+SRR6145058	k99_10727	1747	Cutibacterium acnes
+SRR6145058	k99_5994	9606	Homo sapiens
+SRR6145058	k99_1532	1747	Cutibacterium acnes
+SRR6145058	k99_5802	1747	Cutibacterium acnes
+SRR6145058	k99_8711	1747	Cutibacterium acnes
+SRR6145058	k99_765	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5557	1747	Cutibacterium acnes
+SRR6145058	k99_9916	1747	Cutibacterium acnes
+SRR6145058	k99_5867	1747	Cutibacterium acnes
+SRR6145058	k99_9918	9606	Homo sapiens
+SRR6145058	k99_9290	1747	Cutibacterium acnes
+SRR6145058	k99_8845	1747	Cutibacterium acnes
+SRR6145058	k99_1907	1747	Cutibacterium acnes
+SRR6145058	k99_5241	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7827	1747	Cutibacterium acnes
+SRR6145058	k99_5621	1747	Cutibacterium acnes
+SRR6145058	k99_9712	1747	Cutibacterium acnes
+SRR6145058	k99_4378	1747	Cutibacterium acnes
+SRR6145058	k99_9462	1747	Cutibacterium acnes
+SRR6145058	k99_4676	1747	Cutibacterium acnes
+SRR6145058	k99_10232	1747	Cutibacterium acnes
+SRR6145058	k99_6316	1134454	Cutibacterium acnes HL096PA1
+SRR6145058	k99_7828	1747	Cutibacterium acnes
+SRR6145058	k99_2663	1747	Cutibacterium acnes
+SRR6145058	k99_1535	1747	Cutibacterium acnes
+SRR6145058	k99_10342	1747	Cutibacterium acnes
+SRR6145058	k99_5051	1747	Cutibacterium acnes
+SRR6145058	k99_10234	1747	Cutibacterium acnes
+SRR6145058	k99_8519	1170318	Cutibacterium avidum 44067
+SRR6145058	k99_5053	1747	Cutibacterium acnes
+SRR6145058	k99_10094	1747	Cutibacterium acnes
+SRR6145058	k99_5934	1747	Cutibacterium acnes
+SRR6145058	k99_1714	1747	Cutibacterium acnes
+SRR6145058	k99_8395	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_11469	1747	Cutibacterium acnes
+SRR6145058	k99_7834	1747	Cutibacterium acnes
+SRR6145058	k99_3157	1747	Cutibacterium acnes
+SRR6145058	k99_2593	1747	Cutibacterium acnes
+SRR6145058	k99_4999	1747	Cutibacterium acnes
+SRR6145058	k99_959	1747	Cutibacterium acnes
+SRR6145058	k99_10235	1747	Cutibacterium acnes
+SRR6145058	k99_11527	1747	Cutibacterium acnes
+SRR6145058	k99_1464	1747	Cutibacterium acnes
+SRR6145058	k99_9408	1747	Cutibacterium acnes
+SRR6145058	k99_9921	1747	Cutibacterium acnes
+SRR6145058	k99_2216	1747	Cutibacterium acnes
+SRR6145058	k99_1848	1747	Cutibacterium acnes
+SRR6145058	k99_4930	1747	Cutibacterium acnes
+SRR6145058	k99_7019	1234380	Cutibacterium acnes C1
+SRR6145058	k99_11779	1747	Cutibacterium acnes
+SRR6145058	k99_10797	1747	Cutibacterium acnes
+SRR6145058	k99_7446	1747	Cutibacterium acnes
+SRR6145058	k99_11836	1747	Cutibacterium acnes
+SRR6145058	k99_6123	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6317	1747	Cutibacterium acnes
+SRR6145058	k99_11413	1747	Cutibacterium acnes
+SRR6145058	k99_6449	1747	Cutibacterium acnes
+SRR6145058	k99_8204	1747	Cutibacterium acnes
+SRR6145058	k99_2153	1747	Cutibacterium acnes
+SRR6145058	k99_11415	1747	Cutibacterium acnes
+SRR6145058	k99_2026	1747	Cutibacterium acnes
+SRR6145058	k99_3736	1747	Cutibacterium acnes
+SRR6145058	k99_2416	1747	Cutibacterium acnes
+SRR6145058	k99_10673	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8465	1747	Cutibacterium acnes
+SRR6145058	k99_8958	1747	Cutibacterium acnes
+SRR6145058	k99_1985	1747	Cutibacterium acnes
+SRR6145058	k99_5996	1747	Cutibacterium acnes
+SRR6145058	k99_7071	1747	Cutibacterium acnes
+SRR6145058	k99_6271	9606	Homo sapiens
+SRR6145058	k99_9973	1747	Cutibacterium acnes
+SRR6145058	k99_2031	9606	Homo sapiens
+SRR6145058	k99_5629	1747	Cutibacterium acnes
+SRR6145058	k99_7188	1747	Cutibacterium acnes
+SRR6145058	k99_5316	1234380	Cutibacterium acnes C1
+SRR6145058	k99_2217	1747	Cutibacterium acnes
+SRR6145058	k99_11163	1747	Cutibacterium acnes
+SRR6145058	k99_520	1747	Cutibacterium acnes
+SRR6145058	k99_3539	1747	Cutibacterium acnes
+SRR6145058	k99_4802	1747	Cutibacterium acnes
+SRR6145058	k99_6126	1747	Cutibacterium acnes
+SRR6145058	k99_522	1747	Cutibacterium acnes
+SRR6145058	k99_3223	1747	Cutibacterium acnes
+SRR6145058	k99_3160	1747	Cutibacterium acnes
+SRR6145058	k99_10920	1747	Cutibacterium acnes
+SRR6145058	k99_3987	1747	Cutibacterium acnes
+SRR6145058	k99_5190	1747	Cutibacterium acnes
+SRR6145058	k99_11594	1747	Cutibacterium acnes
+SRR6145058	k99_9026	1747	Cutibacterium acnes
+SRR6145058	k99_5325	1747	Cutibacterium acnes
+SRR6145058	k99_9853	1747	Cutibacterium acnes
+SRR6145058	k99_8209	1747	Cutibacterium acnes
+SRR6145058	k99_7331	1747	Cutibacterium acnes
+SRR6145058	k99_9027	1747	Cutibacterium acnes
+SRR6145058	k99_6458	1747	Cutibacterium acnes
+SRR6145058	k99_10733	1234380	Cutibacterium acnes C1
+SRR6145058	k99_4247	1747	Cutibacterium acnes
+SRR6145058	k99_9587	1747	Cutibacterium acnes
+SRR6145058	k99_1345	1747	Cutibacterium acnes
+SRR6145058	k99_8211	1747	Cutibacterium acnes
+SRR6145058	k99_7189	1747	Cutibacterium acnes
+SRR6145058	k99_6634	1747	Cutibacterium acnes
+SRR6145058	k99_6462	1747	Cutibacterium acnes
+SRR6145058	k99_5632	1747	Cutibacterium acnes
+SRR6145058	k99_11043	1747	Cutibacterium acnes
+SRR6145058	k99_5941	1747	Cutibacterium acnes
+SRR6145058	k99_5690	1747	Cutibacterium acnes
+SRR6145058	k99_11350	1747	Cutibacterium acnes
+SRR6145058	k99_3164	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8899	1747	Cutibacterium acnes
+SRR6145058	k99_11838	1747	Cutibacterium acnes
+SRR6145058	k99_9083	1747	Cutibacterium acnes
+SRR6145058	k99_6826	1747	Cutibacterium acnes
+SRR6145058	k99_7577	1747	Cutibacterium acnes
+SRR6145058	k99_5759	1747	Cutibacterium acnes
+SRR6145058	k99_9148	1747	Cutibacterium acnes
+SRR6145058	k99_1656	1747	Cutibacterium acnes
+SRR6145058	k99_8587	1747	Cutibacterium acnes
+SRR6145058	k99_11839	1747	Cutibacterium acnes
+SRR6145058	k99_6772	1234380	Cutibacterium acnes C1
+SRR6145058	k99_4169	1747	Cutibacterium acnes
+SRR6145058	k99_2099	1747	Cutibacterium acnes
+SRR6145058	k99_8904	1747	Cutibacterium acnes
+SRR6145058	k99_9084	1747	Cutibacterium acnes
+SRR6145058	k99_2347	1747	Cutibacterium acnes
+SRR6145058	k99_7257	1747	Cutibacterium acnes
+SRR6145058	k99_9660	9606	Homo sapiens
+SRR6145058	k99_4628	1234380	Cutibacterium acnes C1
+SRR6145058	k99_840	1747	Cutibacterium acnes
+SRR6145058	k99_4933	1747	Cutibacterium acnes
+SRR6145058	k99_1096	1747	Cutibacterium acnes
+SRR6145058	k99_4757	9606	Homo sapiens
+SRR6145058	k99_4805	1747	Cutibacterium acnes
+SRR6145058	k99_10284	1747	Cutibacterium acnes
+SRR6145058	k99_9086	1747	Cutibacterium acnes
+SRR6145058	k99_4053	1747	Cutibacterium acnes
+SRR6145058	k99_9216	1747	Cutibacterium acnes
+SRR6145058	k99_4806	1747	Cutibacterium acnes
+SRR6145058	k99_4172	1747	Cutibacterium acnes
+SRR6145058	k99_5571	10621	Human papillomavirus 9
+SRR6145058	k99_9087	1747	Cutibacterium acnes
+SRR6145058	k99_1159	1747	Cutibacterium acnes
+SRR6145058	k99_5447	1234380	Cutibacterium acnes C1
+SRR6145058	k99_2732	1747	Cutibacterium acnes
+SRR6145058	k99_11720	1747	Cutibacterium acnes
+SRR6145058	k99_4173	1747	Cutibacterium acnes
+SRR6145058	k99_1988	1747	Cutibacterium acnes
+SRR6145058	k99_11417	1747	Cutibacterium acnes
+SRR6145058	k99_9030	1747	Cutibacterium acnes
+SRR6145058	k99_7951	1747	Cutibacterium acnes
+SRR6145058	k99_5329	1747	Cutibacterium acnes
+SRR6145058	k99_11046	1747	Cutibacterium acnes
+SRR6145058	k99_11784	1747	Cutibacterium acnes
+SRR6145058	k99_1784	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5004	1747	Cutibacterium acnes
+SRR6145058	k99_5637	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_7710	1747	Cutibacterium acnes
+SRR6145058	k99_10549	1747	Cutibacterium acnes
+SRR6145058	k99_5500	1747	Cutibacterium acnes
+SRR6145058	k99_11972	1747	Cutibacterium acnes
+SRR6145058	k99_7895	9606	Homo sapiens
+SRR6145058	k99_8341	1747	Cutibacterium acnes
+SRR6145058	k99_650	1747	Cutibacterium acnes
+SRR6145058	k99_5386	1747	Cutibacterium acnes
+SRR6145058	k99_10468	1747	Cutibacterium acnes
+SRR6145058	k99_10857	1747	Cutibacterium acnes
+SRR6145058	k99_4761	1747	Cutibacterium acnes
+SRR6145058	k99_2980	1747	Cutibacterium acnes
+SRR6145058	k99_12033	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5575	1747	Cutibacterium acnes
+SRR6145058	k99_4250	1747	Cutibacterium acnes
+SRR6145058	k99_8273	1091045	Cutibacterium acnes subsp. defendens ATCC 11828
+SRR6145058	k99_10096	1747	Cutibacterium acnes
+SRR6145058	k99_1165	1747	Cutibacterium acnes
+SRR6145058	k99_1657	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10346	1747	Cutibacterium acnes
+SRR6145058	k99_9592	1747	Cutibacterium acnes
+SRR6145058	k99_8964	1747	Cutibacterium acnes
+SRR6145058	k99_11843	1747	Cutibacterium acnes
+SRR6145058	k99_3548	1747	Cutibacterium acnes
+SRR6145058	k99_3613	1747	Cutibacterium acnes
+SRR6145058	k99_11476	1747	Cutibacterium acnes
+SRR6145058	k99_10805	1747	Cutibacterium acnes
+SRR6145058	k99_6190	1747	Cutibacterium acnes
+SRR6145058	k99_10287	1270	Micrococcus luteus
+SRR6145058	k99_3497	1747	Cutibacterium acnes
+SRR6145058	k99_8534	1747	Cutibacterium acnes
+SRR6145058	k99_7264	1747	Cutibacterium acnes
+SRR6145058	k99_4056	1747	Cutibacterium acnes
+SRR6145058	k99_10416	1747	Cutibacterium acnes
+SRR6145058	k99_11532	1747	Cutibacterium acnes
+SRR6145058	k99_5193	1747	Cutibacterium acnes
+SRR6145058	k99_11172	1747	Cutibacterium acnes
+SRR6145058	k99_11847	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6323	1747	Cutibacterium acnes
+SRR6145058	k99_11977	1747	Cutibacterium acnes
+SRR6145058	k99_6192	1747	Cutibacterium acnes
+SRR6145058	k99_11291	1747	Cutibacterium acnes
+SRR6145058	k99_8967	9606	Homo sapiens
+SRR6145058	k99_8537	1234380	Cutibacterium acnes C1
+SRR6145058	k99_4432	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7525	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5644	1747	Cutibacterium acnes
+SRR6145058	k99_2424	1747	Cutibacterium acnes
+SRR6145058	k99_3918	1747	Cutibacterium acnes
+SRR6145058	k99_9036	1747	Cutibacterium acnes
+SRR6145058	k99_844	1747	Cutibacterium acnes
+SRR6145058	k99_4680	1747	Cutibacterium acnes
+SRR6145058	k99_3549	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9219	1747	Cutibacterium acnes
+SRR6145058	k99_1102	1747	Cutibacterium acnes
+SRR6145058	k99_7333	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_735	1747	Cutibacterium acnes
+SRR6145058	k99_3995	1747	Cutibacterium acnes
+SRR6145058	k99_9668	1747	Cutibacterium acnes
+SRR6145058	k99_3919	1747	Cutibacterium acnes
+SRR6145058	k99_7266	1747	Cutibacterium acnes
+SRR6145058	k99_1921	9606	Homo sapiens
+SRR6145058	k99_1103	1747	Cutibacterium acnes
+SRR6145058	k99_11535	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_1297	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9221	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8347	1747	Cutibacterium acnes
+SRR6145058	k99_6278	1747	Cutibacterium acnes
+SRR6145058	k99_5453	1747	Cutibacterium acnes
+SRR6145058	k99_4764	1747	Cutibacterium acnes
+SRR6145058	k99_12034	1747	Cutibacterium acnes
+SRR6145058	k99_1548	1747	Cutibacterium acnes
+SRR6145058	k99_7526	1747	Cutibacterium acnes
+SRR6145058	k99_11658	1747	Cutibacterium acnes
+SRR6145058	k99_3921	1747	Cutibacterium acnes
+SRR6145058	k99_2853	1747	Cutibacterium acnes
+SRR6145058	k99_3034	1747	Cutibacterium acnes
+SRR6145058	k99_4635	1747	Cutibacterium acnes
+SRR6145058	k99_3616	1747	Cutibacterium acnes
+SRR6145058	k99_8349	1234380	Cutibacterium acnes C1
+SRR6145058	k99_1475	1747	Cutibacterium acnes
+SRR6145058	k99_2804	1747	Cutibacterium acnes
+SRR6145058	k99_9720	1747	Cutibacterium acnes
+SRR6145058	k99_9529	1747	Cutibacterium acnes
+SRR6145058	k99_8350	1747	Cutibacterium acnes
+SRR6145058	k99_1476	1747	Cutibacterium acnes
+SRR6145058	k99_3617	1747	Cutibacterium acnes
+SRR6145058	k99_5950	1747	Cutibacterium acnes
+SRR6145058	k99_1478	1747	Cutibacterium acnes
+SRR6145058	k99_7461	1747	Cutibacterium acnes
+SRR6145058	k99_9153	1747	Cutibacterium acnes
+SRR6145058	k99_10863	1747	Cutibacterium acnes
+SRR6145058	k99_1106	1747	Cutibacterium acnes
+SRR6145058	k99_11543	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10105	1747	Cutibacterium acnes
+SRR6145058	k99_7774	1747	Cutibacterium acnes
+SRR6145058	k99_1927	1747	Cutibacterium acnes
+SRR6145058	k99_10750	1747	Cutibacterium acnes
+SRR6145058	k99_9469	1747	Cutibacterium acnes
+SRR6145058	k99_1107	1747	Cutibacterium acnes
+SRR6145058	k99_10809	1747	Cutibacterium acnes
+SRR6145058	k99_7843	1747	Cutibacterium acnes
+SRR6145058	k99_8159	1747	Cutibacterium acnes
+SRR6145058	k99_4313	1747	Cutibacterium acnes
+SRR6145058	k99_2112	1747	Cutibacterium acnes
+SRR6145058	k99_3367	1747	Cutibacterium acnes
+SRR6145058	k99_9343	1747	Cutibacterium acnes
+SRR6145058	k99_8225	1747	Cutibacterium acnes
+SRR6145058	k99_10604	1747	Cutibacterium acnes
+SRR6145058	k99_9802	1747	Cutibacterium acnes
+SRR6145058	k99_9862	1747	Cutibacterium acnes
+SRR6145058	k99_1108	1747	Cutibacterium acnes
+SRR6145058	k99_3747	1747	Cutibacterium acnes
+SRR6145058	k99_2932	1747	Cutibacterium acnes
+SRR6145058	k99_1928	1747	Cutibacterium acnes
+SRR6145058	k99_7079	1747	Cutibacterium acnes
+SRR6145058	k99_11852	1747	Cutibacterium acnes
+SRR6145058	k99_10042	1747	Cutibacterium acnes
+SRR6145058	k99_2166	1747	Cutibacterium acnes
+SRR6145058	k99_1728	1747	Cutibacterium acnes
+SRR6145058	k99_10169	1747	Cutibacterium acnes
+SRR6145058	k99_3687	1747	Cutibacterium acnes
+SRR6145058	k99_8785	1747	Cutibacterium acnes
+SRR6145058	k99_10993	1747	Cutibacterium acnes
+SRR6145058	k99_9094	1747	Cutibacterium acnes
+SRR6145058	k99_11792	1747	Cutibacterium acnes
+SRR6145058	k99_10174	1747	Cutibacterium acnes
+SRR6145058	k99_2360	1747	Cutibacterium acnes
+SRR6145058	k99_7270	1747	Cutibacterium acnes
+SRR6145058	k99_5195	1747	Cutibacterium acnes
+SRR6145058	k99_6591	1747	Cutibacterium acnes
+SRR6145058	k99_11979	1747	Cutibacterium acnes
+SRR6145058	k99_11486	1747	Cutibacterium acnes
+SRR6145058	k99_11794	1747	Cutibacterium acnes
+SRR6145058	k99_7464	1282	Staphylococcus epidermidis
+SRR6145058	k99_5391	9606	Homo sapiens
+SRR6145058	k99_3622	1747	Cutibacterium acnes
+SRR6145058	k99_2989	1747	Cutibacterium acnes
+SRR6145058	k99_10605	1747	Cutibacterium acnes
+SRR6145058	k99_8541	1747	Cutibacterium acnes
+SRR6145058	k99_592	1747	Cutibacterium acnes
+SRR6145058	k99_11723	1234380	Cutibacterium acnes C1
+SRR6145058	k99_2299	1747	Cutibacterium acnes
+SRR6145058	k99_4772	1747	Cutibacterium acnes
+SRR6145058	k99_6477	1747	Cutibacterium acnes
+SRR6145058	k99_4941	1747	Cutibacterium acnes
+SRR6145058	k99_5392	1747	Cutibacterium acnes
+SRR6145058	k99_11174	1747	Cutibacterium acnes
+SRR6145058	k99_4502	1747	Cutibacterium acnes
+SRR6145058	k99_8032	1747	Cutibacterium acnes
+SRR6145058	k99_9304	1747	Cutibacterium acnes
+SRR6145058	k99_10050	1747	Cutibacterium acnes
+SRR6145058	k99_7718	1747	Cutibacterium acnes
+SRR6145058	k99_10810	1747	Cutibacterium acnes
+SRR6145058	k99_3308	1747	Cutibacterium acnes
+SRR6145058	k99_6517	1747	Cutibacterium acnes
+SRR6145058	k99_11230	1747	Cutibacterium acnes
+SRR6145058	k99_8035	1747	Cutibacterium acnes
+SRR6145058	k99_2858	1747	Cutibacterium acnes
+SRR6145058	k99_9676	1747	Cutibacterium acnes
+SRR6145058	k99_8036	1747	Cutibacterium acnes
+SRR6145058	k99_7586	1747	Cutibacterium acnes
+SRR6145058	k99_9986	1747	Cutibacterium acnes
+SRR6145058	k99_2678	9606	Homo sapiens
+SRR6145058	k99_2364	1747	Cutibacterium acnes
+SRR6145058	k99_2814	1747	Cutibacterium acnes
+SRR6145058	k99_4319	1234380	Cutibacterium acnes C1
+SRR6145058	k99_4638	1747	Cutibacterium acnes
+SRR6145058	k99_10179	1747	Cutibacterium acnes
+SRR6145058	k99_7963	1747	Cutibacterium acnes
+SRR6145058	k99_3374	1747	Cutibacterium acnes
+SRR6145058	k99_9100	1747	Cutibacterium acnes
+SRR6145058	k99_10352	1747	Cutibacterium acnes
+SRR6145058	k99_8913	1747	Cutibacterium acnes
+SRR6145058	k99_2863	1747	Cutibacterium acnes
+SRR6145058	k99_10354	9606	Homo sapiens
+SRR6145058	k99_2115	1747	Cutibacterium acnes
+SRR6145058	k99_7337	1747	Cutibacterium acnes
+SRR6145058	k99_10608	1747	Cutibacterium acnes
+SRR6145058	k99_10299	1747	Cutibacterium acnes
+SRR6145058	k99_11981	1747	Cutibacterium acnes
+SRR6145058	k99_789	1747	Cutibacterium acnes
+SRR6145058	k99_1045	1747	Cutibacterium acnes
+SRR6145058	k99_7398	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10610	1747	Cutibacterium acnes
+SRR6145058	k99_11299	1883	Streptomyces
+SRR6145058	k99_5823	1747	Cutibacterium acnes
+SRR6145058	k99_9347	1747	Cutibacterium acnes
+SRR6145058	k99_3379	1747	Cutibacterium acnes
+SRR6145058	k99_4325	9606	Homo sapiens
+SRR6145058	k99_3234	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9316	1747	Cutibacterium acnes
+SRR6145058	k99_8164	1747	Cutibacterium acnes
+SRR6145058	k99_8663	1747	Cutibacterium acnes
+SRR6145058	k99_2064	1747	Cutibacterium acnes
+SRR6145058	k99_5882	1747	Cutibacterium acnes
+SRR6145058	k99_9317	1747	Cutibacterium acnes
+SRR6145058	k99_7143	1747	Cutibacterium acnes
+SRR6145058	k99_10267	1747	Cutibacterium acnes
+SRR6145058	k99_2116	1747	Cutibacterium acnes
+SRR6145058	k99_4570	1747	Cutibacterium acnes
+SRR6145058	k99_6708	1747	Cutibacterium acnes
+SRR6145058	k99_6381	1747	Cutibacterium acnes
+SRR6145058	k99_12036	1747	Cutibacterium acnes
+SRR6145058	k99_10183	1747	Cutibacterium acnes
+SRR6145058	k99_5131	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5395	1747	Cutibacterium acnes
+SRR6145058	k99_1358	1747	Cutibacterium acnes
+SRR6145058	k99_10996	1747	Cutibacterium acnes
+SRR6145058	k99_476	1747	Cutibacterium acnes
+SRR6145058	k99_7532	1747	Cutibacterium acnes
+SRR6145058	k99_6652	1747	Cutibacterium acnes
+SRR6145058	k99_3309	1747	Cutibacterium acnes
+SRR6145058	k99_5064	1747	Cutibacterium acnes
+SRR6145058	k99_11241	1747	Cutibacterium acnes
+SRR6145058	k99_6284	1747	Cutibacterium acnes
+SRR6145058	k99_10755	1234380	Cutibacterium acnes C1
+SRR6145058	k99_3566	1747	Cutibacterium acnes
+SRR6145058	k99_11367	1747	Cutibacterium acnes
+SRR6145058	k99_9355	1747	Cutibacterium acnes
+SRR6145058	k99_7589	9606	Homo sapiens
+SRR6145058	k99_7343	1747	Cutibacterium acnes
+SRR6145058	k99_3310	1747	Cutibacterium acnes
+SRR6145058	k99_7033	1747	Cutibacterium acnes
+SRR6145058	k99_8977	1747	Cutibacterium acnes
+SRR6145058	k99_12037	1747	Cutibacterium acnes
+SRR6145058	k99_8665	1747	Cutibacterium acnes
+SRR6145058	k99_9812	1747	Cutibacterium acnes
+SRR6145058	k99_11799	1747	Cutibacterium acnes
+SRR6145058	k99_3383	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10301	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10618	1747	Cutibacterium acnes
+SRR6145058	k99_7665	1747	Cutibacterium acnes
+SRR6145058	k99_10113	9606	Homo sapiens
+SRR6145058	k99_10557	1747	Cutibacterium acnes
+SRR6145058	k99_1741	1747	Cutibacterium acnes
+SRR6145058	k99_5584	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9484	1747	Cutibacterium acnes
+SRR6145058	k99_4074	1491	Clostridium botulinum
+SRR6145058	k99_6287	1747	Cutibacterium acnes
+SRR6145058	k99_8599	1747	Cutibacterium acnes
+SRR6145058	k99_9429	1091045	Cutibacterium acnes subsp. defendens ATCC 11828
+SRR6145058	k99_12039	2	Bacteria
+SRR6145058	k99_10756	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9103	1747	Cutibacterium acnes
+SRR6145058	k99_11177	9606	Homo sapiens
+SRR6145058	k99_6087	1747	Cutibacterium acnes
+SRR6145058	k99_2071	1747	Cutibacterium acnes
+SRR6145058	k99_1053	1747	Cutibacterium acnes
+SRR6145058	k99_3438	1747	Cutibacterium acnes
+SRR6145058	k99_740	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10691	1747	Cutibacterium acnes
+SRR6145058	k99_4695	1747	Cutibacterium acnes
+SRR6145058	k99_7474	1747	Cutibacterium acnes
+SRR6145058	k99_662	1747	Cutibacterium acnes
+SRR6145058	k99_2494	10621	Human papillomavirus 9
+SRR6145058	k99_11062	1747	Cutibacterium acnes
+SRR6145058	k99_9726	1747	Cutibacterium acnes
+SRR6145058	k99_5461	1747	Cutibacterium acnes
+SRR6145058	k99_7537	1279	Staphylococcus
+SRR6145058	k99_9158	1747	Cutibacterium acnes
+SRR6145058	k99_9684	915427	Human papillomavirus type 112
+SRR6145058	k99_4329	1747	Cutibacterium acnes
+SRR6145058	k99_8981	43675	Rothia mucilaginosa
+SRR6145058	k99_2746	1747	Cutibacterium acnes
+SRR6145058	k99_11437	1091045	Cutibacterium acnes subsp. defendens ATCC 11828
+SRR6145058	k99_11370	1747	Cutibacterium acnes
+SRR6145058	k99_10946	1747	Cutibacterium acnes
+SRR6145058	k99_3001	1747	Cutibacterium acnes
+SRR6145058	k99_5964	1747	Cutibacterium acnes
+SRR6145058	k99_10762	1747	Cutibacterium acnes
+SRR6145058	k99_2752	1234380	Cutibacterium acnes C1
+SRR6145058	k99_11914	1747	Cutibacterium acnes
+SRR6145058	k99_8796	1747	Cutibacterium acnes
+SRR6145058	k99_6528	1747	Cutibacterium acnes
+SRR6145058	k99_664	1747	Cutibacterium acnes
+SRR6145058	k99_1872	9606	Homo sapiens
+SRR6145058	k99_5067	1747	Cutibacterium acnes
+SRR6145058	k99_6203	1747	Cutibacterium acnes
+SRR6145058	k99_9727	9606	Homo sapiens
+SRR6145058	k99_5888	1747	Cutibacterium acnes
+SRR6145058	k99_9875	1747	Cutibacterium acnes
+SRR6145058	k99_8800	1747	Cutibacterium acnes
+SRR6145058	k99_2371	1747	Cutibacterium acnes
+SRR6145058	k99_10063	1747	Cutibacterium acnes
+SRR6145058	k99_2626	1747	Cutibacterium acnes
+SRR6145058	k99_6530	1747	Cutibacterium acnes
+SRR6145058	k99_1427	1234380	Cutibacterium acnes C1
+SRR6145058	k99_2686	1747	Cutibacterium acnes
+SRR6145058	k99_4700	1747	Cutibacterium acnes
+SRR6145058	k99_11066	1747	Cutibacterium acnes
+SRR6145058	k99_1607	1747	Cutibacterium acnes
+SRR6145058	k99_8803	31957	Propionibacteriaceae
+SRR6145058	k99_8493	1747	Cutibacterium acnes
+SRR6145058	k99_2627	1747	Cutibacterium acnes
+SRR6145058	k99_11615	1747	Cutibacterium acnes
+SRR6145058	k99_11067	1747	Cutibacterium acnes
+SRR6145058	k99_4508	1792307	Bosea sp. PAMC 26642
+SRR6145058	k99_5833	1747	Cutibacterium acnes
+SRR6145058	k99_8231	1747	Cutibacterium acnes
+SRR6145058	k99_3751	1747	Cutibacterium acnes
+SRR6145058	k99_10948	1747	Cutibacterium acnes
+SRR6145058	k99_9615	1747	Cutibacterium acnes
+SRR6145058	k99_5588	1747	Cutibacterium acnes
+SRR6145058	k99_10305	1747	Cutibacterium acnes
+SRR6145058	k99_2756	9606	Homo sapiens
+SRR6145058	k99_10488	1747	Cutibacterium acnes
+SRR6145058	k99_5017	1881017	Pseudomonas sp. 7SR1
+SRR6145058	k99_9878	1747	Cutibacterium acnes
+SRR6145058	k99_11921	1747	Cutibacterium acnes
+SRR6145058	k99_4817	9606	Homo sapiens
+SRR6145058	k99_6654	1747	Cutibacterium acnes
+SRR6145058	k99_8232	1747	Cutibacterium acnes
+SRR6145058	k99_1320	1747	Cutibacterium acnes
+SRR6145058	k99_8984	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6781	1747	Cutibacterium acnes
+SRR6145058	k99_3045	1747	Cutibacterium acnes
+SRR6145058	k99_6153	1747	Cutibacterium acnes
+SRR6145058	k99_1231	1747	Cutibacterium acnes
+SRR6145058	k99_668	1747	Cutibacterium acnes
+SRR6145058	k99_4509	1747	Cutibacterium acnes
+SRR6145058	k99_10126	1747	Cutibacterium acnes
+SRR6145058	k99_9160	1747	Cutibacterium acnes
+SRR6145058	k99_926	1747	Cutibacterium acnes
+SRR6145058	k99_9057	1747	Cutibacterium acnes
+SRR6145058	k99_2372	1747	Cutibacterium acnes
+SRR6145058	k99_671	1747	Cutibacterium acnes
+SRR6145058	k99_2176	1234380	Cutibacterium acnes C1
+SRR6145058	k99_1753	1747	Cutibacterium acnes
+SRR6145058	k99_6534	1747	Cutibacterium acnes
+SRR6145058	k99_11922	1747	Cutibacterium acnes
+SRR6145058	k99_7853	1747	Cutibacterium acnes
+SRR6145058	k99_8101	1747	Cutibacterium acnes
+SRR6145058	k99_2246	1747	Cutibacterium acnes
+SRR6145058	k99_4574	1747	Cutibacterium acnes
+SRR6145058	k99_9489	1234380	Cutibacterium acnes C1
+SRR6145058	k99_4903	1747	Cutibacterium acnes
+SRR6145058	k99_5345	1747	Cutibacterium acnes
+SRR6145058	k99_3245	1747	Cutibacterium acnes
+SRR6145058	k99_11992	1747	Cutibacterium acnes
+SRR6145058	k99_8355	1747	Cutibacterium acnes
+SRR6145058	k99_7930	1747	Cutibacterium acnes
+SRR6145058	k99_2441	1747	Cutibacterium acnes
+SRR6145058	k99_1190	1747	Cutibacterium acnes
+SRR6145058	k99_2177	9606	Homo sapiens
+SRR6145058	k99_5516	1747	Cutibacterium acnes
+SRR6145058	k99_11441	1747	Cutibacterium acnes
+SRR6145058	k99_8040	1747	Cutibacterium acnes
+SRR6145058	k99_4009	1114969	Cutibacterium acnes TypeIA2 P.acn31
+SRR6145058	k99_11805	1747	Cutibacterium acnes
+SRR6145058	k99_10437	1747	Cutibacterium acnes
+SRR6145058	k99_3756	1747	Cutibacterium acnes
+SRR6145058	k99_10884	1747	Cutibacterium acnes
+SRR6145058	k99_3452	1747	Cutibacterium acnes
+SRR6145058	k99_7674	1747	Cutibacterium acnes
+SRR6145058	k99_10772	1747	Cutibacterium acnes
+SRR6145058	k99_5209	1747	Cutibacterium acnes
+SRR6145058	k99_2826	1747	Cutibacterium acnes
+SRR6145058	k99_7154	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5969	1747	Cutibacterium acnes
+SRR6145058	k99_988	1234380	Cutibacterium acnes C1
+SRR6145058	k99_10571	1747	Cutibacterium acnes
+SRR6145058	k99_9693	1747	Cutibacterium acnes
+SRR6145058	k99_674	1747	Cutibacterium acnes
+SRR6145058	k99_7679	1747	Cutibacterium acnes
+SRR6145058	k99_11994	1747	Cutibacterium acnes
+SRR6145058	k99_2871	1747	Cutibacterium acnes
+SRR6145058	k99_7937	1747	Cutibacterium acnes
+SRR6145058	k99_9938	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7155	1747	Cutibacterium acnes
+SRR6145058	k99_1191	1747	Cutibacterium acnes
+SRR6145058	k99_4201	1747	Cutibacterium acnes
+SRR6145058	k99_2693	1747	Cutibacterium acnes
+SRR6145058	k99_10493	1747	Cutibacterium acnes
+SRR6145058	k99_5078	1747	Cutibacterium acnes
+SRR6145058	k99_8992	1747	Cutibacterium acnes
+SRR6145058	k99_9549	1747	Cutibacterium acnes
+SRR6145058	k99_3639	1747	Cutibacterium acnes
+SRR6145058	k99_2566	1747	Cutibacterium acnes
+SRR6145058	k99_7479	1747	Cutibacterium acnes
+SRR6145058	k99_1195	1747	Cutibacterium acnes
+SRR6145058	k99_3328	1747	Cutibacterium acnes
+SRR6145058	k99_5467	1747	Cutibacterium acnes
+SRR6145058	k99_7216	1747	Cutibacterium acnes
+SRR6145058	k99_10364	1747	Cutibacterium acnes
+SRR6145058	k99_7217	1747	Cutibacterium acnes
+SRR6145058	k99_6786	1747	Cutibacterium acnes
+SRR6145058	k99_3454	1747	Cutibacterium acnes
+SRR6145058	k99_7293	1747	Cutibacterium acnes
+SRR6145058	k99_9110	1747	Cutibacterium acnes
+SRR6145058	k99_4707	1747	Cutibacterium acnes
+SRR6145058	k99_6979	1747	Cutibacterium acnes
+SRR6145058	k99_10573	1747	Cutibacterium acnes
+SRR6145058	k99_11122	1747	Cutibacterium acnes
+SRR6145058	k99_3455	1747	Cutibacterium acnes
+SRR6145058	k99_8428	9606	Homo sapiens
+SRR6145058	k99_7355	1747	Cutibacterium acnes
+SRR6145058	k99_3456	1747	Cutibacterium acnes
+SRR6145058	k99_9884	1747	Cutibacterium acnes
+SRR6145058	k99_1558	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9235	1747	Cutibacterium acnes
+SRR6145058	k99_553	1747	Cutibacterium acnes
+SRR6145058	k99_7357	1747	Cutibacterium acnes
+SRR6145058	k99_4447	1747	Cutibacterium acnes
+SRR6145058	k99_10885	1747	Cutibacterium acnes
+SRR6145058	k99_12002	1747	Cutibacterium acnes
+SRR6145058	k99_3018	1747	Cutibacterium acnes
+SRR6145058	k99_9494	1747	Cutibacterium acnes
+SRR6145058	k99_3762	1747	Cutibacterium acnes
+SRR6145058	k99_11684	1747	Cutibacterium acnes
+SRR6145058	k99_9381	1747	Cutibacterium acnes
+SRR6145058	k99_6012	1747	Cutibacterium acnes
+SRR6145058	k99_8107	1234380	Cutibacterium acnes C1
+SRR6145058	k99_8170	1747	Cutibacterium acnes
+SRR6145058	k99_1619	9606	Homo sapiens
+SRR6145058	k99_6098	1747	Cutibacterium acnes
+SRR6145058	k99_1494	1747	Cutibacterium acnes
+SRR6145058	k99_558	9606	Homo sapiens
+SRR6145058	k99_10077	1234380	Cutibacterium acnes C1
+SRR6145058	k99_5472	1747	Cutibacterium acnes
+SRR6145058	k99_3873	1747	Cutibacterium acnes
+SRR6145058	k99_11687	1747	Cutibacterium acnes
+SRR6145058	k99_1941	1747	Cutibacterium acnes
+SRR6145058	k99_2642	1747	Cutibacterium acnes
+SRR6145058	k99_3516	1747	Cutibacterium acnes
+SRR6145058	k99_3874	1747	Cutibacterium acnes
+SRR6145058	k99_6401	1234380	Cutibacterium acnes C1
+SRR6145058	k99_435	1747	Cutibacterium acnes
+SRR6145058	k99_4709	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6911	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7295	1747	Cutibacterium acnes
+SRR6145058	k99_5352	1747	Cutibacterium acnes
+SRR6145058	k99_607	1747	Cutibacterium acnes
+SRR6145058	k99_5214	1747	Cutibacterium acnes
+SRR6145058	k99_11558	1747	Cutibacterium acnes
+SRR6145058	k99_11748	1747	Cutibacterium acnes
+SRR6145058	k99_10199	9606	Homo sapiens
+SRR6145058	k99_8881	1747	Cutibacterium acnes
+SRR6145058	k99_8433	1747	Cutibacterium acnes
+SRR6145058	k99_11192	1747	Cutibacterium acnes
+SRR6145058	k99_10078	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6980	1747	Cutibacterium acnes
+SRR6145058	k99_1070	1747	Cutibacterium acnes
+SRR6145058	k99_7609	9606	Homo sapiens
+SRR6145058	k99_4015	1747	Cutibacterium acnes
+SRR6145058	k99_9889	1747	Cutibacterium acnes
+SRR6145058	k99_9114	1747	Cutibacterium acnes
+SRR6145058	k99_6862	1747	Cutibacterium acnes
+SRR6145058	k99_12004	1747	Cutibacterium acnes
+SRR6145058	k99_10634	1747	Cutibacterium acnes
+SRR6145058	k99_4341	9606	Homo sapiens
+SRR6145058	k99_9067	9606	Homo sapiens
+SRR6145058	k99_2828	1747	Cutibacterium acnes
+SRR6145058	k99_8364	1747	Cutibacterium acnes
+SRR6145058	k99_11502	1747	Cutibacterium acnes
+SRR6145058	k99_11451	1747	Cutibacterium acnes
+SRR6145058	k99_7685	1747	Cutibacterium acnes
+SRR6145058	k99_11808	1747	Cutibacterium acnes
+SRR6145058	k99_5083	1747	Cutibacterium acnes
+SRR6145058	k99_7866	1747	Cutibacterium acnes
+SRR6145058	k99_2448	1747	Cutibacterium acnes
+SRR6145058	k99_11629	1747	Cutibacterium acnes
+SRR6145058	k99_7227	1747	Cutibacterium acnes
+SRR6145058	k99_8114	1747	Cutibacterium acnes
+SRR6145058	k99_4344	1747	Cutibacterium acnes
+SRR6145058	k99_814	1747	Cutibacterium acnes
+SRR6145058	k99_998	1747	Cutibacterium acnes
+SRR6145058	k99_5527	1747	Cutibacterium acnes
+SRR6145058	k99_11020	1747	Cutibacterium acnes
+SRR6145058	k99_5977	1747	Cutibacterium acnes
+SRR6145058	k99_1564	34062	Moraxella osloensis
+SRR6145058	k99_2449	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9738	1747	Cutibacterium acnes
+SRR6145058	k99_2510	1747	Cutibacterium acnes
+SRR6145058	k99_10891	1747	Cutibacterium acnes
+SRR6145058	k99_8248	9606	Homo sapiens
+SRR6145058	k99_2139	1747	Cutibacterium acnes
+SRR6145058	k99_11864	1747	Cutibacterium acnes
+SRR6145058	k99_8441	1747	Cutibacterium acnes
+SRR6145058	k99_2329	1747	Cutibacterium acnes
+SRR6145058	k99_8687	1747	Cutibacterium acnes
+SRR6145058	k99_8619	1747	Cutibacterium acnes
+SRR6145058	k99_1878	1747	Cutibacterium acnes
+SRR6145058	k99_8116	1747	Cutibacterium acnes
+SRR6145058	k99_2884	1747	Cutibacterium acnes
+SRR6145058	k99_10320	1747	Cutibacterium acnes
+SRR6145058	k99_9739	1747	Cutibacterium acnes
+SRR6145058	k99_7368	1234380	Cutibacterium acnes C1
+SRR6145058	k99_11135	1276648	Cutibacterium acnes hdn-1
+SRR6145058	k99_5085	9606	Homo sapiens
+SRR6145058	k99_2183	1747	Cutibacterium acnes
+SRR6145058	k99_6108	1747	Cutibacterium acnes
+SRR6145058	k99_8558	1747	Cutibacterium acnes
+SRR6145058	k99_12005	1234380	Cutibacterium acnes C1
+SRR6145058	k99_1815	1747	Cutibacterium acnes
+SRR6145058	k99_2455	1747	Cutibacterium acnes
+SRR6145058	k99_11322	1747	Cutibacterium acnes
+SRR6145058	k99_11505	1747	Cutibacterium acnes
+SRR6145058	k99_2887	1747	Cutibacterium acnes
+SRR6145058	k99_5665	1747	Cutibacterium acnes
+SRR6145058	k99_9701	1747	Cutibacterium acnes
+SRR6145058	k99_10894	1747	Cutibacterium acnes
+SRR6145058	k99_8374	1747	Cutibacterium acnes
+SRR6145058	k99_7494	1747	Cutibacterium acnes
+SRR6145058	k99_7874	1747	Cutibacterium acnes
+SRR6145058	k99_2767	1747	Cutibacterium acnes
+SRR6145058	k99_1257	1234380	Cutibacterium acnes C1
+SRR6145058	k99_12007	1747	Cutibacterium acnes
+SRR6145058	k99_8623	1747	Cutibacterium acnes
+SRR6145058	k99_9745	1747	Cutibacterium acnes
+SRR6145058	k99_11388	1747	Cutibacterium acnes
+SRR6145058	k99_6411	1234380	Cutibacterium acnes C1
+SRR6145058	k99_3647	1747	Cutibacterium acnes
+SRR6145058	k99_5410	1234380	Cutibacterium acnes C1
+SRR6145058	k99_11757	1747	Cutibacterium acnes
+SRR6145058	k99_4453	1747	Cutibacterium acnes
+SRR6145058	k99_5227	1747	Cutibacterium acnes
+SRR6145058	k99_11506	1747	Cutibacterium acnes
+SRR6145058	k99_3588	1091045	Cutibacterium acnes subsp. defendens ATCC 11828
+SRR6145058	k99_6220	1747	Cutibacterium acnes
+SRR6145058	k99_11563	1234380	Cutibacterium acnes C1
+SRR6145058	k99_3649	1747	Cutibacterium acnes
+SRR6145058	k99_9121	1234380	Cutibacterium acnes C1
+SRR6145058	k99_1004	1747	Cutibacterium acnes
+SRR6145058	k99_11869	1747	Cutibacterium acnes
+SRR6145058	k99_4970	1747	Cutibacterium acnes
+SRR6145058	k99_11697	1747	Cutibacterium acnes
+SRR6145058	k99_7990	1747	Cutibacterium acnes
+SRR6145058	k99_2192	1747	Cutibacterium acnes
+SRR6145058	k99_9440	1747	Cutibacterium acnes
+SRR6145058	k99_8941	1747	Cutibacterium acnes
+SRR6145058	k99_10583	1747	Cutibacterium acnes
+SRR6145058	k99_6414	1747	Cutibacterium acnes
+SRR6145058	k99_3262	1747	Cutibacterium acnes
+SRR6145058	k99_11564	1747	Cutibacterium acnes
+SRR6145058	k99_6349	1747	Cutibacterium acnes
+SRR6145058	k99_5087	9606	Homo sapiens
+SRR6145058	k99_4024	1747	Cutibacterium acnes
+SRR6145058	k99_3770	1747	Cutibacterium acnes
+SRR6145058	k99_10374	1747	Cutibacterium acnes
+SRR6145058	k99_9005	1747	Cutibacterium acnes
+SRR6145058	k99_8061	1747	Cutibacterium acnes
+SRR6145058	k99_5856	1234380	Cutibacterium acnes C1
+SRR6145058	k99_1698	1747	Cutibacterium acnes
+SRR6145058	k99_6990	1747	Cutibacterium acnes
+SRR6145058	k99_1446	1747	Cutibacterium acnes
+SRR6145058	k99_11763	1279	Staphylococcus
+SRR6145058	k99_4025	1747	Cutibacterium acnes
+SRR6145058	k99_9634	1747	Cutibacterium acnes
+SRR6145058	k99_11639	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6355	1234380	Cutibacterium acnes C1
+SRR6145058	k99_4026	1747	Cutibacterium acnes
+SRR6145058	k99_9254	1747	Cutibacterium acnes
+SRR6145058	k99_5161	1747	Cutibacterium acnes
+SRR6145058	k99_9568	1747	Cutibacterium acnes
+SRR6145058	k99_10641	1234380	Cutibacterium acnes C1
+SRR6145058	k99_6731	1747	Cutibacterium acnes
+SRR6145058	k99_11206	1747	Cutibacterium acnes
+SRR6145058	k99_11572	1747	Cutibacterium acnes
+SRR6145058	k99_10643	1747	Cutibacterium acnes
+SRR6145058	k99_9445	1234380	Cutibacterium acnes C1
+SRR6145058	k99_7236	9606	Homo sapiens
+SRR6145058	k99_9131	1747	Cutibacterium acnes
+SRR6145058	k99_12010	1747	Cutibacterium acnes
+SRR6145058	k99_8181	1747	Cutibacterium acnes
+SRR6145058	k99_3069	1747	Cutibacterium acnes
+SRR6145058	k99_11879	1234380	Cutibacterium acnes C1
+SRR6145058	k99_11818	1747	Cutibacterium acnes
+SRR6145058	k99_4590	1747	Cutibacterium acnes
+SRR6145058	k99_3141	1747	Cutibacterium acnes
+SRR6145058	k99_873	9606	Homo sapiens
+SRR6145058	k99_5416	2	Bacteria
+SRR6145058	k99_11939	1747	Cutibacterium acnes
+SRR6145058	k99_4029	1747	Cutibacterium acnes
+SRR6145058	k99_4210	1747	Cutibacterium acnes
+SRR6145058	k99_7421	1747	Cutibacterium acnes
+SRR6145058	k99_11819	1747	Cutibacterium acnes
+SRR6145058	k99_9570	1747	Cutibacterium acnes
+SRR6145058	k99_10646	1234380	Cutibacterium acnes C1
+SRR6145058	k99_9260	1747	Cutibacterium acnes
+SRR6145058	k99_3202	1747	Cutibacterium acnes
+SRR6145058	k99_11575	1747	Cutibacterium acnes
+SRR6145058	k99_9184	1747	Cutibacterium acnes
+SRR6145058	k99_4723	1747	Cutibacterium acnes
+SRR6145058	k99_10381	1747	Cutibacterium acnes
+SRR6145058	k99_11513	1747	Cutibacterium acnes
+SRR6145058	k99_4842	1234380	Cutibacterium acnes C1
+SRR6145058	k99_377	1747	Cutibacterium acnes
+SRR6145058	k99_7239	1747	Cutibacterium acnes
+SRR6145058	k99_6362	1747	Cutibacterium acnes
+SRR6145058	k99_6425	1747	Cutibacterium acnes
+SRR6145058	k99_6801	1747	Cutibacterium acnes
+SRR6145058	k99_11943	1747	Cutibacterium acnes
+SRR6145058	k99_3963	1747	Cutibacterium acnes
+SRR6145058	k99_8308	1747	Cutibacterium acnes
+SRR6145058	k99_3274	1747	Cutibacterium acnes
+SRR6145058	k99_7427	1179670	Micrococcus sp. KBS0714
+SRR6145058	k99_4849	1747	Cutibacterium acnes
+SRR6145058	k99_11824	1747	Cutibacterium acnes
+SRR6145058	k99_5102	1747	Cutibacterium acnes
+SRR6145058	k99_4031	1747	Cutibacterium acnes
+SRR6145058	k99_3082	1282	Staphylococcus epidermidis
+SRR6145058	k99_9188	1747	Cutibacterium acnes
+SRR6145058	k99_8313	1747	Cutibacterium acnes
+SRR6145058	k99_11825	1747	Cutibacterium acnes
+SRR6145058	k99_3968	1747	Cutibacterium acnes
+SRR6145058	k99_3209	1747	Cutibacterium acnes
