@@ -1,0 +1,16 @@
+sample	contig	antismash_region	region_start	region_end	taxid	name
+SRR6145059	k99_14334	RiPP-like	25413	35214	134537	Paraburkholderia fungorum
+SRR6145059	k99_14590	NRPS	21938	49970	134537	Paraburkholderia fungorum
+SRR6145059	k99_14915	terpene	3616	22596	134537	Paraburkholderia fungorum
+SRR6145059	k99_13463	hserlactone	1187	21780	134537	Paraburkholderia fungorum
+SRR6145059	k99_3095	terpene	1	1017	1270	Micrococcus luteus
+SRR6145059	k99_15253	terpene	58368	72501	134537	Paraburkholderia fungorum
+SRR6145059	k99_14776	arylpolyene	1	31668	134537	Paraburkholderia fungorum
+SRR6145059	k99_9037	RiPP-like	1	5096	134537	Paraburkholderia fungorum
+SRR6145059	k99_13219	NRPS-like	1	4359	1747	Cutibacterium acnes
+SRR6145059	k99_15749	terpene	42670	60685	134537	Paraburkholderia fungorum
+SRR6145059	k99_13003	phosphonate	1	9562	134537	Paraburkholderia fungorum
+SRR6145059	k99_6933	RiPP-like	1	1096	1234380	Cutibacterium acnes C1
+SRR6145059	k99_12854	terpene	1	12151	134537	Paraburkholderia fungorum
+SRR6145059	k99_13748	NRPS-like	1	1174	1747	Cutibacterium acnes
+SRR6145059	k99_15707	NRPS	1	36215	134537	Paraburkholderia fungorum

@@ -1,0 +1,11 @@
+sample	name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+SRR6145059	Propionibacteriales	85009	O	826	1	827	0.56722
+SRR6145059	Burkholderiales	80840	O	353	0	353	0.24211
+SRR6145059	Micrococcales	85006	O	217	0	217	0.14883
+SRR6145059	Primates	9443	O	32	0	32	0.02195
+SRR6145059	Pseudomonadales	72274	O	14	-1	13	0.00892
+SRR6145059	Enterobacterales	91347	O	5	0	5	0.00343
+SRR6145059	Bacillales	1385	O	4	0	4	0.00274
+SRR6145059	Zurhausenvirales	2732533	O	4	-1	3	0.00206
+SRR6145059	Corynebacteriales	85007	O	3	0	3	0.00206
+SRR6145059	Deinococcales	118964	O	1	0	1	0.00069
