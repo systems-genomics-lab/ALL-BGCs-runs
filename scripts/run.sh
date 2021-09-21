@@ -1,9 +1,9 @@
 #!/bin/bash
 
 set -e
-set -u
-set -x
-set -o pipefail
+#set -u
+#set -x
+#set -o pipefail
 
 ts=$(date +%s%N)
 
@@ -11,15 +11,20 @@ sample=$1
 echo "--START-- $sample"
 date
 
-export KRAKEN=/data/kraken2
-export PATH=$PATH:$KRAKEN/bin
-export KRAKENDB=$KRAKEN/db
+module load Python
+module load R
 
-PROJECT=/projects/metaBGC/
+#export KRAKEN=/data/kraken2
+#export PATH=$PATH:$KRAKEN/bin
+#export KRAKENDB=$KRAKEN/db
+
+PROJECT=/lfs01/workdirs/sadat002u1/argonaute/metaBGC
 
 cpus=`grep -c ^processor /proc/cpuinfo`
+used_cpus=$((cpus / 2))
 #cpus=20
 echo "CPUs: $cpus"
+echo "50% of CPUs will be used"
 
 original1=$sample"_1.fastq.gz"
 original2=$sample"_2.fastq.gz"
@@ -34,13 +39,13 @@ cd $PROJECT/samples/
 # mkdir -p $PROJECT/samples/$sample
 prefetch $sample
 cd $PROJECT/samples/$sample
-fastq-dump --split-files --split-spot --skip-technical --gzip $sample.sra
-# parallel-fastq-dump --split-files --split-spot --skip-technical --threads $cpus --gzip --sra-id $sample
+#fastq-dump --split-files --split-spot --skip-technical --gzip $sample.sra
+parallel-fastq-dump --split-files --skip-technical --threads $used_cpus --gzip --sra-id $sample.sra
 zcat $original1 | wc -l | awk -v sample=$sample '{print sample"\t"$0/4;}' > $sample.original.size.txt
 
 echo
 echo "-- STEP 2 -- QC"
-time fastp --verbose --thread $cpus --in1 $original1 --in2 $original2 --out1 $filtered1 --out2 $filtered2 --json $sample.fastp.jason --html $sample.fastp.html --report_title $sample
+time fastp --verbose --thread $used_cpus --in1 $original1 --in2 $original2 --out1 $filtered1 --out2 $filtered2 --json $sample.fastp.jason --html $sample.fastp.html --report_title $sample
 zcat $filtered1 | wc -l | awk -v sample=$sample '{print sample"\t"$0/4;}' > $sample.filtered.size.txt
 
 echo
