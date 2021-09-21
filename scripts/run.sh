@@ -105,17 +105,17 @@ echo
 #set -e
 #set -o pipefail
 #
-#echo
-#echo "-- STEP 4 -- Assembly"
+echo
+echo "-- STEP 4 -- Assembly"
 #rm -fr assembly/
-## time megahit -1 $sample.reads.kraken.classified_1.fq -2 $sample.reads.kraken.classified_2.fq --out-dir assembly --out-prefix $sample --cleaning-rounds 10 --num-cpu-threads $cpus > $sample.megahit.log 2>&1
-#time megahit -1 $reads1 -2 $reads2 --out-dir assembly --out-prefix $sample --cleaning-rounds 10 --num-cpu-threads $cpus > $sample.megahit.log 2>&1
-#tail -2 $sample.megahit.log | awk -v sample=$sample '{print sample"\t"$0;}' | grep N50 | grep -v ALL  | sed 's/ \+/\t/g' | cut -f 1,5,8,11,14,17,20 > $sample.contigs.stats.tsv
-#
-#$PROJECT/scripts/get_sizes.py assembly/$sample.contigs.fa | awk -v sample=$sample '{print sample"\t"$0;}' | sed '1isample\tcontig\tlength' > $sample.contigs.sizes.tsv
-#$PROJECT/scripts/plot_sizes.R $sample.contigs.sizes.tsv
-#$PROJECT/scripts/filter_sizes.py assembly/$sample.contigs.fa $sample.contigs.fa 1000
-##rm -fr assembly/
+# time megahit -1 $sample.reads.kraken.classified_1.fq -2 $sample.reads.kraken.classified_2.fq --out-dir assembly --out-prefix $sample --cleaning-rounds 10 --num-cpu-threads $cpus > $sample.megahit.log 2>&1
+time megahit -1 $reads1 -2 $reads2 --out-dir assembly --out-prefix $sample --cleaning-rounds 10 --num-cpu-threads $cpus > $sample.megahit.log 2>&1
+tail -2 $sample.megahit.log | awk -v sample=$sample '{print sample"\t"$0;}' | grep N50 | grep -v ALL  | sed 's/ \+/\t/g' | cut -f 1,5,8,11,14,17,20 > $sample.contigs.stats.tsv
+
+$PROJECT/scripts/get_sizes.py assembly/$sample.contigs.fa | awk -v sample=$sample '{print sample"\t"$0;}' | sed '1isample\tcontig\tlength' > $sample.contigs.sizes.tsv
+$PROJECT/scripts/plot_sizes.R $sample.contigs.sizes.tsv
+$PROJECT/scripts/filter_sizes.py assembly/$sample.contigs.fa $sample.contigs.fa 1000
+#rm -fr assembly/
 #
 #echo
 #echo "-- STEP 5 -- Taxonomic classification of contigs"
