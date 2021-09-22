@@ -24,7 +24,7 @@ cpus=`grep -c ^processor /proc/cpuinfo`
 used_cpus=$((cpus / 2))
 #cpus=20
 echo "CPUs: $cpus"
-echo "50% of CPUs will be used"
+echo "50% of CPUs will be used: $used_cpus"
 
 original1=$sample"_1.fastq.gz"
 original2=$sample"_2.fastq.gz"
@@ -115,6 +115,13 @@ tail -2 $sample.megahit.log | awk -v sample=$sample '{print sample"\t"$0;}' | gr
 $PROJECT/scripts/get_sizes.py assembly/$sample.contigs.fa | awk -v sample=$sample '{print sample"\t"$0;}' | sed '1isample\tcontig\tlength' > $sample.contigs.sizes.tsv
 $PROJECT/scripts/plot_sizes.R $sample.contigs.sizes.tsv
 $PROJECT/scripts/filter_sizes.py assembly/$sample.contigs.fa $sample.contigs.fa 1000
+
+
+echo
+echo "-- STEP 5 -- Mapping reads to contigs"
+
+bbmap.sh ref=$sample.contigs.fa in=$reads1 in2=$reads2 threads=$used_cpus nodisk out=$sample.reads.vs.contigs.bam covstats=$sample.reads.vs.contigs.covstats.txt scafstats=$sample.reads.vs.contigs.scafstats.txt bs=bs.sh ; sh bs.sh
+
 #rm -fr assembly/
 #
 #echo
