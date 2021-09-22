@@ -34,13 +34,18 @@ reads1=$sample"_1.final.fastq.gz"
 reads2=$sample"_2.final.fastq.gz"
 
 echo
-echo "-- STEP 1 -- Downloading the fastq"
+echo "-- STEP 1 -- Downloading the fastq if not already there"
 cd $PROJECT/samples/
 # mkdir -p $PROJECT/samples/$sample
-prefetch $sample
-cd $PROJECT/samples/$sample
+
+#check for the presence of the directory; if absent or empty, proceed to download from SRA
+if [ ! -d $sample ] || [ -z "$(ls -A $sample)" ]; then
+    prefetch $sample
 #fastq-dump --split-files --split-spot --skip-technical --gzip $sample.sra
-parallel-fastq-dump --split-files --skip-technical --threads $used_cpus --gzip --sra-id $sample.sra
+    parallel-fastq-dump --split-files --skip-technical --threads $used_cpus --gzip --sra-id $PROJECT/samples/$sample/$sample.sra
+fi
+
+cd $PROJECT/samples/$sample
 zcat $original1 | wc -l | awk -v sample=$sample '{print sample"\t"$0/4;}' > $sample.original.size.txt
 
 echo
@@ -121,6 +126,11 @@ echo
 echo "-- STEP 5 -- Mapping reads to contigs"
 
 bbmap.sh ref=$sample.contigs.fa in=$reads1 in2=$reads2 threads=$used_cpus nodisk out=$sample.reads.vs.contigs.bam covstats=$sample.reads.vs.contigs.covstats.txt scafstats=$sample.reads.vs.contigs.scafstats.txt bs=bs.sh ; sh bs.sh
+
+
+echo "-- STEP 6 -- Genome binning"
+
+runMetaBat.sh $sample.contigs.fa $sample.reads.vs.contigs_sorted.bam
 
 #rm -fr assembly/
 #
