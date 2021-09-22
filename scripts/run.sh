@@ -31,7 +31,7 @@ original2=$sample"_2.fastq.gz"
 filtered1=$sample"_1.filtered.fastq.gz"
 filtered2=$sample"_2.filtered.fastq.gz"
 reads1=$sample"_1.final.fastq.gz"
-reads2=$sample"_1.final.fastq.gz"
+reads2=$sample"_2.final.fastq.gz"
 
 echo
 echo "-- STEP 1 -- Downloading the fastq"
