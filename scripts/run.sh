@@ -1,9 +1,9 @@
 #!/bin/bash
 
 set -e
-#set -u
-#set -x
-#set -o pipefail
+set -u
+set -x
+set -o pipefail
 
 ts=$(date +%s%N)
 
@@ -38,11 +38,11 @@ echo "-- STEP 1 -- Downloading the fastq if not already there"
 cd $PROJECT/samples/
 # mkdir -p $PROJECT/samples/$sample
 
-#check for the presence of the directory; if absent or empty, proceed to download from SRA
-if [ ! -d $sample ] || [ -z "$(ls -A $sample)" ]; then
+#check for the presence of SRA file; if not present, proceed to download from SRA
+if [ ! -f $sample/$sample.sra ]; then
     prefetch $sample
 #fastq-dump --split-files --split-spot --skip-technical --gzip $sample.sra
-    parallel-fastq-dump --split-files --skip-technical --threads $used_cpus --gzip --sra-id $PROJECT/samples/$sample/$sample.sra
+    parallel-fastq-dump --split-files --skip-technical --threads $used_cpus --gzip --sra-id $sample/$sample.sra --outdir $sample/
 fi
 
 cd $PROJECT/samples/$sample
