@@ -132,6 +132,21 @@ echo "-- STEP 6 -- Genome binning"
 
 runMetaBat.sh $sample.contigs.fa $sample.reads.vs.contigs_sorted.bam
 
+echo "-- STEP 7 -- Check binned genomes using CheckM"
+
+checkm lineage_wf -t $used_cpus -x fa $sample.contigs.fa.metabat-bins/ $sample.contigs.fa.metabat-bins.checkm/
+
+#checkm extended statistics in a tabular tsv format
+
+$PROJECT/scripts/checkm_stats_table.py "$sample.contigs.fa.metabat-bins.checkm/storage/bin_stats_ext.tsv" > "$sample.contigs.fa.metabat-bins.checkm/bin_stats_ext.tsv"
+
+#Checkm plots
+checkm nx_plot -x fa $sample.contigs.fa.metabat-bins/ $sample.contigs.fa.metabat-bins.checkm/plots/
+checkm len_hist -x fa $sample.contigs.fa.metabat-bins/ $sample.contigs.fa.metabat-bins.checkm/plots/
+checkm marker_plot -x fa $sample.contigs.fa.metabat-bins.checkm/ $sample.contigs.fa.metabat-bins/ $sample.contigs.fa.metabat-bins.checkm/plots/
+
+
+
 #rm -fr assembly/
 #
 #echo
