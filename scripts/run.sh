@@ -114,7 +114,7 @@ echo
 echo "-- STEP 4 -- Assembly"
 #rm -fr assembly/
 # time megahit -1 $sample.reads.kraken.classified_1.fq -2 $sample.reads.kraken.classified_2.fq --out-dir assembly --out-prefix $sample --cleaning-rounds 10 --num-cpu-threads $cpus > $sample.megahit.log 2>&1
-time megahit -1 $reads1 -2 $reads2 --out-dir assembly --out-prefix $sample --cleaning-rounds 10 --num-cpu-threads $cpus > $sample.megahit.log 2>&1
+time megahit -1 $reads1 -2 $reads2 --out-dir assembly --out-prefix $sample --cleaning-rounds 10 --num-cpu-threads $used_cpus > $sample.megahit.log 2>&1
 tail -2 $sample.megahit.log | awk -v sample=$sample '{print sample"\t"$0;}' | grep N50 | grep -v ALL  | sed 's/ \+/\t/g' | cut -f 1,5,8,11,14,17,20 > $sample.contigs.stats.tsv
 
 $PROJECT/scripts/get_sizes.py assembly/$sample.contigs.fa | awk -v sample=$sample '{print sample"\t"$0;}' | sed '1isample\tcontig\tlength' > $sample.contigs.sizes.tsv
@@ -134,6 +134,8 @@ runMetaBat.sh $sample.contigs.fa $sample.reads.vs.contigs_sorted.bam
 
 echo "-- STEP 7 -- Check binned genomes using CheckM"
 
+module load Python
+
 checkm lineage_wf -t $used_cpus -x fa $sample.contigs.fa.metabat-bins/ $sample.contigs.fa.metabat-bins.checkm/
 
 #checkm extended statistics in a tabular tsv format
@@ -146,6 +148,10 @@ checkm len_hist -x fa $sample.contigs.fa.metabat-bins/ $sample.contigs.fa.metaba
 checkm marker_plot -x fa $sample.contigs.fa.metabat-bins.checkm/ $sample.contigs.fa.metabat-bins/ $sample.contigs.fa.metabat-bins.checkm/plots/
 
 
+
+echo "-- STEP 8 -- Taxonomic classification of binned genomes (MAGs)"
+
+gtdbtk classify_wf --cpus $used_cpus -x fa --genome_dir $sample.contigs.fa.metabat-bins/ --out_dir $sample.contigs.fa.metabat-bins.gtdbtk/ --prefix $sample
 
 #rm -fr assembly/
 #
