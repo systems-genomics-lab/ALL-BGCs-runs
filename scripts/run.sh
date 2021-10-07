@@ -153,6 +153,17 @@ echo "-- STEP 8 -- Taxonomic classification of binned genomes (MAGs)"
 
 gtdbtk classify_wf --cpus $used_cpus -x fa --genome_dir $sample.contigs.fa.metabat-bins/ --out_dir $sample.contigs.fa.metabat-bins.gtdbtk/ --prefix $sample
 
+
+echo "-- STEP 9 -- Argonaute identification"
+
+#1.gene calling from all contigs
+
+prodigal -a $sample.contigs_genes.faa -d $sample.contigs_genes.fna -i $sample.contigs.fa -p meta
+
+#2.hmmsearch against argonaute model built from SMART prokaryotic argonautes
+
+hmmsearch -o $sample.contigs_genes.vs.prok.piwi.hmm.out.txt --tblout $sample.contigs_genes.vs.prok.piwi.hmm.tblout.txt --noali -E 0.001 $PROJECT/ref/prok.piwi.hmm $sample.contigs_genes.faa
+
 #rm -fr assembly/
 #
 #echo
