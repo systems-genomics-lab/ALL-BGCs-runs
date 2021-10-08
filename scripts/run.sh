@@ -164,6 +164,13 @@ prodigal -a $sample.contigs_genes.faa -d $sample.contigs_genes.fna -i $sample.co
 
 hmmsearch -o $sample.contigs_genes.vs.prok.piwi.hmm.out.txt --tblout $sample.contigs_genes.vs.prok.piwi.hmm.tblout.txt --noali -E 0.001 $PROJECT/ref/prok.piwi.hmm $sample.contigs_genes.faa
 
+
+echo "-- STEP 10 -- Annotation of contigs to which identified argonaute proteins belong, if any"
+
+module load Perl
+
+$PROJECT/scripts/annotate_positive_contig.sh $sample.contigs_genes.vs.prok.piwi.hmm.tblout.txt
+
 #rm -fr assembly/
 #
 #echo
