@@ -125,8 +125,6 @@ $PROJECT/scripts/filter_sizes.py assembly/$sample.contigs.fa $sample.contigs.fa 
 echo
 echo "-- STEP 5 -- Mapping reads to contigs"
 
-module load SAMtools
-
 bbmap.sh ref=$sample.contigs.fa in=$reads1 in2=$reads2 threads=$used_cpus nodisk out=$sample.reads.vs.contigs.bam covstats=$sample.reads.vs.contigs.covstats.txt scafstats=$sample.reads.vs.contigs.scafstats.txt bs=bs.sh ; sh bs.sh
 
 
