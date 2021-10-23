@@ -5,7 +5,7 @@ args = commandArgs(trailingOnly=TRUE)
 
 infile = args[1]
 outfile = gsub(".txt", ".pdf", infile) # Assuming the infile has .tsv extension
-title = gsub(".tsv", "", infile)
+title = gsub(".txt", "", infile)
 
 t1 = read.table(infile, header=TRUE, sep="\t")
 head(t1)
