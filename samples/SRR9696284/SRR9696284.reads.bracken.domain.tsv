@@ -1,5 +1,0 @@
-sample	name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
-SRR9696284	Eukaryota	2759	D	9859824	3340	9863164	0.99515
-SRR9696284	Bacteria	2	D	32305	15214	47519	0.00479
-SRR9696284	Viruses	10239	D	536	9	545	0.00005
-SRR9696284	Archaea	2157	D	30	-1	29	0.00000

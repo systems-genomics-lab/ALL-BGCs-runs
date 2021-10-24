@@ -1,9 +1,0 @@
-sample	name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
-SRR6145060	Actinobacteria	201174	P	843	2	845	0.88854
-SRR6145060	Proteobacteria	1224	P	49	-1	48	0.05047
-SRR6145060	Chordata	7711	P	42	0	42	0.04416
-SRR6145060	Firmicutes	1239	P	10	-1	9	0.00946
-SRR6145060	Bacteroidetes	976	P	4	0	4	0.00421
-SRR6145060	Cyanobacteria	1117	P	6	-3	3	0.00315
-SRR6145060	Kitrinoviricota	2732406	P	1	-1	0	0.00000
-SRR6145060	Chlamydiae	204428	P	1	-1	0	0.00000
