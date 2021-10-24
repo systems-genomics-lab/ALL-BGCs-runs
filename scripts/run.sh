@@ -239,13 +239,13 @@ $PROJECT/scripts/annotate_positive_contig.sh $sample.contigs_genes.vs.prok.piwi.
 #$PROJECT/scripts/parse_genbank.py $sample.bgc.antismash.gbk | awk -v sample=$sample '{print sample"\t"$0;}' >> $sample.bgc.antismash.tmp
 #$PROJECT/scripts/join.sh $sample.bgc.antismash.tmp $sample.contigs.kraken.classified.tsv $sample.bgc.antismash.tsv
 #
-#echo
-#echo "-- STEP 8 -- Cleaning"
+echo
+echo "-- STEP 8 -- Cleaning"
 #rm -fr $sample.fastq.gz
-#rm -fr $sample.sra
+rm -fr $sample.sra
 #rm -fr $sample.fastp.html
-#rm -fr $original1
-#rm -fr $original2
+rm -fr $original1
+rm -fr $original2
 #rm -fr $filtered1
 #rm -fr $filtered2
 #rm -fr $reads1
@@ -269,8 +269,8 @@ $PROJECT/scripts/annotate_positive_contig.sh $sample.contigs_genes.vs.prok.piwi.
 #
 #touch $PROJECT/samples/$sample.SUCCESS
 #
-#echo "--END-- $sample"
-#date
-#
-#tt=$((($(date +%s%N) - $ts)/1000000))
-#echo "Time: $tt milliseconds"
+echo "--END-- $sample"
+date
+
+tt=$((($(date +%s%N) - $ts)/1000000))
+echo "Time: $tt milliseconds"
