@@ -53,11 +53,13 @@ echo "-- STEP 2 -- QC"
 time fastp --verbose --thread $used_cpus --in1 $original1 --in2 $original2 --out1 $filtered1 --out2 $filtered2 --json $sample.fastp.jason --html $sample.fastp.html --report_title $sample
 zcat $filtered1 | wc -l | awk -v sample=$sample '{print sample"\t"$0/4;}' > $sample.filtered.size.txt
 
-echo
-echo "-- STEP 2 -- Subsample"
-maxreads=10000000
-seqtk sample -s123 $filtered1 $maxreads | gzip -c > $reads1
-seqtk sample -s123 $filtered2 $maxreads	| gzip -c > $reads2
+mv $filtered1 $reads1
+mv $filtered2 $reads2
+#echo
+#echo "-- STEP 2 -- Subsample"
+#maxreads=10000000
+#seqtk sample -s123 $filtered1 $maxreads | gzip -c > $reads1
+#seqtk sample -s123 $filtered2 $maxreads	| gzip -c > $reads2
 zcat $reads1 | wc -l | awk -v sample=$sample '{print sample"\t"$0/4;}' > $sample.final.size.txt
 
 echo
