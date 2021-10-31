@@ -119,9 +119,18 @@ echo "-- STEP 4 -- Assembly"
 time megahit -1 $reads1 -2 $reads2 --out-dir assembly --out-prefix $sample --cleaning-rounds 10 --num-cpu-threads $used_cpus > $sample.megahit.log 2>&1
 tail -2 $sample.megahit.log | awk -v sample=$sample '{print sample"\t"$0;}' | grep N50 | grep -v ALL  | sed 's/ \+/\t/g' | cut -f 1,5,8,11,14,17,20 > $sample.contigs.stats.tsv
 
-$PROJECT/scripts/get_sizes.py assembly/$sample.contigs.fa | awk -v sample=$sample '{print sample"\t"$0;}' | sed '1isample\tcontig\tlength' > $sample.contigs.sizes.tsv
+$PROJECT/scripts/get_sizes.sh assembly/$sample.contigs.fa | awk -v sample=$sample '{print sample"\t"$0;}' | sed '1isample\tcontig\tlength' > $sample.contigs.sizes.tsv
 $PROJECT/scripts/plot_sizes.R $sample.contigs.sizes.tsv
-$PROJECT/scripts/filter_sizes.py assembly/$sample.contigs.fa $sample.contigs.fa 1000
+awk 'NR>1&&$3>=1000{print $2}' $sample.contigs.sizes.tsv > $sample.contigs.sizes.gte1000.ids.txt
+seqtk subseq assembly/$sample.contigs.fa $sample.contigs.sizes.gte1000.ids.txt > $sample.contigs.fa
+NO_CONTIGS=`wc -l $sample.contigs.sizes.tsv | awk '{print $1}'`
+NO_CONTIGS=$((NO_CONTIGS - 1))
+NO_CONTIGS_GTE_1000=`wc -l $sample.contigs.sizes.gte1000.ids.txt | awk '{print $1}'`
+SKIPPED_CONTIGS=$((NO_CONTIGS - NO_CONTIGS_GTE_1000))
+
+echo "Read $NO_CONTIGS sequences"
+echo "Wrote $NO_CONTIGS_GTE_1000 sequences"
+echo "Skipped $SKIPPED_CONTIGS sequences"
 
 
 echo
