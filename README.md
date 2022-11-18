@@ -1,4 +1,4 @@
-# ALL-BGCs: An Integrated Pipeline for Metagenome Mining for Biosynthetic Gene Clusters
+# ALL-BGCs: An Integrated Pipeline for Metagenome Mining for Biosynthetic Gene Clusters (BGCs)
 
 ![Metagenome Mining for Biosynthetic Gene Clusters](https://media.gettyimages.com/id/173930424/photo/washing-diamonds.jpg?s=2048x2048&w=gi&k=20&c=pe13DHiTE1qDjFEpBI6bKAMZldGdZiuYFRAQZT4uQhU=)
 
